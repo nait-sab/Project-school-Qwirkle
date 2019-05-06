@@ -32,7 +32,7 @@ Namespace My
 
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()> _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.Qwirkle.Form1
+            Me.MainForm = Global.Qwirkle.frm_qwirkle_menu
         End Sub
     End Class
 End Namespace
