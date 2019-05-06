@@ -24,6 +24,9 @@ Partial Class frm_qwirkle_menu
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btn_quitter = New System.Windows.Forms.Label()
+        Me.bp_nouvelle_partie = New System.Windows.Forms.Button()
+        Me.bp_aide = New System.Windows.Forms.Button()
+        Me.bp_quitter = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -47,11 +50,41 @@ Partial Class frm_qwirkle_menu
         Me.btn_quitter.TabIndex = 1
         Me.btn_quitter.Text = "X"
         '
+        'bp_nouvelle_partie
+        '
+        Me.bp_nouvelle_partie.Location = New System.Drawing.Point(373, 168)
+        Me.bp_nouvelle_partie.Name = "bp_nouvelle_partie"
+        Me.bp_nouvelle_partie.Size = New System.Drawing.Size(129, 31)
+        Me.bp_nouvelle_partie.TabIndex = 2
+        Me.bp_nouvelle_partie.Text = "Nouvelle partie"
+        Me.bp_nouvelle_partie.UseVisualStyleBackColor = True
+        '
+        'bp_aide
+        '
+        Me.bp_aide.Location = New System.Drawing.Point(373, 252)
+        Me.bp_aide.Name = "bp_aide"
+        Me.bp_aide.Size = New System.Drawing.Size(129, 31)
+        Me.bp_aide.TabIndex = 3
+        Me.bp_aide.Text = "Aide"
+        Me.bp_aide.UseVisualStyleBackColor = True
+        '
+        'bp_quitter
+        '
+        Me.bp_quitter.Location = New System.Drawing.Point(373, 348)
+        Me.bp_quitter.Name = "bp_quitter"
+        Me.bp_quitter.Size = New System.Drawing.Size(129, 31)
+        Me.bp_quitter.TabIndex = 4
+        Me.bp_quitter.Text = "Quitter"
+        Me.bp_quitter.UseVisualStyleBackColor = True
+        '
         'frm_qwirkle_menu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(900, 600)
+        Me.Controls.Add(Me.bp_quitter)
+        Me.Controls.Add(Me.bp_aide)
+        Me.Controls.Add(Me.bp_nouvelle_partie)
         Me.Controls.Add(Me.btn_quitter)
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -65,4 +98,7 @@ Partial Class frm_qwirkle_menu
 
     Friend WithEvents Label1 As Label
     Friend WithEvents btn_quitter As Label
+    Friend WithEvents bp_nouvelle_partie As Button
+    Friend WithEvents bp_aide As Button
+    Friend WithEvents bp_quitter As Button
 End Class

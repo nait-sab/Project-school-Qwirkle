@@ -73,6 +73,18 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="nouvelle_partie.Designer.vb">
+      <DependentUpon>nouvelle_partie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="nouvelle_partie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="plateau.Designer.vb">
+      <DependentUpon>plateau.vb</DependentUpon>
+    </Compile>
+    <Compile Include="plateau.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Qwirkle_menu.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +109,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="nouvelle_partie.resx">
+      <DependentUpon>nouvelle_partie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="plateau.resx">
+      <DependentUpon>plateau.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Qwirkle_menu.resx">
       <DependentUpon>Qwirkle_menu.vb</DependentUpon>
     </EmbeddedResource>
