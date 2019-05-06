@@ -73,11 +73,23 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Qwirkle_menu.vb">
+    <Compile Include="frm_nouvelle_partie.Designer.vb">
+      <DependentUpon>frm_nouvelle_partie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_nouvelle_partie.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Qwirkle_menu.Designer.vb">
-      <DependentUpon>Qwirkle_menu.vb</DependentUpon>
+    <Compile Include="frm_plateau.Designer.vb">
+      <DependentUpon>frm_plateau.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_plateau.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_qwirkle_menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_qwirkle_menu.Designer.vb">
+      <DependentUpon>frm_qwirkle_menu.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -97,8 +109,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Qwirkle_menu.resx">
-      <DependentUpon>Qwirkle_menu.vb</DependentUpon>
+    <EmbeddedResource Include="frm_nouvelle_partie.resx">
+      <DependentUpon>frm_nouvelle_partie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_plateau.resx">
+      <DependentUpon>frm_plateau.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_qwirkle_menu.resx">
+      <DependentUpon>frm_qwirkle_menu.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

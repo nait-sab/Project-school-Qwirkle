@@ -1,0 +1,5 @@
+D:\dev\Qwirkle\Qwirkle-lib\bin\Debug\Qwirkle-lib.dll
+D:\dev\Qwirkle\Qwirkle-lib\bin\Debug\Qwirkle-lib.pdb
+D:\dev\Qwirkle\Qwirkle-lib\obj\Debug\Qwirkle-lib.csproj.CoreCompileInputs.cache
+D:\dev\Qwirkle\Qwirkle-lib\obj\Debug\Qwirkle-lib.dll
+D:\dev\Qwirkle\Qwirkle-lib\obj\Debug\Qwirkle-lib.pdb
