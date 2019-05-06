@@ -42,5 +42,12 @@ namespace Qwirkle_lib
         {
 
         }
+
+        //Accesors
+        public int getNombreJoueurs() { return this.m_nombre_joueurs; }
+        public int getJoueurActuel() { return this.m_joueur_actuel; }
+        public List<Tuile> getMainVisible() { return this.m_main_visible; }
+        public List<Tuile> getPioche() { return this.m_pioche; }
+        public List<Joueur> getJoueurs() { return this.m_joueurs; }
     }
 }

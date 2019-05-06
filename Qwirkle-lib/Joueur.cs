@@ -14,12 +14,12 @@ namespace Qwirkle_lib
         private int m_score;
         private List<Tuile> m_main;
 
-        public Joueur()
+        public Joueur(string nom, int age, List<Tuile> main)
         {
-            this.m_nom = "";
-            this.m_age = 0;
+            this.m_nom = nom;
+            this.m_age = age;
             this.m_score = 0;
-            this.m_main = null;
+            this.m_main = main;
         }
 
         // Accesors
