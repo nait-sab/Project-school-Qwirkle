@@ -1,6 +1,4 @@
 C:\Users\cyril\OneDrive\Documents\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.vbprojAssemblyReference.cache
-C:\Users\cyril\OneDrive\Documents\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.nouvelle_partie.resources
-C:\Users\cyril\OneDrive\Documents\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.plateau.resources
 C:\Users\cyril\OneDrive\Documents\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.frm_qwirkle_menu.resources
 C:\Users\cyril\OneDrive\Documents\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.Resources.resources
 C:\Users\cyril\OneDrive\Documents\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.vbproj.GenerateResource.cache
@@ -26,3 +24,5 @@ D:\dev\Qwirkle\Qwirkle\obj\Debug\Qwirkle.vbproj.CoreCompileInputs.cache
 D:\dev\Qwirkle\Qwirkle\obj\Debug\Qwirkle.exe
 D:\dev\Qwirkle\Qwirkle\obj\Debug\Qwirkle.xml
 D:\dev\Qwirkle\Qwirkle\obj\Debug\Qwirkle.pdb
+C:\Users\cyril\OneDrive\Documents\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.frm_nouvelle_partie.resources
+C:\Users\cyril\OneDrive\Documents\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.frm_plateau.resources
