@@ -6,4 +6,14 @@
             e.Cancel = True
         End If
     End Sub
+
+    Private Sub btn_retour_Click(sender As Object, e As EventArgs) Handles btn_retour.Click
+        Me.Hide()
+        frm_qwirkle_menu.Size = Me.Size
+        frm_qwirkle_menu.Show()
+    End Sub
+
+    Private Sub frm_nouvelle_partie_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.Size = frm_qwirkle_menu.Size
+    End Sub
 End Class
