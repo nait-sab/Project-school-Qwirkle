@@ -8,18 +8,18 @@ namespace Qwirkle_lib
 {
     public class Tuile
     {
-        private float m_position_y;
-        private float m_position_x;
+        private int m_position_y;
+        private int m_position_x;
         private static int m_id;
         private string m_forme;
         private string m_couleur;
 
-        public Tuile()
+        public Tuile(string couleur, string forme)
         {
             this.m_position_x = 0;
             this.m_position_y = 0;
-            this.m_forme = "";
-            this.m_couleur = "";
+            this.m_forme = forme;
+            this.m_couleur = couleur;
         }
 
         public string getCouleur() { return this.m_couleur; }

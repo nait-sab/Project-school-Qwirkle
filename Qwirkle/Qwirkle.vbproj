@@ -85,12 +85,6 @@
     <Compile Include="frm_nouvelle_partie.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_plateau.Designer.vb">
-      <DependentUpon>frm_plateau.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frm_plateau.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="frm_qwirkle_menu.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -121,9 +115,6 @@
     <EmbeddedResource Include="frm_nouvelle_partie.resx">
       <DependentUpon>frm_nouvelle_partie.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_plateau.resx">
-      <DependentUpon>frm_plateau.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frm_qwirkle_menu.resx">
       <DependentUpon>frm_qwirkle_menu.vb</DependentUpon>
     </EmbeddedResource>
@@ -145,6 +136,120 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Qwirkle-lib\Qwirkle-lib.csproj">
+      <Project>{c49b18bc-31ba-44de-9307-b276651fe64b}</Project>
+      <Name>Qwirkle-lib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CarreBleu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CarreJaune.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CarreOrange.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CarreRouge.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CarreVert.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CarreViolet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CroixBleue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CroixJaune.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CroixOrange.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CroixRouge.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CroixVerte.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CroixViolet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EtoileBleue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EtoileJaune.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EtoileOrange.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EtoileRouge.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EtoileVerte.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EtoileViolet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LosangeBleu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LosangeJaune.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LosangeOrange.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LosangeRouge.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LosangeVert.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LosangeViolet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RondBleu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RondJaune.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RondOrange.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RondRouge.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RondVert.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RondViolet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TrefleBleu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TrefleJaune.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TrefleOrange.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TrefleRouge.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TrefleVert.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TrefleViolet.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
