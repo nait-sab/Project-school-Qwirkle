@@ -16,5 +16,7 @@
         End If
     End Sub
 
-
+    Private Sub btn_quitter_Click(sender As Object, e As EventArgs) Handles btn_quitter.Click
+        Close()
+    End Sub
 End Class

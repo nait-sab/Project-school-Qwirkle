@@ -73,6 +73,18 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frm_CreationJoueurs.Designer.vb">
+      <DependentUpon>frm_CreationJoueurs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_CreationJoueurs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_jeu.Designer.vb">
+      <DependentUpon>frm_jeu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_jeu.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frm_nouvelle_partie.Designer.vb">
       <DependentUpon>frm_nouvelle_partie.vb</DependentUpon>
     </Compile>
@@ -109,6 +121,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frm_CreationJoueurs.resx">
+      <DependentUpon>frm_CreationJoueurs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_jeu.resx">
+      <DependentUpon>frm_jeu.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_nouvelle_partie.resx">
       <DependentUpon>frm_nouvelle_partie.vb</DependentUpon>
     </EmbeddedResource>
