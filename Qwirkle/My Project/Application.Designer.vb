@@ -32,7 +32,11 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
+<<<<<<< HEAD
             Me.MainForm = Global.Qwirkle.frm_CreationJoueurs
+=======
+            Me.MainForm = Global.Qwirkle.frm_nouvelle_partie
+>>>>>>> master
         End Sub
     End Class
 End Namespace
