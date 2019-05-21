@@ -11,7 +11,7 @@ namespace Qwirkle_test
         [TestMethod]
         public void TestConstructeur()
         {
-            Joueur pierre = new Joueur("Pierre", 12, null);
+            Joueur pierre = new Joueur("Pierre", 12);
 
             Assert.AreEqual("Pierre", pierre.getNom());
             Assert.AreEqual(12, pierre.getAge());

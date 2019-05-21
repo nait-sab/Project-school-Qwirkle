@@ -26,21 +26,6 @@ D:\dev\Qwirkle\Qwirkle\obj\Debug\Qwirkle.xml
 D:\dev\Qwirkle\Qwirkle\obj\Debug\Qwirkle.pdb
 C:\Users\cyril\OneDrive\Documents\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.frm_nouvelle_partie.resources
 C:\Users\cyril\OneDrive\Documents\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.frm_plateau.resources
-D:\dev\Project-school-Qwirkle-master\Qwirkle\bin\Debug\Qwirkle.exe.config
-D:\dev\Project-school-Qwirkle-master\Qwirkle\bin\Debug\Qwirkle.exe
-D:\dev\Project-school-Qwirkle-master\Qwirkle\bin\Debug\Qwirkle.pdb
-D:\dev\Project-school-Qwirkle-master\Qwirkle\bin\Debug\Qwirkle.xml
-D:\dev\Project-school-Qwirkle-master\Qwirkle\obj\Debug\Qwirkle.frm_jeu.resources
-D:\dev\Project-school-Qwirkle-master\Qwirkle\obj\Debug\Qwirkle.frm_nouvelle_partie.resources
-D:\dev\Project-school-Qwirkle-master\Qwirkle\obj\Debug\Qwirkle.frm_qwirkle_menu.resources
-D:\dev\Project-school-Qwirkle-master\Qwirkle\obj\Debug\Qwirkle.Resources.resources
-D:\dev\Project-school-Qwirkle-master\Qwirkle\obj\Debug\Qwirkle.vbproj.GenerateResource.cache
-D:\dev\Project-school-Qwirkle-master\Qwirkle\obj\Debug\Qwirkle.vbproj.CoreCompileInputs.cache
-D:\dev\Project-school-Qwirkle-master\Qwirkle\obj\Debug\Qwirkle.exe
-D:\dev\Project-school-Qwirkle-master\Qwirkle\obj\Debug\Qwirkle.xml
-D:\dev\Project-school-Qwirkle-master\Qwirkle\obj\Debug\Qwirkle.pdb
-D:\dev\Project-school-Qwirkle-master\Qwirkle\obj\Debug\Qwirkle.vbprojAssemblyReference.cache
-<<<<<<< HEAD
 D:\dev\Qwirkle\Qwirkle\obj\Debug\Qwirkle.frm_jeu.resources
 C:\Users\Corentin\Documents\Aqwirkle\v3\Project-school-Qwirkle\Qwirkle\bin\Debug\Qwirkle.exe.config
 C:\Users\Corentin\Documents\Aqwirkle\v3\Project-school-Qwirkle\Qwirkle\bin\Debug\Qwirkle.exe
@@ -58,11 +43,6 @@ C:\Users\Corentin\Documents\Aqwirkle\v3\Project-school-Qwirkle\Qwirkle\obj\Debug
 C:\Users\Corentin\Documents\Aqwirkle\v3\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.xml
 C:\Users\Corentin\Documents\Aqwirkle\v3\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.pdb
 C:\Users\Corentin\Documents\Aqwirkle\v3\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.frm_aide.resources
-=======
-D:\dev\Project-school-Qwirkle-master\Qwirkle\bin\Debug\Qwirkle-lib.dll
-D:\dev\Project-school-Qwirkle-master\Qwirkle\bin\Debug\Qwirkle-lib.pdb
-D:\dev\Project-school-Qwirkle-master\Qwirkle\obj\Debug\Qwirkle.vbproj.CopyComplete
->>>>>>> 9b97bde8e64e7a5a25bb2217497de5687d833c00
 C:\Users\Corentin\Documents\Aqwirkle\v5\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.vbprojAssemblyReference.cache
 C:\Users\Corentin\Documents\Aqwirkle\v5\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.frm_aide.resources
 C:\Users\Corentin\Documents\Aqwirkle\v5\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.frm_jeu.resources
@@ -123,6 +103,23 @@ C:\Users\Corentin\Documents\Aqwirkle\v6\Project-school-Qwirkle\Qwirkle\obj\Debug
 C:\Users\Corentin\Documents\Aqwirkle\v6\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.xml
 C:\Users\Corentin\Documents\Aqwirkle\v6\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.pdb
 C:\Users\Corentin\Documents\Aqwirkle\v6\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.chargement.resources
+D:\dev\Project-school-Qwirkle-master\Qwirkle\bin\Debug\Qwirkle.exe.config
+D:\dev\Project-school-Qwirkle-master\Qwirkle\bin\Debug\Qwirkle.exe
+D:\dev\Project-school-Qwirkle-master\Qwirkle\bin\Debug\Qwirkle.pdb
+D:\dev\Project-school-Qwirkle-master\Qwirkle\bin\Debug\Qwirkle.xml
+D:\dev\Project-school-Qwirkle-master\Qwirkle\bin\Debug\Qwirkle-lib.dll
+D:\dev\Project-school-Qwirkle-master\Qwirkle\bin\Debug\Qwirkle-lib.pdb
+D:\dev\Project-school-Qwirkle-master\Qwirkle\obj\Debug\Qwirkle.vbprojAssemblyReference.cache
 D:\dev\Project-school-Qwirkle-master\Qwirkle\obj\Debug\Qwirkle.frm_aide.resources
 D:\dev\Project-school-Qwirkle-master\Qwirkle\obj\Debug\Qwirkle.frm_CreationJoueurs.resources
 D:\dev\Project-school-Qwirkle-master\Qwirkle\obj\Debug\Qwirkle.frm_fin.resources
+D:\dev\Project-school-Qwirkle-master\Qwirkle\obj\Debug\Qwirkle.frm_jeu.resources
+D:\dev\Project-school-Qwirkle-master\Qwirkle\obj\Debug\Qwirkle.frm_nouvelle_partie.resources
+D:\dev\Project-school-Qwirkle-master\Qwirkle\obj\Debug\Qwirkle.frm_qwirkle_menu.resources
+D:\dev\Project-school-Qwirkle-master\Qwirkle\obj\Debug\Qwirkle.Resources.resources
+D:\dev\Project-school-Qwirkle-master\Qwirkle\obj\Debug\Qwirkle.vbproj.GenerateResource.cache
+D:\dev\Project-school-Qwirkle-master\Qwirkle\obj\Debug\Qwirkle.vbproj.CoreCompileInputs.cache
+D:\dev\Project-school-Qwirkle-master\Qwirkle\obj\Debug\Qwirkle.vbproj.CopyComplete
+D:\dev\Project-school-Qwirkle-master\Qwirkle\obj\Debug\Qwirkle.exe
+D:\dev\Project-school-Qwirkle-master\Qwirkle\obj\Debug\Qwirkle.xml
+D:\dev\Project-school-Qwirkle-master\Qwirkle\obj\Debug\Qwirkle.pdb
