@@ -19,4 +19,10 @@
     Private Sub btn_quitter_Click(sender As Object, e As EventArgs) Handles btn_quitter.Click
         Close()
     End Sub
+
+    Private Sub btn_aide_Click(sender As Object, e As EventArgs) Handles btn_aide.Click
+        frm_aide.Show()
+    End Sub
+
+
 End Class

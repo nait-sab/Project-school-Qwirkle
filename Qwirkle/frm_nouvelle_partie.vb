@@ -1,4 +1,7 @@
-﻿Public Class frm_nouvelle_partie
+﻿
+Public Class frm_nouvelle_partie
+    Public nbj As Integer
+
     Private Sub frm_nouvelle_partie_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
         Dim validation As DialogResult
         validation = MessageBox.Show("Quitter Qwirkle ?", "Qwirkle", MessageBoxButtons.YesNo)
@@ -15,5 +18,36 @@
 
     Private Sub frm_nouvelle_partie_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.Size = frm_qwirkle_menu.Size
+
     End Sub
+
+    Private Sub btn_2joueurs_Click(sender As Object, e As EventArgs) Handles btn_2joueurs.Click
+        nbj = 2
+        Me.Hide()
+        frm_CreationJoueurs.Size = Me.Size
+        frm_CreationJoueurs.Show()
+
+
+    End Sub
+
+
+
+
+
+    Private Sub btn_3joueurs_Click(sender As Object, e As EventArgs) Handles btn_3joueurs.Click
+        nbj = 3
+        Me.Hide()
+        frm_CreationJoueurs.Size = Me.Size
+        frm_CreationJoueurs.Show()
+    End Sub
+
+    Private Sub btn_4joueurs_Click(sender As Object, e As EventArgs) Handles btn_4joueurs.Click
+        nbj = 4
+        Me.Hide()
+        frm_CreationJoueurs.Size = Me.Size
+        frm_CreationJoueurs.Show()
+
+    End Sub
+
+
 End Class

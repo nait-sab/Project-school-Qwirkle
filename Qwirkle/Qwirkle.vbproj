@@ -73,6 +73,24 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frm_aide.Designer.vb">
+      <DependentUpon>frm_aide.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_aide.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_CreationJoueurs.Designer.vb">
+      <DependentUpon>frm_CreationJoueurs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_CreationJoueurs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_fin.Designer.vb">
+      <DependentUpon>frm_fin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_fin.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frm_jeu.Designer.vb">
       <DependentUpon>frm_jeu.vb</DependentUpon>
     </Compile>
@@ -92,6 +110,7 @@
       <DependentUpon>frm_qwirkle_menu.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="module.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -109,6 +128,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frm_aide.resx">
+      <DependentUpon>frm_aide.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_CreationJoueurs.resx">
+      <DependentUpon>frm_CreationJoueurs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_fin.resx">
+      <DependentUpon>frm_fin.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_jeu.resx">
       <DependentUpon>frm_jeu.vb</DependentUpon>
     </EmbeddedResource>

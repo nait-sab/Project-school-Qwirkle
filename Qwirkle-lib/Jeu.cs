@@ -23,26 +23,6 @@ namespace Qwirkle_lib
             this.m_joueurs = null;
         }
 
-        public void creer_partie()
-        {
-
-        }
-        
-        public void menu_principal()
-        {
-
-        }
-
-        public void menu_selecton_joueurs()
-        {
-
-        }
-
-        public void menu_fin()
-        {
-
-        }
-
         //Accesors
         public int getNombreJoueurs() { return this.m_nombre_joueurs; }
         public int getJoueurActuel() { return this.m_joueur_actuel; }
