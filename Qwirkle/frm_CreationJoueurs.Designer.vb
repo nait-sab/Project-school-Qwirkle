@@ -58,6 +58,7 @@ Partial Class frm_CreationJoueurs
         Me.validj1 = New System.Windows.Forms.CheckBox()
         Me.tableconfirmation = New System.Windows.Forms.TableLayoutPanel()
         Me.boutonvalidation = New System.Windows.Forms.Button()
+        Me.cmd_Retour = New System.Windows.Forms.Button()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.TableLayoutPanel2.SuspendLayout()
         Me.pannelj4.SuspendLayout()
@@ -495,14 +496,16 @@ Partial Class frm_CreationJoueurs
         '
         'tableconfirmation
         '
-        Me.tableconfirmation.ColumnCount = 1
-        Me.tableconfirmation.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.tableconfirmation.ColumnCount = 2
+        Me.tableconfirmation.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 80.0!))
+        Me.tableconfirmation.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.tableconfirmation.Controls.Add(Me.boutonvalidation, 0, 0)
+        Me.tableconfirmation.Controls.Add(Me.cmd_Retour, 1, 0)
         Me.tableconfirmation.Dock = System.Windows.Forms.DockStyle.Fill
         Me.tableconfirmation.Location = New System.Drawing.Point(3, 408)
         Me.tableconfirmation.Name = "tableconfirmation"
         Me.tableconfirmation.RowCount = 1
-        Me.tableconfirmation.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.tableconfirmation.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.tableconfirmation.Size = New System.Drawing.Size(794, 39)
         Me.tableconfirmation.TabIndex = 4
         '
@@ -512,10 +515,21 @@ Partial Class frm_CreationJoueurs
         Me.boutonvalidation.Location = New System.Drawing.Point(100, 7)
         Me.boutonvalidation.Margin = New System.Windows.Forms.Padding(100, 7, 100, 3)
         Me.boutonvalidation.Name = "boutonvalidation"
-        Me.boutonvalidation.Size = New System.Drawing.Size(594, 29)
+        Me.boutonvalidation.Size = New System.Drawing.Size(435, 29)
         Me.boutonvalidation.TabIndex = 0
         Me.boutonvalidation.Text = "Valider création joueurs"
         Me.boutonvalidation.UseVisualStyleBackColor = True
+        '
+        'cmd_Retour
+        '
+        Me.cmd_Retour.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.cmd_Retour.Location = New System.Drawing.Point(635, 7)
+        Me.cmd_Retour.Margin = New System.Windows.Forms.Padding(0, 7, 0, 7)
+        Me.cmd_Retour.Name = "cmd_Retour"
+        Me.cmd_Retour.Size = New System.Drawing.Size(159, 25)
+        Me.cmd_Retour.TabIndex = 1
+        Me.cmd_Retour.Text = "Retour"
+        Me.cmd_Retour.UseVisualStyleBackColor = True
         '
         'frm_CreationJoueurs
         '
@@ -584,4 +598,5 @@ Partial Class frm_CreationJoueurs
     Friend WithEvents validj1 As CheckBox
     Friend WithEvents tableconfirmation As TableLayoutPanel
     Friend WithEvents boutonvalidation As Button
+    Friend WithEvents cmd_Retour As Button
 End Class
