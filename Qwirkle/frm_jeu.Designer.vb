@@ -74,7 +74,6 @@ Partial Class frm_jeu
         Me.TableLayoutPanel7 = New System.Windows.Forms.TableLayoutPanel()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.labelcurrentplayer = New System.Windows.Forms.Label()
-        Me.pictureboxpioche = New System.Windows.Forms.PictureBox()
         Me.TableLayoutPanel5 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel6 = New System.Windows.Forms.TableLayoutPanel()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -91,6 +90,9 @@ Partial Class frm_jeu
         Me.pannelj4 = New System.Windows.Forms.TableLayoutPanel()
         Me.lanamej4 = New System.Windows.Forms.Label()
         Me.labelscj4 = New System.Windows.Forms.Label()
+        Me.panel_pioche = New System.Windows.Forms.TableLayoutPanel()
+        Me.lbl_pioche = New System.Windows.Forms.Label()
+        Me.pictureboxpioche = New System.Windows.Forms.PictureBox()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.TableLayoutPanel2.SuspendLayout()
         Me.TableLayoutPanel3.SuspendLayout()
@@ -135,7 +137,6 @@ Partial Class frm_jeu
         CType(Me.grille_1_2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.grille_1_1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel7.SuspendLayout()
-        CType(Me.pictureboxpioche, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel5.SuspendLayout()
         Me.TableLayoutPanel6.SuspendLayout()
         Me.TableLayoutPanel8.SuspendLayout()
@@ -143,6 +144,8 @@ Partial Class frm_jeu
         Me.pannelj2.SuspendLayout()
         Me.pannelj3.SuspendLayout()
         Me.pannelj4.SuspendLayout()
+        Me.panel_pioche.SuspendLayout()
+        CType(Me.pictureboxpioche, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TableLayoutPanel1
@@ -156,8 +159,8 @@ Partial Class frm_jeu
         Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel3, 1, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel4, 1, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel7, 2, 1)
-        Me.TableLayoutPanel1.Controls.Add(Me.pictureboxpioche, 0, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel5, 2, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.panel_pioche, 0, 1)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
@@ -811,15 +814,6 @@ Partial Class frm_jeu
         Me.labelcurrentplayer.Text = "Nom joueur actuel"
         Me.labelcurrentplayer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'pictureboxpioche
-        '
-        Me.pictureboxpioche.Dock = System.Windows.Forms.DockStyle.Right
-        Me.pictureboxpioche.Location = New System.Drawing.Point(130, 602)
-        Me.pictureboxpioche.Name = "pictureboxpioche"
-        Me.pictureboxpioche.Size = New System.Drawing.Size(119, 144)
-        Me.pictureboxpioche.TabIndex = 6
-        Me.pictureboxpioche.TabStop = False
-        '
         'TableLayoutPanel5
         '
         Me.TableLayoutPanel5.ColumnCount = 1
@@ -1037,6 +1031,42 @@ Partial Class frm_jeu
         Me.labelscj4.Text = "Score j4"
         Me.labelscj4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
+        'panel_pioche
+        '
+        Me.panel_pioche.ColumnCount = 2
+        Me.panel_pioche.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.panel_pioche.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.panel_pioche.Controls.Add(Me.pictureboxpioche, 1, 0)
+        Me.panel_pioche.Controls.Add(Me.lbl_pioche, 0, 0)
+        Me.panel_pioche.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.panel_pioche.Location = New System.Drawing.Point(3, 602)
+        Me.panel_pioche.Name = "panel_pioche"
+        Me.panel_pioche.RowCount = 1
+        Me.panel_pioche.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.panel_pioche.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.panel_pioche.Size = New System.Drawing.Size(246, 144)
+        Me.panel_pioche.TabIndex = 8
+        '
+        'lbl_pioche
+        '
+        Me.lbl_pioche.AutoSize = True
+        Me.lbl_pioche.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lbl_pioche.Location = New System.Drawing.Point(3, 0)
+        Me.lbl_pioche.Name = "lbl_pioche"
+        Me.lbl_pioche.Size = New System.Drawing.Size(117, 144)
+        Me.lbl_pioche.TabIndex = 0
+        Me.lbl_pioche.Text = "Pioche"
+        Me.lbl_pioche.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'pictureboxpioche
+        '
+        Me.pictureboxpioche.Dock = System.Windows.Forms.DockStyle.Right
+        Me.pictureboxpioche.Location = New System.Drawing.Point(126, 3)
+        Me.pictureboxpioche.Name = "pictureboxpioche"
+        Me.pictureboxpioche.Size = New System.Drawing.Size(117, 138)
+        Me.pictureboxpioche.TabIndex = 7
+        Me.pictureboxpioche.TabStop = False
+        '
         'frm_jeu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1093,7 +1123,6 @@ Partial Class frm_jeu
         CType(Me.grille_1_1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TableLayoutPanel7.ResumeLayout(False)
         Me.TableLayoutPanel7.PerformLayout()
-        CType(Me.pictureboxpioche, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TableLayoutPanel5.ResumeLayout(False)
         Me.TableLayoutPanel6.ResumeLayout(False)
         Me.TableLayoutPanel6.PerformLayout()
@@ -1106,6 +1135,9 @@ Partial Class frm_jeu
         Me.pannelj3.PerformLayout()
         Me.pannelj4.ResumeLayout(False)
         Me.pannelj4.PerformLayout()
+        Me.panel_pioche.ResumeLayout(False)
+        Me.panel_pioche.PerformLayout()
+        CType(Me.pictureboxpioche, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1128,7 +1160,6 @@ Partial Class frm_jeu
     Friend WithEvents TableLayoutPanel7 As TableLayoutPanel
     Friend WithEvents Label3 As Label
     Friend WithEvents labelcurrentplayer As Label
-    Friend WithEvents pictureboxpioche As PictureBox
     Friend WithEvents TableLayoutPanel4 As TableLayoutPanel
     Friend WithEvents grille_2_3 As PictureBox
     Friend WithEvents grille_2_2 As PictureBox
@@ -1179,4 +1210,7 @@ Partial Class frm_jeu
     Friend WithEvents labelscj3 As Label
     Friend WithEvents lanamej4 As Label
     Friend WithEvents labelscj4 As Label
+    Friend WithEvents panel_pioche As TableLayoutPanel
+    Friend WithEvents pictureboxpioche As PictureBox
+    Friend WithEvents lbl_pioche As Label
 End Class

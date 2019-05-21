@@ -4,6 +4,15 @@
     Public scorej3 As Integer = 3
     Public scorej4 As Integer = 5
 
+    Public score_joueur As Integer = 0
+    Public score_tour As Integer = 0
+    Public longueur As Integer = 0
+    Public comptage As Boolean = 0
+    Public direction As Integer = 0
+    Public case_remplie As Boolean = 0
+    Public position_X As Integer = 0
+    Public position_Y As Integer = 0
+
     Public nomj1 As String = frm_CreationJoueurs.txt_Joueur1_Nom.Text.ToString
     Public nomj2 As String = frm_CreationJoueurs.txt_Joueur2_Nom.Text.ToString
     Public nomj3 As String = frm_CreationJoueurs.txt_Joueur3_Nom.Text.ToString
@@ -97,5 +106,23 @@
 
     Private Sub btn_recommencer_Click(sender As Object, e As EventArgs) Handles btn_recommencer.Click
         Frm_recommencer_valid.Show()
+    End Sub
+    Private Sub btn_confirmer_Click(sender As Object, e As EventArgs) Handles btn_confirmer.Click
+
+        score_joueur = labscj1.Text
+
+        While (comptage = 0)
+            While (direction <> 4)
+                While (case_remplie = 0)
+                    longueur += 1
+                End While
+
+            End While
+
+        End While
+
+
+        score_joueur = score_joueur + score_tour
+        labscj1.Text = score_joueur
     End Sub
 End Class
