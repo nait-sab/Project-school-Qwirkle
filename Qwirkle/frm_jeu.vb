@@ -23,6 +23,21 @@
     Private test As New Qwirkle_lib.Tuile(couleur(5), forme(3))
 
     Private Sub frm_jeu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        For count As Byte = 0 To 2
+            For Each color In couleur
+                For Each shape In forme
+                    Dim tuile As New Qwirkle_lib.Tuile(couleur(color), forme(shape))
+                    'pioche.Add(tuile)
+                Next
+            Next
+        Next
+
+        Dim joueur1 As New Qwirkle_lib.Joueur("gdere", 16)
+
+        For don As Byte = 1 To 6
+            'joueur1.ajoutertuile(pioche(don))
+        Next
+
         pictureboxpioche.AllowDrop = True
         grille_1_1.AllowDrop = True
         'picBox1.Image = Image.FromFile("Ressources\" & test.getForme & test.getCouleur & ".jpg")
@@ -100,8 +115,14 @@
     End Sub
 
     Private Sub btn_annuler_Click(sender As Object, e As EventArgs) Handles btn_annuler.Click
-        frm_fin.Show()
-        Me.Hide()
+        Dim random As New Random()
+        Dim rand11 As Integer = random.Next(0, 5)
+        Dim rand12 As Integer = random.Next(0, 5)
+        Dim test2 As New Qwirkle_lib.Tuile(couleur(rand11), forme(rand12))
+
+        picBox2.Image = My.Resources.ResourceManager.GetObject(test2.getForme & test2.getCouleur)
+        'frm_fin.Show()
+        'Me.Hide()
     End Sub
 
     Private Sub btn_recommencer_Click(sender As Object, e As EventArgs) Handles btn_recommencer.Click

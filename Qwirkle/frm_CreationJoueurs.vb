@@ -48,6 +48,14 @@ Public Class frm_CreationJoueurs
 
 
     Private Sub boutonvalidation_Click(sender As Object, e As EventArgs) Handles boutonvalidation.Click
+        joueur1.setNom(txt_Joueur1_Nom.Text)
+        joueur1.setAge(txt_Joueur1_Age.Text)
+        joueur2.setNom(txt_Joueur2_Nom.Text)
+        joueur2.setAge(txt_Joueur2_Age.Text)
+        joueur3.setNom(txt_Joueur3_Nom.Text)
+        joueur3.setAge(txt_Joueur3_Age.Text)
+        joueur4.setNom(txt_Joueur4_Nom.Text)
+        joueur4.setAge(txt_Joueur4_Age.Text)
         frm_jeu.Show()
         Me.Hide()
     End Sub
