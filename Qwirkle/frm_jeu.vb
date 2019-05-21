@@ -94,4 +94,8 @@
         frm_fin.Show()
         Me.Hide()
     End Sub
+
+    Private Sub btn_recommencer_Click(sender As Object, e As EventArgs) Handles btn_recommencer.Click
+        Frm_recommencer_valid.Show()
+    End Sub
 End Class

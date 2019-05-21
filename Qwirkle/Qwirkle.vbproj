@@ -110,6 +110,12 @@
       <DependentUpon>frm_qwirkle_menu.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Frm_recommencer_valid.Designer.vb">
+      <DependentUpon>Frm_recommencer_valid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_recommencer_valid.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="module.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -145,6 +151,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_qwirkle_menu.resx">
       <DependentUpon>frm_qwirkle_menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_recommencer_valid.resx">
+      <DependentUpon>Frm_recommencer_valid.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

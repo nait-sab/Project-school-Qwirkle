@@ -23,143 +23,224 @@ Partial Class frm_aide
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frm_aide))
-        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
-        Me.helpclose = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.EventLog1 = New System.Diagnostics.EventLog()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
+        Me.RichTextBox7 = New System.Windows.Forms.RichTextBox()
+        Me.RichTextBox6 = New System.Windows.Forms.RichTextBox()
+        Me.RichTextBox5 = New System.Windows.Forms.RichTextBox()
+        Me.RichTextBox4 = New System.Windows.Forms.RichTextBox()
+        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
+        Me.RichTextBox2 = New System.Windows.Forms.RichTextBox()
+        Me.RichTextBox3 = New System.Windows.Forms.RichTextBox()
+        Me.TableLayoutPanel3 = New System.Windows.Forms.TableLayoutPanel()
+        Me.helpclose = New System.Windows.Forms.Button()
+        CType(Me.EventLog1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.TableLayoutPanel2.SuspendLayout()
-        CType(Me.EventLog1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TableLayoutPanel3.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'TableLayoutPanel1
-        '
-        Me.TableLayoutPanel1.ColumnCount = 1
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel1.Controls.Add(Me.helpclose, 0, 2)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label1, 0, 0)
-        Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel2, 0, 1)
-        Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
-        Me.TableLayoutPanel1.RowCount = 3
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(800, 450)
-        Me.TableLayoutPanel1.TabIndex = 0
-        '
-        'helpclose
-        '
-        Me.helpclose.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.helpclose.Location = New System.Drawing.Point(330, 390)
-        Me.helpclose.Margin = New System.Windows.Forms.Padding(330, 30, 330, 30)
-        Me.helpclose.Name = "helpclose"
-        Me.helpclose.Size = New System.Drawing.Size(140, 30)
-        Me.helpclose.TabIndex = 0
-        Me.helpclose.Text = "Fermer"
-        Me.helpclose.UseVisualStyleBackColor = True
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(0, 0)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(800, 90)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Aide"
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'TableLayoutPanel2
-        '
-        Me.TableLayoutPanel2.ColumnCount = 2
-        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 277.0!))
-        Me.TableLayoutPanel2.Controls.Add(Me.Label2, 0, 0)
-        Me.TableLayoutPanel2.Controls.Add(Me.Label3, 0, 1)
-        Me.TableLayoutPanel2.Controls.Add(Me.Label4, 0, 2)
-        Me.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel2.Location = New System.Drawing.Point(3, 93)
-        Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
-        Me.TableLayoutPanel2.RowCount = 3
-        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 86.0!))
-        Me.TableLayoutPanel2.Size = New System.Drawing.Size(794, 264)
-        Me.TableLayoutPanel2.TabIndex = 2
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(5, 5)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(5)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(507, 79)
-        Me.Label2.TabIndex = 0
-        Me.Label2.Text = "But du jeu : Aligner des tuiles de symbole ou couleur identiques"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.BottomLeft
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(5, 94)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(5)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(507, 79)
-        Me.Label3.TabIndex = 1
-        Me.Label3.Text = resources.GetString("Label3.Text")
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(5, 183)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(5)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(507, 76)
-        Me.Label4.TabIndex = 2
-        Me.Label4.Text = "La partie s'arrete lorsque toutes les tuiles ont été jouée"
         '
         'EventLog1
         '
         Me.EventLog1.SynchronizingObject = Me
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(0, 0)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(778, 99)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "Règles du jeu"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'TableLayoutPanel1
+        '
+        Me.TableLayoutPanel1.ColumnCount = 1
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel1.Controls.Add(Me.Label1, 0, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel2, 0, 1)
+        Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel3, 0, 2)
+        Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
+        Me.TableLayoutPanel1.RowCount = 3
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(778, 495)
+        Me.TableLayoutPanel1.TabIndex = 0
+        '
+        'TableLayoutPanel2
+        '
+        Me.TableLayoutPanel2.ColumnCount = 2
+        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel2.Controls.Add(Me.RichTextBox7, 1, 2)
+        Me.TableLayoutPanel2.Controls.Add(Me.RichTextBox6, 1, 1)
+        Me.TableLayoutPanel2.Controls.Add(Me.RichTextBox5, 1, 0)
+        Me.TableLayoutPanel2.Controls.Add(Me.RichTextBox4, 0, 2)
+        Me.TableLayoutPanel2.Controls.Add(Me.RichTextBox1, 0, 3)
+        Me.TableLayoutPanel2.Controls.Add(Me.RichTextBox2, 0, 0)
+        Me.TableLayoutPanel2.Controls.Add(Me.RichTextBox3, 0, 1)
+        Me.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TableLayoutPanel2.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.AddColumns
+        Me.TableLayoutPanel2.Location = New System.Drawing.Point(3, 102)
+        Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
+        Me.TableLayoutPanel2.RowCount = 4
+        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
+        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
+        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
+        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
+        Me.TableLayoutPanel2.Size = New System.Drawing.Size(772, 340)
+        Me.TableLayoutPanel2.TabIndex = 2
+        '
+        'RichTextBox7
+        '
+        Me.RichTextBox7.BackColor = System.Drawing.SystemColors.Control
+        Me.RichTextBox7.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.RichTextBox7.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RichTextBox7.Location = New System.Drawing.Point(389, 173)
+        Me.RichTextBox7.Name = "RichTextBox7"
+        Me.RichTextBox7.ReadOnly = True
+        Me.RichTextBox7.Size = New System.Drawing.Size(380, 79)
+        Me.RichTextBox7.TabIndex = 13
+        Me.RichTextBox7.Text = resources.GetString("RichTextBox7.Text")
+        '
+        'RichTextBox6
+        '
+        Me.RichTextBox6.BackColor = System.Drawing.SystemColors.Control
+        Me.RichTextBox6.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.RichTextBox6.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RichTextBox6.Location = New System.Drawing.Point(389, 88)
+        Me.RichTextBox6.Name = "RichTextBox6"
+        Me.RichTextBox6.ReadOnly = True
+        Me.RichTextBox6.Size = New System.Drawing.Size(380, 79)
+        Me.RichTextBox6.TabIndex = 12
+        Me.RichTextBox6.Text = resources.GetString("RichTextBox6.Text")
+        '
+        'RichTextBox5
+        '
+        Me.RichTextBox5.BackColor = System.Drawing.SystemColors.Control
+        Me.RichTextBox5.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.RichTextBox5.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RichTextBox5.Location = New System.Drawing.Point(389, 3)
+        Me.RichTextBox5.Name = "RichTextBox5"
+        Me.RichTextBox5.ReadOnly = True
+        Me.RichTextBox5.Size = New System.Drawing.Size(380, 79)
+        Me.RichTextBox5.TabIndex = 11
+        Me.RichTextBox5.Text = resources.GetString("RichTextBox5.Text")
+        '
+        'RichTextBox4
+        '
+        Me.RichTextBox4.BackColor = System.Drawing.SystemColors.Control
+        Me.RichTextBox4.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.RichTextBox4.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RichTextBox4.Location = New System.Drawing.Point(3, 173)
+        Me.RichTextBox4.Name = "RichTextBox4"
+        Me.RichTextBox4.ReadOnly = True
+        Me.RichTextBox4.Size = New System.Drawing.Size(380, 79)
+        Me.RichTextBox4.TabIndex = 10
+        Me.RichTextBox4.Text = resources.GetString("RichTextBox4.Text")
+        '
+        'RichTextBox1
+        '
+        Me.RichTextBox1.BackColor = System.Drawing.SystemColors.Control
+        Me.RichTextBox1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.RichTextBox1.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RichTextBox1.Location = New System.Drawing.Point(3, 258)
+        Me.RichTextBox1.Name = "RichTextBox1"
+        Me.RichTextBox1.ReadOnly = True
+        Me.RichTextBox1.Size = New System.Drawing.Size(380, 79)
+        Me.RichTextBox1.TabIndex = 7
+        Me.RichTextBox1.Text = resources.GetString("RichTextBox1.Text")
+        '
+        'RichTextBox2
+        '
+        Me.RichTextBox2.BackColor = System.Drawing.SystemColors.Control
+        Me.RichTextBox2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.RichTextBox2.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RichTextBox2.Location = New System.Drawing.Point(3, 3)
+        Me.RichTextBox2.Name = "RichTextBox2"
+        Me.RichTextBox2.ReadOnly = True
+        Me.RichTextBox2.Size = New System.Drawing.Size(380, 79)
+        Me.RichTextBox2.TabIndex = 8
+        Me.RichTextBox2.Text = "But du jeu" & Global.Microsoft.VisualBasic.ChrW(10) & "Aligner des tuiles ayant des symboles de formes ou de couleurs indenti" &
+    "ques de façon à réaliser des combinaisons rapportant un maximum de points."
+        '
+        'RichTextBox3
+        '
+        Me.RichTextBox3.BackColor = System.Drawing.SystemColors.Control
+        Me.RichTextBox3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.RichTextBox3.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RichTextBox3.Location = New System.Drawing.Point(3, 88)
+        Me.RichTextBox3.Name = "RichTextBox3"
+        Me.RichTextBox3.ReadOnly = True
+        Me.RichTextBox3.Size = New System.Drawing.Size(380, 79)
+        Me.RichTextBox3.TabIndex = 9
+        Me.RichTextBox3.Text = resources.GetString("RichTextBox3.Text")
+        '
+        'TableLayoutPanel3
+        '
+        Me.TableLayoutPanel3.ColumnCount = 3
+        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
+        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
+        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
+        Me.TableLayoutPanel3.Controls.Add(Me.helpclose, 1, 0)
+        Me.TableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TableLayoutPanel3.Location = New System.Drawing.Point(3, 448)
+        Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
+        Me.TableLayoutPanel3.RowCount = 1
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 44.0!))
+        Me.TableLayoutPanel3.Size = New System.Drawing.Size(772, 44)
+        Me.TableLayoutPanel3.TabIndex = 3
+        '
+        'helpclose
+        '
+        Me.helpclose.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.helpclose.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.helpclose.Location = New System.Drawing.Point(260, 3)
+        Me.helpclose.Name = "helpclose"
+        Me.helpclose.Size = New System.Drawing.Size(251, 38)
+        Me.helpclose.TabIndex = 0
+        Me.helpclose.Text = "Fermer"
+        Me.helpclose.UseVisualStyleBackColor = True
+        '
         'frm_aide
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(778, 495)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Name = "frm_aide"
-        Me.Text = "frm_aide"
+        Me.Text = "Qwirkle"
+        CType(Me.EventLog1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel1.PerformLayout()
         Me.TableLayoutPanel2.ResumeLayout(False)
-        Me.TableLayoutPanel2.PerformLayout()
-        CType(Me.EventLog1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TableLayoutPanel3.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
-
+    Friend WithEvents EventLog1 As EventLog
     Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
-    Friend WithEvents helpclose As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents EventLog1 As EventLog
+    Friend WithEvents RichTextBox7 As RichTextBox
+    Friend WithEvents RichTextBox6 As RichTextBox
+    Friend WithEvents RichTextBox5 As RichTextBox
+    Friend WithEvents RichTextBox4 As RichTextBox
+    Friend WithEvents RichTextBox1 As RichTextBox
+    Friend WithEvents RichTextBox2 As RichTextBox
+    Friend WithEvents RichTextBox3 As RichTextBox
+    Friend WithEvents TableLayoutPanel3 As TableLayoutPanel
+    Friend WithEvents helpclose As Button
 End Class

@@ -117,47 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="EventLog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <data name="RichTextBox7.Text" xml:space="preserve">
-    <value>Fin de la partie
-Quand la réserve ne contient plus de tuiles, les joueurs continuent à jouer normalement mais ne tirent plus de tuiles à la fin de leur tour.
-Lorsqu'un joueur a joué toutes ses tuiles, la partie se termine et ce joueur obtient 6 points supplémentaires.
-Si aucun joueur ne peut ajouter de tuile aux lignes existantes et que la réserve est vide, le jeu s'arrête immédiatement et les 6 points bonus ne sont pas attribués
-Le joueur ayant le plus grand nombre de points remporte la partie</value>
-  </data>
-  <data name="RichTextBox6.Text" xml:space="preserve">
-    <value>Calcul des points
-Quand vous créez une ligne au premier tour ou que par la suite vous complétez une ligne, vous marquez 1 point pour chaque tuile qu'il ya dans cette ligne.Cela inclut toutes les tuiles qui se trouvent dans la ligne,y compris celles que vous n'avez pas jouées.
-Une tuile peut rapporter 2 points si elle appartient à deux lignes différentes. 
-Vous marquez 6 points supplémentaires chaque fois que vous terminez une  ligne de six tuiles.Les six tuiles doivent être de même couleur tout en ayant une forme différente ou de même forme, tout en ayant une couleur différente.
-Une ligne de six tuiles est appelée un Qwirkle.Les lignes de plus de six tuiles sont interdites.
-Le joueur qui termine la partie obtient 6 points supplémentaires.</value>
-  </data>
-  <data name="RichTextBox5.Text" xml:space="preserve">
-    <value> Échanger des tuiles
-Lorsque c'est votre tour , vous pouvez choisir d'échanger tout ou une partie de vos tuiles au lieu de les ajouter à une ligne .Dans ce cas,vous devez mettre de côté les tuiles à échanger,puis tirer le même nombre de tuiles de la réserve.
-Enfin, vous devez mélanger les tuiles que vous avez échangées dans la pioche.
-Si vous ne pouvez pas ajouter de tuiles à une ligne.vous devez échanger tout ou une partie de vos tuiles et passer votre tour.</value>
-  </data>
-  <data name="RichTextBox4.Text" xml:space="preserve">
-    <value>Déroulement de la partie
-A son tour, un joueur peut effectuer l'une de ces trois actions:
-1.Compléter une ligne en y ajoutant une tuile, puis piocher une tuile dans la réserve pour en avoir  à nouveau six devant lui.
-2.Compléter une ligne en y ajoutant deux tuiles ou plus.Toutes les tuiles jouées à partir de la main du joueur doivent partager une caractéristique, à savoir la couleur ou la forme .Les tuiles du joueur doivents toujours appartenir à la même ligne(il se peut qu'elles ne se touchent pas).Ensuite,le joueur pioche une ou plusieurs tuiles dans la réserve pour en avoir à nouveau six devant lui.
-3.Échanger tout ou une partie des tuiles de sa main contre autant d'autres tuiles de la réserve, et passer son tour(sans jouer de tuiles).</value>
-  </data>
-  <data name="RichTextBox1.Text" xml:space="preserve">
-    <value>Compléter une ligne
-Chacun à leur tour, les joueurs ajoutent des tuiles pour compléter la ligne crée au premier tour et ses ramifications.
-Il n'est pas possible de jouer des tuiles qui ne seraient pas relliées aux lignes existantes.Il exise six formes et six couleurs.Les joueurs créent des lignes de formes et de couleurs.Deux ou plusieurs tuiles qui se touchent créent une ligne de formes ou une ligne de couleurs.Les tuiles qui sont ajoutées à cette ligne doivent avoir la même caractéristique que la tuiles qui se trouvent déjà sur la ligne.
-Il peut arriver qu'il y ait des places sur la ligne où aucune tuile ne peut être ajoutée.Une ligne de formes ne peut avoir qu'une tuile de chacune des six couleurs.
-Autre exemple,il ne peut y avoir qu'un seul carré orange dans une ligne de carrés.Une ligne de couleur ne peut avoir qu'une tuile de chacune des six formes.Par exemple,il ne peut y avoir qu'un cercle jaune dans une ligne jaune.</value>
-  </data>
-  <data name="RichTextBox3.Text" xml:space="preserve">
-    <value>Début de partie
-Chaque joueur examine son tirage et annonce son nombre le plus élevé de tuiles ayant une caractéristique commune,couleur ou forme(tuiles en double ne sont pas comprise dans ce nombre).Le joueur ayant le plus de tuiles avec la même craractéristique(couleur ou forme)débute la partie.Il pose ces tuiles en jeu,note ses points et repioche dans la réserve pour avoir à nouveau 6 tuiles devant lui.
-En cas d'égalité entre deux joueurs, le plus âgé commence. Les joueurs jouent à tour de rôle dans le sens des aiguilles d'une montre.</value>
-  </data>
 </root>
