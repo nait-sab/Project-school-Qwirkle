@@ -24,9 +24,9 @@ Partial Class Frm_recommencer_valid
     Private Sub InitializeComponent()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button_NON = New System.Windows.Forms.Button()
         Me.Button_OUI = New System.Windows.Forms.Button()
+        Me.Button_NON = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.TableLayoutPanel2.SuspendLayout()
         Me.SuspendLayout()
@@ -59,21 +59,19 @@ Partial Class Frm_recommencer_valid
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
         Me.TableLayoutPanel2.RowCount = 1
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 132.0!))
         Me.TableLayoutPanel2.Size = New System.Drawing.Size(351, 132)
         Me.TableLayoutPanel2.TabIndex = 0
         '
-        'Label1
+        'Button_OUI
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(3, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(351, 138)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Êtes vous sûrs de vouloir recommencer la partie"
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Button_OUI.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.Button_OUI.Location = New System.Drawing.Point(3, 106)
+        Me.Button_OUI.Name = "Button_OUI"
+        Me.Button_OUI.Size = New System.Drawing.Size(169, 23)
+        Me.Button_OUI.TabIndex = 1
+        Me.Button_OUI.Text = "OUI"
+        Me.Button_OUI.UseVisualStyleBackColor = True
         '
         'Button_NON
         '
@@ -85,15 +83,17 @@ Partial Class Frm_recommencer_valid
         Me.Button_NON.Text = "NON"
         Me.Button_NON.UseVisualStyleBackColor = True
         '
-        'Button_OUI
+        'Label1
         '
-        Me.Button_OUI.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Button_OUI.Location = New System.Drawing.Point(3, 106)
-        Me.Button_OUI.Name = "Button_OUI"
-        Me.Button_OUI.Size = New System.Drawing.Size(169, 23)
-        Me.Button_OUI.TabIndex = 1
-        Me.Button_OUI.Text = "OUI"
-        Me.Button_OUI.UseVisualStyleBackColor = True
+        Me.Label1.AutoSize = True
+        Me.Label1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(3, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(351, 138)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "Êtes-vous sûr de vouloir recommencer la partie"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Frm_recommencer_valid
         '

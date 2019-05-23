@@ -150,5 +150,8 @@ Public Class frm_CreationJoueurs
 
     End Sub
 
-
+    Private Sub cmd_Retour_Click(sender As Object, e As EventArgs) Handles cmd_Retour.Click
+        frm_nouvelle_partie.Show()
+        Me.Close()
+    End Sub
 End Class

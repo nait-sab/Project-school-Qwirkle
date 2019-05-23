@@ -7,4 +7,6 @@
     Public joueur3 As Qwirkle_lib.Joueur
     Public joueur4 As Qwirkle_lib.Joueur
 
+    Public pioche As Qwirkle_lib.Tuile
+
 End Module

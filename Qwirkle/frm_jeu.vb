@@ -1,6 +1,6 @@
 ﻿Public Class frm_jeu
     Public scorej1 As Integer = 1
-    Public scorej2 As Integer = 2
+    Public scorej2 As Integer = 2    'Valeurs assignees pour tests
     Public scorej3 As Integer = 3
     Public scorej4 As Integer = 5
 
@@ -13,29 +13,34 @@
     Public position_X As Integer = 0
     Public position_Y As Integer = 0
 
+
     Public nomj1 As String = frm_CreationJoueurs.txt_Joueur1_Nom.Text.ToString
     Public nomj2 As String = frm_CreationJoueurs.txt_Joueur2_Nom.Text.ToString
     Public nomj3 As String = frm_CreationJoueurs.txt_Joueur3_Nom.Text.ToString
     Public nomj4 As String = frm_CreationJoueurs.txt_Joueur4_Nom.Text.ToString
+
 
     Private couleur() As String = {"Bleu", "Jaune", "Orange", "Rouge", "Vert", "Violet"}
     Private forme() As String = {"Carre", "Croix", "Etoile", "Losange", "Rond", "Trefle"}
     Private test As New Qwirkle_lib.Tuile(couleur(5), forme(3))
 
     Private Sub frm_jeu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        For count As Byte = 0 To 2
+        For count As Byte = 1 To 3
             For Each color In couleur
                 For Each shape In forme
                     Dim tuile As New Qwirkle_lib.Tuile(couleur(color), forme(shape))
-                    'pioche.Add(tuile)
+
+                    'pioche.Add(tuile) creer methode add
                 Next
             Next
         Next
 
-        Dim joueur1 As New Qwirkle_lib.Joueur("gdere", 16)
+
+
+
 
         For don As Byte = 1 To 6
-            'joueur1.ajoutertuile(pioche(don))
+            'joueur1.ajoutertuile(pioche(don)) fonction de distribution a modifier
         Next
 
         pictureboxpioche.AllowDrop = True
@@ -115,14 +120,13 @@
     End Sub
 
     Private Sub btn_annuler_Click(sender As Object, e As EventArgs) Handles btn_annuler.Click
-        Dim random As New Random()
-        Dim rand11 As Integer = random.Next(0, 5)
-        Dim rand12 As Integer = random.Next(0, 5)
-        Dim test2 As New Qwirkle_lib.Tuile(couleur(rand11), forme(rand12))
+        'Dim random As New Random()
+        'Dim rand11 As Integer = random.Next(0, 5)
+        'Dim rand12 As Integer = random.Next(0, 5)
+        'Dim test2 As New Qwirkle_lib.Tuile(couleur(rand11), forme(rand12))
 
-        picBox2.Image = My.Resources.ResourceManager.GetObject(test2.getForme & test2.getCouleur)
-        'frm_fin.Show()
-        'Me.Hide()
+        'picBox2.Image = My.Resources.ResourceManager.GetObject(test2.getForme & test2.getCouleur)
+
     End Sub
 
     Private Sub btn_recommencer_Click(sender As Object, e As EventArgs) Handles btn_recommencer.Click

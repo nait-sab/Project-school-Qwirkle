@@ -127,6 +127,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.lbl_Joueur4.AutoSize = True
         Me.lbl_Joueur4.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lbl_Joueur4.Font = New System.Drawing.Font("Segoe UI", 8.25!)
         Me.lbl_Joueur4.Location = New System.Drawing.Point(3, 0)
         Me.lbl_Joueur4.Name = "lbl_Joueur4"
         Me.lbl_Joueur4.Size = New System.Drawing.Size(306, 58)
@@ -156,6 +157,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.lbl_Joueur4_Nom.AutoSize = True
         Me.lbl_Joueur4_Nom.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lbl_Joueur4_Nom.Font = New System.Drawing.Font("Segoe UI", 8.25!)
         Me.lbl_Joueur4_Nom.Location = New System.Drawing.Point(3, 0)
         Me.lbl_Joueur4_Nom.Name = "lbl_Joueur4_Nom"
         Me.lbl_Joueur4_Nom.Size = New System.Drawing.Size(147, 65)
@@ -167,11 +169,12 @@ Partial Class frm_CreationJoueurs
         '
         Me.lbl_Joueur4_Age.AutoSize = True
         Me.lbl_Joueur4_Age.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lbl_Joueur4_Age.Font = New System.Drawing.Font("Segoe UI", 8.25!)
         Me.lbl_Joueur4_Age.Location = New System.Drawing.Point(3, 65)
         Me.lbl_Joueur4_Age.Name = "lbl_Joueur4_Age"
         Me.lbl_Joueur4_Age.Size = New System.Drawing.Size(147, 65)
         Me.lbl_Joueur4_Age.TabIndex = 1
-        Me.lbl_Joueur4_Age.Text = "Age :"
+        Me.lbl_Joueur4_Age.Text = "Âge :"
         Me.lbl_Joueur4_Age.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'txt_Joueur4_Nom
@@ -196,6 +199,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.validj4.AutoSize = True
         Me.validj4.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.validj4.Font = New System.Drawing.Font("Segoe UI", 8.25!)
         Me.validj4.Location = New System.Drawing.Point(315, 3)
         Me.validj4.Name = "validj4"
         Me.validj4.Size = New System.Drawing.Size(73, 52)
@@ -224,6 +228,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.lbl_Joueur3.AutoSize = True
         Me.lbl_Joueur3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lbl_Joueur3.Font = New System.Drawing.Font("Segoe UI", 8.25!)
         Me.lbl_Joueur3.Location = New System.Drawing.Point(3, 0)
         Me.lbl_Joueur3.Name = "lbl_Joueur3"
         Me.lbl_Joueur3.Size = New System.Drawing.Size(306, 58)
@@ -253,6 +258,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.lbl_Joueur3_Nom.AutoSize = True
         Me.lbl_Joueur3_Nom.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lbl_Joueur3_Nom.Font = New System.Drawing.Font("Segoe UI", 8.25!)
         Me.lbl_Joueur3_Nom.Location = New System.Drawing.Point(3, 0)
         Me.lbl_Joueur3_Nom.Name = "lbl_Joueur3_Nom"
         Me.lbl_Joueur3_Nom.Size = New System.Drawing.Size(147, 65)
@@ -264,11 +270,12 @@ Partial Class frm_CreationJoueurs
         '
         Me.lbl_Joueur3_Age.AutoSize = True
         Me.lbl_Joueur3_Age.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lbl_Joueur3_Age.Font = New System.Drawing.Font("Segoe UI", 8.25!)
         Me.lbl_Joueur3_Age.Location = New System.Drawing.Point(3, 65)
         Me.lbl_Joueur3_Age.Name = "lbl_Joueur3_Age"
         Me.lbl_Joueur3_Age.Size = New System.Drawing.Size(147, 65)
         Me.lbl_Joueur3_Age.TabIndex = 1
-        Me.lbl_Joueur3_Age.Text = "Age :"
+        Me.lbl_Joueur3_Age.Text = "Âge :"
         Me.lbl_Joueur3_Age.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'txt_Joueur3_Nom
@@ -293,6 +300,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.validj3.AutoSize = True
         Me.validj3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.validj3.Font = New System.Drawing.Font("Segoe UI", 8.25!)
         Me.validj3.Location = New System.Drawing.Point(315, 3)
         Me.validj3.Name = "validj3"
         Me.validj3.Size = New System.Drawing.Size(73, 52)
@@ -321,6 +329,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.lbl_Joueur2.AutoSize = True
         Me.lbl_Joueur2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lbl_Joueur2.Font = New System.Drawing.Font("Segoe UI", 8.25!)
         Me.lbl_Joueur2.Location = New System.Drawing.Point(3, 0)
         Me.lbl_Joueur2.Name = "lbl_Joueur2"
         Me.lbl_Joueur2.Size = New System.Drawing.Size(306, 57)
@@ -350,6 +359,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.lbl_Joueur2_Nom.AutoSize = True
         Me.lbl_Joueur2_Nom.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lbl_Joueur2_Nom.Font = New System.Drawing.Font("Segoe UI", 8.25!)
         Me.lbl_Joueur2_Nom.Location = New System.Drawing.Point(3, 0)
         Me.lbl_Joueur2_Nom.Name = "lbl_Joueur2_Nom"
         Me.lbl_Joueur2_Nom.Size = New System.Drawing.Size(147, 65)
@@ -361,11 +371,12 @@ Partial Class frm_CreationJoueurs
         '
         Me.lbl_Joueur2_Age.AutoSize = True
         Me.lbl_Joueur2_Age.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lbl_Joueur2_Age.Font = New System.Drawing.Font("Segoe UI", 8.25!)
         Me.lbl_Joueur2_Age.Location = New System.Drawing.Point(3, 65)
         Me.lbl_Joueur2_Age.Name = "lbl_Joueur2_Age"
         Me.lbl_Joueur2_Age.Size = New System.Drawing.Size(147, 65)
         Me.lbl_Joueur2_Age.TabIndex = 1
-        Me.lbl_Joueur2_Age.Text = "Age :"
+        Me.lbl_Joueur2_Age.Text = "Âge :"
         Me.lbl_Joueur2_Age.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'txt_Joueur2_Nom
@@ -390,6 +401,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.validj2.AutoSize = True
         Me.validj2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.validj2.Font = New System.Drawing.Font("Segoe UI", 8.25!)
         Me.validj2.Location = New System.Drawing.Point(315, 3)
         Me.validj2.Name = "validj2"
         Me.validj2.Size = New System.Drawing.Size(73, 51)
@@ -418,6 +430,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.lbl_Joueur1.AutoSize = True
         Me.lbl_Joueur1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lbl_Joueur1.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_Joueur1.Location = New System.Drawing.Point(3, 0)
         Me.lbl_Joueur1.Name = "lbl_Joueur1"
         Me.lbl_Joueur1.Size = New System.Drawing.Size(306, 57)
@@ -447,6 +460,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.lbl_Joueur1_Nom.AutoSize = True
         Me.lbl_Joueur1_Nom.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lbl_Joueur1_Nom.Font = New System.Drawing.Font("Segoe UI", 8.25!)
         Me.lbl_Joueur1_Nom.Location = New System.Drawing.Point(3, 0)
         Me.lbl_Joueur1_Nom.Name = "lbl_Joueur1_Nom"
         Me.lbl_Joueur1_Nom.Size = New System.Drawing.Size(147, 65)
@@ -458,11 +472,12 @@ Partial Class frm_CreationJoueurs
         '
         Me.lbl_Joueur1_Age.AutoSize = True
         Me.lbl_Joueur1_Age.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lbl_Joueur1_Age.Font = New System.Drawing.Font("Segoe UI", 8.25!)
         Me.lbl_Joueur1_Age.Location = New System.Drawing.Point(3, 65)
         Me.lbl_Joueur1_Age.Name = "lbl_Joueur1_Age"
         Me.lbl_Joueur1_Age.Size = New System.Drawing.Size(147, 65)
         Me.lbl_Joueur1_Age.TabIndex = 1
-        Me.lbl_Joueur1_Age.Text = "Age :"
+        Me.lbl_Joueur1_Age.Text = "Âge :"
         Me.lbl_Joueur1_Age.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'txt_Joueur1_Nom
@@ -487,6 +502,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.validj1.AutoSize = True
         Me.validj1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.validj1.Font = New System.Drawing.Font("Segoe UI", 8.25!)
         Me.validj1.Location = New System.Drawing.Point(315, 3)
         Me.validj1.Name = "validj1"
         Me.validj1.Size = New System.Drawing.Size(73, 51)
