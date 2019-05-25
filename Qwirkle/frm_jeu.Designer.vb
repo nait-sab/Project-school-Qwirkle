@@ -38,61 +38,23 @@ Partial Class frm_jeu
         Me.picBox2 = New System.Windows.Forms.PictureBox()
         Me.picBox1 = New System.Windows.Forms.PictureBox()
         Me.TableLayoutPanel4 = New System.Windows.Forms.TableLayoutPanel()
-        Me.grille_2_3 = New System.Windows.Forms.PictureBox()
-        Me.grille_2_2 = New System.Windows.Forms.PictureBox()
-        Me.grille_2_1 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_30 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_29 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_28 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_27 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_26 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_25 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_24 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_23 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_22 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_21 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_20 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_19 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_18 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_17 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_16 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_15 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_14 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_13 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_12 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_11 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_10 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_9 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_8 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_7 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_6 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_5 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_4 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_3 = New System.Windows.Forms.PictureBox()
-        Me.grille_1_2 = New System.Windows.Forms.PictureBox()
         Me.grille_1_1 = New System.Windows.Forms.PictureBox()
-        Me.TableLayoutPanel7 = New System.Windows.Forms.TableLayoutPanel()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.labelcurrentplayer = New System.Windows.Forms.Label()
         Me.TableLayoutPanel5 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel6 = New System.Windows.Forms.TableLayoutPanel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel8 = New System.Windows.Forms.TableLayoutPanel()
         Me.pannelj1 = New System.Windows.Forms.TableLayoutPanel()
-        Me.labnamej1 = New System.Windows.Forms.Label()
-        Me.labscj1 = New System.Windows.Forms.Label()
+        Me.lbl_j1_nom = New System.Windows.Forms.Label()
+        Me.lbl_j1_score = New System.Windows.Forms.Label()
         Me.pannelj2 = New System.Windows.Forms.TableLayoutPanel()
-        Me.labnamej2 = New System.Windows.Forms.Label()
-        Me.labelscj2 = New System.Windows.Forms.Label()
+        Me.lbl_j2_nom = New System.Windows.Forms.Label()
+        Me.lbl_j2_score = New System.Windows.Forms.Label()
         Me.pannelj3 = New System.Windows.Forms.TableLayoutPanel()
-        Me.labnamej3 = New System.Windows.Forms.Label()
-        Me.labelscj3 = New System.Windows.Forms.Label()
+        Me.lbl_j3_nom = New System.Windows.Forms.Label()
+        Me.lbl_j3_score = New System.Windows.Forms.Label()
         Me.pannelj4 = New System.Windows.Forms.TableLayoutPanel()
-        Me.lanamej4 = New System.Windows.Forms.Label()
-        Me.labelscj4 = New System.Windows.Forms.Label()
-        Me.panel_pioche = New System.Windows.Forms.TableLayoutPanel()
-        Me.lbl_pioche = New System.Windows.Forms.Label()
-        Me.pictureboxpioche = New System.Windows.Forms.PictureBox()
+        Me.lbl_j4_nom = New System.Windows.Forms.Label()
+        Me.lbl_j4_score = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.TableLayoutPanel2.SuspendLayout()
         Me.TableLayoutPanel3.SuspendLayout()
@@ -103,40 +65,7 @@ Partial Class frm_jeu
         CType(Me.picBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel4.SuspendLayout()
-        CType(Me.grille_2_3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_2_2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_2_1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_30, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_29, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_28, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_27, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_26, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_25, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_24, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_23, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_22, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_21, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_20, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_19, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_18, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_17, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_16, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_15, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_14, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_13, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_12, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_11, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_9, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grille_1_2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.grille_1_1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.TableLayoutPanel7.SuspendLayout()
         Me.TableLayoutPanel5.SuspendLayout()
         Me.TableLayoutPanel6.SuspendLayout()
         Me.TableLayoutPanel8.SuspendLayout()
@@ -144,8 +73,6 @@ Partial Class frm_jeu
         Me.pannelj2.SuspendLayout()
         Me.pannelj3.SuspendLayout()
         Me.pannelj4.SuspendLayout()
-        Me.panel_pioche.SuspendLayout()
-        CType(Me.pictureboxpioche, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TableLayoutPanel1
@@ -158,9 +85,7 @@ Partial Class frm_jeu
         Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel2, 0, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel3, 1, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel4, 1, 0)
-        Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel7, 2, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel5, 2, 0)
-        Me.TableLayoutPanel1.Controls.Add(Me.panel_pioche, 0, 1)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
@@ -375,38 +300,6 @@ Partial Class frm_jeu
         Me.TableLayoutPanel4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3.333333!))
         Me.TableLayoutPanel4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3.333333!))
         Me.TableLayoutPanel4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3.333333!))
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_2_3, 2, 1)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_2_2, 1, 1)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_2_1, 0, 1)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_30, 29, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_29, 28, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_28, 27, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_27, 26, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_26, 25, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_25, 24, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_24, 23, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_23, 22, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_22, 21, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_21, 20, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_20, 19, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_19, 18, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_18, 17, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_17, 16, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_16, 15, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_15, 14, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_14, 13, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_13, 12, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_12, 11, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_11, 10, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_10, 9, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_9, 8, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_8, 7, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_7, 6, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_6, 5, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_5, 4, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_4, 3, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_3, 2, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.grille_1_2, 1, 0)
         Me.TableLayoutPanel4.Controls.Add(Me.grille_1_1, 0, 0)
         Me.TableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel4.Location = New System.Drawing.Point(255, 3)
@@ -445,326 +338,6 @@ Partial Class frm_jeu
         Me.TableLayoutPanel4.Size = New System.Drawing.Size(752, 593)
         Me.TableLayoutPanel4.TabIndex = 3
         '
-        'grille_2_3
-        '
-        Me.grille_2_3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_2_3.Location = New System.Drawing.Point(54, 23)
-        Me.grille_2_3.Name = "grille_2_3"
-        Me.grille_2_3.Size = New System.Drawing.Size(18, 12)
-        Me.grille_2_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_2_3.TabIndex = 32
-        Me.grille_2_3.TabStop = False
-        '
-        'grille_2_2
-        '
-        Me.grille_2_2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_2_2.Location = New System.Drawing.Point(29, 23)
-        Me.grille_2_2.Name = "grille_2_2"
-        Me.grille_2_2.Size = New System.Drawing.Size(18, 12)
-        Me.grille_2_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_2_2.TabIndex = 31
-        Me.grille_2_2.TabStop = False
-        '
-        'grille_2_1
-        '
-        Me.grille_2_1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_2_1.Location = New System.Drawing.Point(4, 23)
-        Me.grille_2_1.Name = "grille_2_1"
-        Me.grille_2_1.Size = New System.Drawing.Size(18, 12)
-        Me.grille_2_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_2_1.TabIndex = 30
-        Me.grille_2_1.TabStop = False
-        '
-        'grille_1_30
-        '
-        Me.grille_1_30.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_30.Location = New System.Drawing.Point(729, 4)
-        Me.grille_1_30.Name = "grille_1_30"
-        Me.grille_1_30.Size = New System.Drawing.Size(19, 12)
-        Me.grille_1_30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_30.TabIndex = 29
-        Me.grille_1_30.TabStop = False
-        '
-        'grille_1_29
-        '
-        Me.grille_1_29.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_29.Location = New System.Drawing.Point(704, 4)
-        Me.grille_1_29.Name = "grille_1_29"
-        Me.grille_1_29.Size = New System.Drawing.Size(18, 12)
-        Me.grille_1_29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_29.TabIndex = 28
-        Me.grille_1_29.TabStop = False
-        '
-        'grille_1_28
-        '
-        Me.grille_1_28.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_28.Location = New System.Drawing.Point(679, 4)
-        Me.grille_1_28.Name = "grille_1_28"
-        Me.grille_1_28.Size = New System.Drawing.Size(18, 12)
-        Me.grille_1_28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_28.TabIndex = 27
-        Me.grille_1_28.TabStop = False
-        '
-        'grille_1_27
-        '
-        Me.grille_1_27.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_27.Location = New System.Drawing.Point(654, 4)
-        Me.grille_1_27.Name = "grille_1_27"
-        Me.grille_1_27.Size = New System.Drawing.Size(18, 12)
-        Me.grille_1_27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_27.TabIndex = 26
-        Me.grille_1_27.TabStop = False
-        '
-        'grille_1_26
-        '
-        Me.grille_1_26.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_26.Location = New System.Drawing.Point(629, 4)
-        Me.grille_1_26.Name = "grille_1_26"
-        Me.grille_1_26.Size = New System.Drawing.Size(18, 12)
-        Me.grille_1_26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_26.TabIndex = 25
-        Me.grille_1_26.TabStop = False
-        '
-        'grille_1_25
-        '
-        Me.grille_1_25.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_25.Location = New System.Drawing.Point(604, 4)
-        Me.grille_1_25.Name = "grille_1_25"
-        Me.grille_1_25.Size = New System.Drawing.Size(18, 12)
-        Me.grille_1_25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_25.TabIndex = 24
-        Me.grille_1_25.TabStop = False
-        '
-        'grille_1_24
-        '
-        Me.grille_1_24.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_24.Location = New System.Drawing.Point(579, 4)
-        Me.grille_1_24.Name = "grille_1_24"
-        Me.grille_1_24.Size = New System.Drawing.Size(18, 12)
-        Me.grille_1_24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_24.TabIndex = 23
-        Me.grille_1_24.TabStop = False
-        '
-        'grille_1_23
-        '
-        Me.grille_1_23.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_23.Location = New System.Drawing.Point(554, 4)
-        Me.grille_1_23.Name = "grille_1_23"
-        Me.grille_1_23.Size = New System.Drawing.Size(18, 12)
-        Me.grille_1_23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_23.TabIndex = 22
-        Me.grille_1_23.TabStop = False
-        '
-        'grille_1_22
-        '
-        Me.grille_1_22.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_22.Location = New System.Drawing.Point(529, 4)
-        Me.grille_1_22.Name = "grille_1_22"
-        Me.grille_1_22.Size = New System.Drawing.Size(18, 12)
-        Me.grille_1_22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_22.TabIndex = 21
-        Me.grille_1_22.TabStop = False
-        '
-        'grille_1_21
-        '
-        Me.grille_1_21.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_21.Location = New System.Drawing.Point(504, 4)
-        Me.grille_1_21.Name = "grille_1_21"
-        Me.grille_1_21.Size = New System.Drawing.Size(18, 12)
-        Me.grille_1_21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_21.TabIndex = 20
-        Me.grille_1_21.TabStop = False
-        '
-        'grille_1_20
-        '
-        Me.grille_1_20.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_20.Location = New System.Drawing.Point(479, 4)
-        Me.grille_1_20.Name = "grille_1_20"
-        Me.grille_1_20.Size = New System.Drawing.Size(18, 12)
-        Me.grille_1_20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_20.TabIndex = 19
-        Me.grille_1_20.TabStop = False
-        '
-        'grille_1_19
-        '
-        Me.grille_1_19.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_19.Location = New System.Drawing.Point(454, 4)
-        Me.grille_1_19.Name = "grille_1_19"
-        Me.grille_1_19.Size = New System.Drawing.Size(18, 12)
-        Me.grille_1_19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_19.TabIndex = 18
-        Me.grille_1_19.TabStop = False
-        '
-        'grille_1_18
-        '
-        Me.grille_1_18.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_18.Location = New System.Drawing.Point(429, 4)
-        Me.grille_1_18.Name = "grille_1_18"
-        Me.grille_1_18.Size = New System.Drawing.Size(18, 12)
-        Me.grille_1_18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_18.TabIndex = 17
-        Me.grille_1_18.TabStop = False
-        '
-        'grille_1_17
-        '
-        Me.grille_1_17.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_17.Location = New System.Drawing.Point(404, 4)
-        Me.grille_1_17.Name = "grille_1_17"
-        Me.grille_1_17.Size = New System.Drawing.Size(18, 12)
-        Me.grille_1_17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_17.TabIndex = 16
-        Me.grille_1_17.TabStop = False
-        '
-        'grille_1_16
-        '
-        Me.grille_1_16.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_16.Location = New System.Drawing.Point(379, 4)
-        Me.grille_1_16.Name = "grille_1_16"
-        Me.grille_1_16.Size = New System.Drawing.Size(18, 12)
-        Me.grille_1_16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_16.TabIndex = 15
-        Me.grille_1_16.TabStop = False
-        '
-        'grille_1_15
-        '
-        Me.grille_1_15.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_15.Location = New System.Drawing.Point(354, 4)
-        Me.grille_1_15.Name = "grille_1_15"
-        Me.grille_1_15.Size = New System.Drawing.Size(18, 12)
-        Me.grille_1_15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_15.TabIndex = 14
-        Me.grille_1_15.TabStop = False
-        '
-        'grille_1_14
-        '
-        Me.grille_1_14.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_14.Location = New System.Drawing.Point(329, 4)
-        Me.grille_1_14.Name = "grille_1_14"
-        Me.grille_1_14.Size = New System.Drawing.Size(18, 12)
-        Me.grille_1_14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_14.TabIndex = 13
-        Me.grille_1_14.TabStop = False
-        '
-        'grille_1_13
-        '
-        Me.grille_1_13.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_13.Location = New System.Drawing.Point(304, 4)
-        Me.grille_1_13.Name = "grille_1_13"
-        Me.grille_1_13.Size = New System.Drawing.Size(18, 12)
-        Me.grille_1_13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_13.TabIndex = 12
-        Me.grille_1_13.TabStop = False
-        '
-        'grille_1_12
-        '
-        Me.grille_1_12.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_12.Location = New System.Drawing.Point(279, 4)
-        Me.grille_1_12.Name = "grille_1_12"
-        Me.grille_1_12.Size = New System.Drawing.Size(18, 12)
-        Me.grille_1_12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_12.TabIndex = 11
-        Me.grille_1_12.TabStop = False
-        '
-        'grille_1_11
-        '
-        Me.grille_1_11.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_11.Location = New System.Drawing.Point(254, 4)
-        Me.grille_1_11.Name = "grille_1_11"
-        Me.grille_1_11.Size = New System.Drawing.Size(18, 12)
-        Me.grille_1_11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_11.TabIndex = 10
-        Me.grille_1_11.TabStop = False
-        '
-        'grille_1_10
-        '
-        Me.grille_1_10.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_10.Location = New System.Drawing.Point(229, 4)
-        Me.grille_1_10.Name = "grille_1_10"
-        Me.grille_1_10.Size = New System.Drawing.Size(18, 12)
-        Me.grille_1_10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_10.TabIndex = 9
-        Me.grille_1_10.TabStop = False
-        '
-        'grille_1_9
-        '
-        Me.grille_1_9.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_9.Location = New System.Drawing.Point(204, 4)
-        Me.grille_1_9.Name = "grille_1_9"
-        Me.grille_1_9.Size = New System.Drawing.Size(18, 12)
-        Me.grille_1_9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_9.TabIndex = 8
-        Me.grille_1_9.TabStop = False
-        '
-        'grille_1_8
-        '
-        Me.grille_1_8.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_8.Location = New System.Drawing.Point(179, 4)
-        Me.grille_1_8.Name = "grille_1_8"
-        Me.grille_1_8.Size = New System.Drawing.Size(18, 12)
-        Me.grille_1_8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_8.TabIndex = 7
-        Me.grille_1_8.TabStop = False
-        '
-        'grille_1_7
-        '
-        Me.grille_1_7.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_7.Location = New System.Drawing.Point(154, 4)
-        Me.grille_1_7.Name = "grille_1_7"
-        Me.grille_1_7.Size = New System.Drawing.Size(18, 12)
-        Me.grille_1_7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_7.TabIndex = 6
-        Me.grille_1_7.TabStop = False
-        '
-        'grille_1_6
-        '
-        Me.grille_1_6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_6.Location = New System.Drawing.Point(129, 4)
-        Me.grille_1_6.Name = "grille_1_6"
-        Me.grille_1_6.Size = New System.Drawing.Size(18, 12)
-        Me.grille_1_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_6.TabIndex = 5
-        Me.grille_1_6.TabStop = False
-        '
-        'grille_1_5
-        '
-        Me.grille_1_5.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_5.Location = New System.Drawing.Point(104, 4)
-        Me.grille_1_5.Name = "grille_1_5"
-        Me.grille_1_5.Size = New System.Drawing.Size(18, 12)
-        Me.grille_1_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_5.TabIndex = 4
-        Me.grille_1_5.TabStop = False
-        '
-        'grille_1_4
-        '
-        Me.grille_1_4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_4.Location = New System.Drawing.Point(79, 4)
-        Me.grille_1_4.Name = "grille_1_4"
-        Me.grille_1_4.Size = New System.Drawing.Size(18, 12)
-        Me.grille_1_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_4.TabIndex = 3
-        Me.grille_1_4.TabStop = False
-        '
-        'grille_1_3
-        '
-        Me.grille_1_3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_3.Location = New System.Drawing.Point(54, 4)
-        Me.grille_1_3.Name = "grille_1_3"
-        Me.grille_1_3.Size = New System.Drawing.Size(18, 12)
-        Me.grille_1_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_3.TabIndex = 2
-        Me.grille_1_3.TabStop = False
-        '
-        'grille_1_2
-        '
-        Me.grille_1_2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grille_1_2.Location = New System.Drawing.Point(29, 4)
-        Me.grille_1_2.Name = "grille_1_2"
-        Me.grille_1_2.Size = New System.Drawing.Size(18, 12)
-        Me.grille_1_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.grille_1_2.TabIndex = 1
-        Me.grille_1_2.TabStop = False
-        '
         'grille_1_1
         '
         Me.grille_1_1.Dock = System.Windows.Forms.DockStyle.Fill
@@ -774,45 +347,6 @@ Partial Class frm_jeu
         Me.grille_1_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.grille_1_1.TabIndex = 0
         Me.grille_1_1.TabStop = False
-        '
-        'TableLayoutPanel7
-        '
-        Me.TableLayoutPanel7.ColumnCount = 1
-        Me.TableLayoutPanel7.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel7.Controls.Add(Me.Label3, 0, 0)
-        Me.TableLayoutPanel7.Controls.Add(Me.labelcurrentplayer, 0, 1)
-        Me.TableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel7.Location = New System.Drawing.Point(1013, 602)
-        Me.TableLayoutPanel7.Name = "TableLayoutPanel7"
-        Me.TableLayoutPanel7.RowCount = 2
-        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.83333!))
-        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 79.16666!))
-        Me.TableLayoutPanel7.Size = New System.Drawing.Size(248, 144)
-        Me.TableLayoutPanel7.TabIndex = 5
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label3.Location = New System.Drawing.Point(5, 5)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(5)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(238, 20)
-        Me.Label3.TabIndex = 0
-        Me.Label3.Text = "Joueur actuel :"
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'labelcurrentplayer
-        '
-        Me.labelcurrentplayer.AutoSize = True
-        Me.labelcurrentplayer.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.labelcurrentplayer.Location = New System.Drawing.Point(5, 35)
-        Me.labelcurrentplayer.Margin = New System.Windows.Forms.Padding(5)
-        Me.labelcurrentplayer.Name = "labelcurrentplayer"
-        Me.labelcurrentplayer.Size = New System.Drawing.Size(238, 104)
-        Me.labelcurrentplayer.TabIndex = 1
-        Me.labelcurrentplayer.Text = "Nom joueur actuel"
-        Me.labelcurrentplayer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'TableLayoutPanel5
         '
@@ -849,6 +383,7 @@ Partial Class frm_jeu
         '
         Me.Label1.AutoSize = True
         Me.Label1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(4, 1)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(234, 70)
@@ -881,8 +416,8 @@ Partial Class frm_jeu
         Me.pannelj1.ColumnCount = 2
         Me.pannelj1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.pannelj1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.pannelj1.Controls.Add(Me.labnamej1, 0, 0)
-        Me.pannelj1.Controls.Add(Me.labscj1, 1, 0)
+        Me.pannelj1.Controls.Add(Me.lbl_j1_nom, 0, 0)
+        Me.pannelj1.Controls.Add(Me.lbl_j1_score, 1, 0)
         Me.pannelj1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pannelj1.Location = New System.Drawing.Point(3, 3)
         Me.pannelj1.Name = "pannelj1"
@@ -891,28 +426,30 @@ Partial Class frm_jeu
         Me.pannelj1.Size = New System.Drawing.Size(228, 48)
         Me.pannelj1.TabIndex = 0
         '
-        'labnamej1
+        'lbl_j1_nom
         '
-        Me.labnamej1.AutoSize = True
-        Me.labnamej1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.labnamej1.Location = New System.Drawing.Point(1, 1)
-        Me.labnamej1.Margin = New System.Windows.Forms.Padding(0)
-        Me.labnamej1.Name = "labnamej1"
-        Me.labnamej1.Size = New System.Drawing.Size(112, 46)
-        Me.labnamej1.TabIndex = 0
-        Me.labnamej1.Text = "Nom j1"
-        Me.labnamej1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lbl_j1_nom.AutoSize = True
+        Me.lbl_j1_nom.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lbl_j1_nom.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_j1_nom.Location = New System.Drawing.Point(1, 1)
+        Me.lbl_j1_nom.Margin = New System.Windows.Forms.Padding(0)
+        Me.lbl_j1_nom.Name = "lbl_j1_nom"
+        Me.lbl_j1_nom.Size = New System.Drawing.Size(112, 46)
+        Me.lbl_j1_nom.TabIndex = 0
+        Me.lbl_j1_nom.Text = "NOM J1"
+        Me.lbl_j1_nom.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'labscj1
+        'lbl_j1_score
         '
-        Me.labscj1.AutoSize = True
-        Me.labscj1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.labscj1.Location = New System.Drawing.Point(117, 1)
-        Me.labscj1.Name = "labscj1"
-        Me.labscj1.Size = New System.Drawing.Size(107, 46)
-        Me.labscj1.TabIndex = 1
-        Me.labscj1.Text = "Score j1"
-        Me.labscj1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.lbl_j1_score.AutoSize = True
+        Me.lbl_j1_score.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lbl_j1_score.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_j1_score.Location = New System.Drawing.Point(117, 1)
+        Me.lbl_j1_score.Name = "lbl_j1_score"
+        Me.lbl_j1_score.Size = New System.Drawing.Size(107, 46)
+        Me.lbl_j1_score.TabIndex = 1
+        Me.lbl_j1_score.Text = "SCORE J1"
+        Me.lbl_j1_score.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'pannelj2
         '
@@ -920,8 +457,8 @@ Partial Class frm_jeu
         Me.pannelj2.ColumnCount = 2
         Me.pannelj2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.pannelj2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.pannelj2.Controls.Add(Me.labnamej2, 0, 0)
-        Me.pannelj2.Controls.Add(Me.labelscj2, 1, 0)
+        Me.pannelj2.Controls.Add(Me.lbl_j2_nom, 0, 0)
+        Me.pannelj2.Controls.Add(Me.lbl_j2_score, 1, 0)
         Me.pannelj2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pannelj2.Location = New System.Drawing.Point(3, 57)
         Me.pannelj2.Name = "pannelj2"
@@ -930,28 +467,30 @@ Partial Class frm_jeu
         Me.pannelj2.Size = New System.Drawing.Size(228, 48)
         Me.pannelj2.TabIndex = 1
         '
-        'labnamej2
+        'lbl_j2_nom
         '
-        Me.labnamej2.AutoSize = True
-        Me.labnamej2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.labnamej2.Location = New System.Drawing.Point(1, 1)
-        Me.labnamej2.Margin = New System.Windows.Forms.Padding(0)
-        Me.labnamej2.Name = "labnamej2"
-        Me.labnamej2.Size = New System.Drawing.Size(112, 46)
-        Me.labnamej2.TabIndex = 0
-        Me.labnamej2.Text = "Nom j2"
-        Me.labnamej2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lbl_j2_nom.AutoSize = True
+        Me.lbl_j2_nom.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lbl_j2_nom.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_j2_nom.Location = New System.Drawing.Point(1, 1)
+        Me.lbl_j2_nom.Margin = New System.Windows.Forms.Padding(0)
+        Me.lbl_j2_nom.Name = "lbl_j2_nom"
+        Me.lbl_j2_nom.Size = New System.Drawing.Size(112, 46)
+        Me.lbl_j2_nom.TabIndex = 0
+        Me.lbl_j2_nom.Text = "NOM J2"
+        Me.lbl_j2_nom.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'labelscj2
+        'lbl_j2_score
         '
-        Me.labelscj2.AutoSize = True
-        Me.labelscj2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.labelscj2.Location = New System.Drawing.Point(117, 1)
-        Me.labelscj2.Name = "labelscj2"
-        Me.labelscj2.Size = New System.Drawing.Size(107, 46)
-        Me.labelscj2.TabIndex = 1
-        Me.labelscj2.Text = "Score j2"
-        Me.labelscj2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.lbl_j2_score.AutoSize = True
+        Me.lbl_j2_score.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lbl_j2_score.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_j2_score.Location = New System.Drawing.Point(117, 1)
+        Me.lbl_j2_score.Name = "lbl_j2_score"
+        Me.lbl_j2_score.Size = New System.Drawing.Size(107, 46)
+        Me.lbl_j2_score.TabIndex = 1
+        Me.lbl_j2_score.Text = "SCORE J2"
+        Me.lbl_j2_score.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'pannelj3
         '
@@ -959,8 +498,8 @@ Partial Class frm_jeu
         Me.pannelj3.ColumnCount = 2
         Me.pannelj3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.pannelj3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.pannelj3.Controls.Add(Me.labnamej3, 0, 0)
-        Me.pannelj3.Controls.Add(Me.labelscj3, 1, 0)
+        Me.pannelj3.Controls.Add(Me.lbl_j3_nom, 0, 0)
+        Me.pannelj3.Controls.Add(Me.lbl_j3_score, 1, 0)
         Me.pannelj3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pannelj3.Location = New System.Drawing.Point(3, 111)
         Me.pannelj3.Name = "pannelj3"
@@ -969,28 +508,30 @@ Partial Class frm_jeu
         Me.pannelj3.Size = New System.Drawing.Size(228, 48)
         Me.pannelj3.TabIndex = 2
         '
-        'labnamej3
+        'lbl_j3_nom
         '
-        Me.labnamej3.AutoSize = True
-        Me.labnamej3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.labnamej3.Location = New System.Drawing.Point(1, 1)
-        Me.labnamej3.Margin = New System.Windows.Forms.Padding(0)
-        Me.labnamej3.Name = "labnamej3"
-        Me.labnamej3.Size = New System.Drawing.Size(112, 46)
-        Me.labnamej3.TabIndex = 0
-        Me.labnamej3.Text = "Nom j3"
-        Me.labnamej3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lbl_j3_nom.AutoSize = True
+        Me.lbl_j3_nom.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lbl_j3_nom.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_j3_nom.Location = New System.Drawing.Point(1, 1)
+        Me.lbl_j3_nom.Margin = New System.Windows.Forms.Padding(0)
+        Me.lbl_j3_nom.Name = "lbl_j3_nom"
+        Me.lbl_j3_nom.Size = New System.Drawing.Size(112, 46)
+        Me.lbl_j3_nom.TabIndex = 0
+        Me.lbl_j3_nom.Text = "NOM J3"
+        Me.lbl_j3_nom.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'labelscj3
+        'lbl_j3_score
         '
-        Me.labelscj3.AutoSize = True
-        Me.labelscj3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.labelscj3.Location = New System.Drawing.Point(117, 1)
-        Me.labelscj3.Name = "labelscj3"
-        Me.labelscj3.Size = New System.Drawing.Size(107, 46)
-        Me.labelscj3.TabIndex = 1
-        Me.labelscj3.Text = "Score j3"
-        Me.labelscj3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.lbl_j3_score.AutoSize = True
+        Me.lbl_j3_score.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lbl_j3_score.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_j3_score.Location = New System.Drawing.Point(117, 1)
+        Me.lbl_j3_score.Name = "lbl_j3_score"
+        Me.lbl_j3_score.Size = New System.Drawing.Size(107, 46)
+        Me.lbl_j3_score.TabIndex = 1
+        Me.lbl_j3_score.Text = "SCORE J3"
+        Me.lbl_j3_score.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'pannelj4
         '
@@ -998,8 +539,8 @@ Partial Class frm_jeu
         Me.pannelj4.ColumnCount = 2
         Me.pannelj4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.pannelj4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.pannelj4.Controls.Add(Me.lanamej4, 0, 0)
-        Me.pannelj4.Controls.Add(Me.labelscj4, 1, 0)
+        Me.pannelj4.Controls.Add(Me.lbl_j4_nom, 0, 0)
+        Me.pannelj4.Controls.Add(Me.lbl_j4_score, 1, 0)
         Me.pannelj4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pannelj4.Location = New System.Drawing.Point(3, 165)
         Me.pannelj4.Name = "pannelj4"
@@ -1008,64 +549,30 @@ Partial Class frm_jeu
         Me.pannelj4.Size = New System.Drawing.Size(228, 51)
         Me.pannelj4.TabIndex = 3
         '
-        'lanamej4
+        'lbl_j4_nom
         '
-        Me.lanamej4.AutoSize = True
-        Me.lanamej4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.lanamej4.Location = New System.Drawing.Point(1, 1)
-        Me.lanamej4.Margin = New System.Windows.Forms.Padding(0)
-        Me.lanamej4.Name = "lanamej4"
-        Me.lanamej4.Size = New System.Drawing.Size(112, 49)
-        Me.lanamej4.TabIndex = 0
-        Me.lanamej4.Text = "Nom j4"
-        Me.lanamej4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lbl_j4_nom.AutoSize = True
+        Me.lbl_j4_nom.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lbl_j4_nom.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_j4_nom.Location = New System.Drawing.Point(1, 1)
+        Me.lbl_j4_nom.Margin = New System.Windows.Forms.Padding(0)
+        Me.lbl_j4_nom.Name = "lbl_j4_nom"
+        Me.lbl_j4_nom.Size = New System.Drawing.Size(112, 49)
+        Me.lbl_j4_nom.TabIndex = 0
+        Me.lbl_j4_nom.Text = "NOM J4"
+        Me.lbl_j4_nom.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'labelscj4
+        'lbl_j4_score
         '
-        Me.labelscj4.AutoSize = True
-        Me.labelscj4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.labelscj4.Location = New System.Drawing.Point(117, 1)
-        Me.labelscj4.Name = "labelscj4"
-        Me.labelscj4.Size = New System.Drawing.Size(107, 49)
-        Me.labelscj4.TabIndex = 1
-        Me.labelscj4.Text = "Score j4"
-        Me.labelscj4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'panel_pioche
-        '
-        Me.panel_pioche.ColumnCount = 2
-        Me.panel_pioche.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.panel_pioche.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.panel_pioche.Controls.Add(Me.pictureboxpioche, 1, 0)
-        Me.panel_pioche.Controls.Add(Me.lbl_pioche, 0, 0)
-        Me.panel_pioche.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.panel_pioche.Location = New System.Drawing.Point(3, 602)
-        Me.panel_pioche.Name = "panel_pioche"
-        Me.panel_pioche.RowCount = 1
-        Me.panel_pioche.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.panel_pioche.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.panel_pioche.Size = New System.Drawing.Size(246, 144)
-        Me.panel_pioche.TabIndex = 8
-        '
-        'lbl_pioche
-        '
-        Me.lbl_pioche.AutoSize = True
-        Me.lbl_pioche.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.lbl_pioche.Location = New System.Drawing.Point(3, 0)
-        Me.lbl_pioche.Name = "lbl_pioche"
-        Me.lbl_pioche.Size = New System.Drawing.Size(117, 144)
-        Me.lbl_pioche.TabIndex = 0
-        Me.lbl_pioche.Text = "Pioche"
-        Me.lbl_pioche.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'pictureboxpioche
-        '
-        Me.pictureboxpioche.Dock = System.Windows.Forms.DockStyle.Right
-        Me.pictureboxpioche.Location = New System.Drawing.Point(126, 3)
-        Me.pictureboxpioche.Name = "pictureboxpioche"
-        Me.pictureboxpioche.Size = New System.Drawing.Size(117, 138)
-        Me.pictureboxpioche.TabIndex = 7
-        Me.pictureboxpioche.TabStop = False
+        Me.lbl_j4_score.AutoSize = True
+        Me.lbl_j4_score.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lbl_j4_score.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_j4_score.Location = New System.Drawing.Point(117, 1)
+        Me.lbl_j4_score.Name = "lbl_j4_score"
+        Me.lbl_j4_score.Size = New System.Drawing.Size(107, 49)
+        Me.lbl_j4_score.TabIndex = 1
+        Me.lbl_j4_score.Text = "SCORE J4"
+        Me.lbl_j4_score.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'frm_jeu
         '
@@ -1088,41 +595,7 @@ Partial Class frm_jeu
         CType(Me.picBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TableLayoutPanel4.ResumeLayout(False)
-        CType(Me.grille_2_3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_2_2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_2_1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_30, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_29, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_28, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_27, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_26, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_25, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_24, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_23, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_22, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_21, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_20, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_19, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_18, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_17, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_16, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_15, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_14, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_13, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_12, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_11, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_9, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grille_1_2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.grille_1_1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.TableLayoutPanel7.ResumeLayout(False)
-        Me.TableLayoutPanel7.PerformLayout()
         Me.TableLayoutPanel5.ResumeLayout(False)
         Me.TableLayoutPanel6.ResumeLayout(False)
         Me.TableLayoutPanel6.PerformLayout()
@@ -1135,9 +608,6 @@ Partial Class frm_jeu
         Me.pannelj3.PerformLayout()
         Me.pannelj4.ResumeLayout(False)
         Me.pannelj4.PerformLayout()
-        Me.panel_pioche.ResumeLayout(False)
-        Me.panel_pioche.PerformLayout()
-        CType(Me.pictureboxpioche, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1157,43 +627,6 @@ Partial Class frm_jeu
     Friend WithEvents picBox3 As PictureBox
     Friend WithEvents picBox2 As PictureBox
     Friend WithEvents picBox1 As PictureBox
-    Friend WithEvents TableLayoutPanel7 As TableLayoutPanel
-    Friend WithEvents Label3 As Label
-    Friend WithEvents labelcurrentplayer As Label
-    Friend WithEvents TableLayoutPanel4 As TableLayoutPanel
-    Friend WithEvents grille_2_3 As PictureBox
-    Friend WithEvents grille_2_2 As PictureBox
-    Friend WithEvents grille_2_1 As PictureBox
-    Friend WithEvents grille_1_30 As PictureBox
-    Friend WithEvents grille_1_29 As PictureBox
-    Friend WithEvents grille_1_28 As PictureBox
-    Friend WithEvents grille_1_27 As PictureBox
-    Friend WithEvents grille_1_26 As PictureBox
-    Friend WithEvents grille_1_25 As PictureBox
-    Friend WithEvents grille_1_24 As PictureBox
-    Friend WithEvents grille_1_23 As PictureBox
-    Friend WithEvents grille_1_22 As PictureBox
-    Friend WithEvents grille_1_21 As PictureBox
-    Friend WithEvents grille_1_20 As PictureBox
-    Friend WithEvents grille_1_19 As PictureBox
-    Friend WithEvents grille_1_18 As PictureBox
-    Friend WithEvents grille_1_17 As PictureBox
-    Friend WithEvents grille_1_16 As PictureBox
-    Friend WithEvents grille_1_15 As PictureBox
-    Friend WithEvents grille_1_14 As PictureBox
-    Friend WithEvents grille_1_13 As PictureBox
-    Friend WithEvents grille_1_12 As PictureBox
-    Friend WithEvents grille_1_11 As PictureBox
-    Friend WithEvents grille_1_10 As PictureBox
-    Friend WithEvents grille_1_9 As PictureBox
-    Friend WithEvents grille_1_8 As PictureBox
-    Friend WithEvents grille_1_7 As PictureBox
-    Friend WithEvents grille_1_6 As PictureBox
-    Friend WithEvents grille_1_5 As PictureBox
-    Friend WithEvents grille_1_4 As PictureBox
-    Friend WithEvents grille_1_3 As PictureBox
-    Friend WithEvents grille_1_2 As PictureBox
-    Friend WithEvents grille_1_1 As PictureBox
     Friend WithEvents TableLayoutPanel5 As TableLayoutPanel
     Friend WithEvents TableLayoutPanel6 As TableLayoutPanel
     Friend WithEvents Label1 As Label
@@ -1202,15 +635,14 @@ Partial Class frm_jeu
     Friend WithEvents pannelj2 As TableLayoutPanel
     Friend WithEvents pannelj3 As TableLayoutPanel
     Friend WithEvents pannelj4 As TableLayoutPanel
-    Friend WithEvents labnamej1 As Label
-    Friend WithEvents labscj1 As Label
-    Friend WithEvents labnamej2 As Label
-    Friend WithEvents labelscj2 As Label
-    Friend WithEvents labnamej3 As Label
-    Friend WithEvents labelscj3 As Label
-    Friend WithEvents lanamej4 As Label
-    Friend WithEvents labelscj4 As Label
-    Friend WithEvents panel_pioche As TableLayoutPanel
-    Friend WithEvents pictureboxpioche As PictureBox
-    Friend WithEvents lbl_pioche As Label
+    Friend WithEvents lbl_j1_nom As Label
+    Friend WithEvents lbl_j1_score As Label
+    Friend WithEvents lbl_j2_nom As Label
+    Friend WithEvents lbl_j2_score As Label
+    Friend WithEvents lbl_j3_nom As Label
+    Friend WithEvents lbl_j3_score As Label
+    Friend WithEvents lbl_j4_nom As Label
+    Friend WithEvents lbl_j4_score As Label
+    Friend WithEvents TableLayoutPanel4 As TableLayoutPanel
+    Friend WithEvents grille_1_1 As PictureBox
 End Class

@@ -22,6 +22,10 @@ namespace Qwirkle_lib
             this.m_main = null;
         }
 
+        // Piloter la main du joueur en lui donnant et prenant
+        public void addTuile(Tuile tuile) { this.m_main.Add(tuile); }
+        public void removeTuile(Tuile tuile) { this.m_main.Remove(tuile); }
+
         // Accesors
         public string getNom() { return this.m_nom; }
         public int getAge() { return this.m_age; }

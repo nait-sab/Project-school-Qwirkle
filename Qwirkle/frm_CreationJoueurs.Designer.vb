@@ -31,7 +31,7 @@ Partial Class frm_CreationJoueurs
         Me.lbl_Joueur4_Age = New System.Windows.Forms.Label()
         Me.txt_Joueur4_Nom = New System.Windows.Forms.TextBox()
         Me.txt_Joueur4_Age = New System.Windows.Forms.TextBox()
-        Me.validj4 = New System.Windows.Forms.CheckBox()
+        Me.check_j4 = New System.Windows.Forms.CheckBox()
         Me.pannelj3 = New System.Windows.Forms.TableLayoutPanel()
         Me.lbl_Joueur3 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel8 = New System.Windows.Forms.TableLayoutPanel()
@@ -39,7 +39,7 @@ Partial Class frm_CreationJoueurs
         Me.lbl_Joueur3_Age = New System.Windows.Forms.Label()
         Me.txt_Joueur3_Nom = New System.Windows.Forms.TextBox()
         Me.txt_Joueur3_Age = New System.Windows.Forms.TextBox()
-        Me.validj3 = New System.Windows.Forms.CheckBox()
+        Me.check_j3 = New System.Windows.Forms.CheckBox()
         Me.pannelj2 = New System.Windows.Forms.TableLayoutPanel()
         Me.lbl_Joueur2 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel6 = New System.Windows.Forms.TableLayoutPanel()
@@ -47,7 +47,7 @@ Partial Class frm_CreationJoueurs
         Me.lbl_Joueur2_Age = New System.Windows.Forms.Label()
         Me.txt_Joueur2_Nom = New System.Windows.Forms.TextBox()
         Me.txt_Joueur2_Age = New System.Windows.Forms.TextBox()
-        Me.validj2 = New System.Windows.Forms.CheckBox()
+        Me.check_j2 = New System.Windows.Forms.CheckBox()
         Me.pannelj1 = New System.Windows.Forms.TableLayoutPanel()
         Me.lbl_Joueur1 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel4 = New System.Windows.Forms.TableLayoutPanel()
@@ -55,7 +55,7 @@ Partial Class frm_CreationJoueurs
         Me.lbl_Joueur1_Age = New System.Windows.Forms.Label()
         Me.txt_Joueur1_Nom = New System.Windows.Forms.TextBox()
         Me.txt_Joueur1_Age = New System.Windows.Forms.TextBox()
-        Me.validj1 = New System.Windows.Forms.CheckBox()
+        Me.check_j1 = New System.Windows.Forms.CheckBox()
         Me.tableconfirmation = New System.Windows.Forms.TableLayoutPanel()
         Me.boutonvalidation = New System.Windows.Forms.Button()
         Me.cmd_Retour = New System.Windows.Forms.Button()
@@ -113,7 +113,7 @@ Partial Class frm_CreationJoueurs
         Me.pannelj4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.pannelj4.Controls.Add(Me.lbl_Joueur4, 0, 0)
         Me.pannelj4.Controls.Add(Me.TableLayoutPanel10, 0, 1)
-        Me.pannelj4.Controls.Add(Me.validj4, 1, 0)
+        Me.pannelj4.Controls.Add(Me.check_j4, 1, 0)
         Me.pannelj4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pannelj4.Location = New System.Drawing.Point(400, 202)
         Me.pannelj4.Name = "pannelj4"
@@ -195,17 +195,17 @@ Partial Class frm_CreationJoueurs
         Me.txt_Joueur4_Age.Size = New System.Drawing.Size(153, 20)
         Me.txt_Joueur4_Age.TabIndex = 3
         '
-        'validj4
+        'check_j4
         '
-        Me.validj4.AutoSize = True
-        Me.validj4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.validj4.Font = New System.Drawing.Font("Segoe UI", 8.25!)
-        Me.validj4.Location = New System.Drawing.Point(315, 3)
-        Me.validj4.Name = "validj4"
-        Me.validj4.Size = New System.Drawing.Size(73, 52)
-        Me.validj4.TabIndex = 3
-        Me.validj4.Text = "Valider"
-        Me.validj4.UseVisualStyleBackColor = True
+        Me.check_j4.AutoSize = True
+        Me.check_j4.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.check_j4.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        Me.check_j4.Location = New System.Drawing.Point(315, 3)
+        Me.check_j4.Name = "check_j4"
+        Me.check_j4.Size = New System.Drawing.Size(73, 52)
+        Me.check_j4.TabIndex = 3
+        Me.check_j4.Text = "Valider"
+        Me.check_j4.UseVisualStyleBackColor = True
         '
         'pannelj3
         '
@@ -214,7 +214,7 @@ Partial Class frm_CreationJoueurs
         Me.pannelj3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.pannelj3.Controls.Add(Me.lbl_Joueur3, 0, 0)
         Me.pannelj3.Controls.Add(Me.TableLayoutPanel8, 0, 1)
-        Me.pannelj3.Controls.Add(Me.validj3, 1, 0)
+        Me.pannelj3.Controls.Add(Me.check_j3, 1, 0)
         Me.pannelj3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pannelj3.Location = New System.Drawing.Point(3, 202)
         Me.pannelj3.Name = "pannelj3"
@@ -296,17 +296,17 @@ Partial Class frm_CreationJoueurs
         Me.txt_Joueur3_Age.Size = New System.Drawing.Size(153, 20)
         Me.txt_Joueur3_Age.TabIndex = 3
         '
-        'validj3
+        'check_j3
         '
-        Me.validj3.AutoSize = True
-        Me.validj3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.validj3.Font = New System.Drawing.Font("Segoe UI", 8.25!)
-        Me.validj3.Location = New System.Drawing.Point(315, 3)
-        Me.validj3.Name = "validj3"
-        Me.validj3.Size = New System.Drawing.Size(73, 52)
-        Me.validj3.TabIndex = 3
-        Me.validj3.Text = "Valider"
-        Me.validj3.UseVisualStyleBackColor = True
+        Me.check_j3.AutoSize = True
+        Me.check_j3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.check_j3.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        Me.check_j3.Location = New System.Drawing.Point(315, 3)
+        Me.check_j3.Name = "check_j3"
+        Me.check_j3.Size = New System.Drawing.Size(73, 52)
+        Me.check_j3.TabIndex = 3
+        Me.check_j3.Text = "Valider"
+        Me.check_j3.UseVisualStyleBackColor = True
         '
         'pannelj2
         '
@@ -315,7 +315,7 @@ Partial Class frm_CreationJoueurs
         Me.pannelj2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.pannelj2.Controls.Add(Me.lbl_Joueur2, 0, 0)
         Me.pannelj2.Controls.Add(Me.TableLayoutPanel6, 0, 1)
-        Me.pannelj2.Controls.Add(Me.validj2, 1, 0)
+        Me.pannelj2.Controls.Add(Me.check_j2, 1, 0)
         Me.pannelj2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pannelj2.Location = New System.Drawing.Point(400, 3)
         Me.pannelj2.Name = "pannelj2"
@@ -397,17 +397,17 @@ Partial Class frm_CreationJoueurs
         Me.txt_Joueur2_Age.Size = New System.Drawing.Size(153, 20)
         Me.txt_Joueur2_Age.TabIndex = 3
         '
-        'validj2
+        'check_j2
         '
-        Me.validj2.AutoSize = True
-        Me.validj2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.validj2.Font = New System.Drawing.Font("Segoe UI", 8.25!)
-        Me.validj2.Location = New System.Drawing.Point(315, 3)
-        Me.validj2.Name = "validj2"
-        Me.validj2.Size = New System.Drawing.Size(73, 51)
-        Me.validj2.TabIndex = 3
-        Me.validj2.Text = "Valider"
-        Me.validj2.UseVisualStyleBackColor = True
+        Me.check_j2.AutoSize = True
+        Me.check_j2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.check_j2.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        Me.check_j2.Location = New System.Drawing.Point(315, 3)
+        Me.check_j2.Name = "check_j2"
+        Me.check_j2.Size = New System.Drawing.Size(73, 51)
+        Me.check_j2.TabIndex = 3
+        Me.check_j2.Text = "Valider"
+        Me.check_j2.UseVisualStyleBackColor = True
         '
         'pannelj1
         '
@@ -416,7 +416,7 @@ Partial Class frm_CreationJoueurs
         Me.pannelj1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.pannelj1.Controls.Add(Me.lbl_Joueur1, 0, 0)
         Me.pannelj1.Controls.Add(Me.TableLayoutPanel4, 0, 1)
-        Me.pannelj1.Controls.Add(Me.validj1, 1, 0)
+        Me.pannelj1.Controls.Add(Me.check_j1, 1, 0)
         Me.pannelj1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pannelj1.Location = New System.Drawing.Point(3, 3)
         Me.pannelj1.Name = "pannelj1"
@@ -498,17 +498,17 @@ Partial Class frm_CreationJoueurs
         Me.txt_Joueur1_Age.Size = New System.Drawing.Size(153, 20)
         Me.txt_Joueur1_Age.TabIndex = 3
         '
-        'validj1
+        'check_j1
         '
-        Me.validj1.AutoSize = True
-        Me.validj1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.validj1.Font = New System.Drawing.Font("Segoe UI", 8.25!)
-        Me.validj1.Location = New System.Drawing.Point(315, 3)
-        Me.validj1.Name = "validj1"
-        Me.validj1.Size = New System.Drawing.Size(73, 51)
-        Me.validj1.TabIndex = 3
-        Me.validj1.Text = "Valider"
-        Me.validj1.UseVisualStyleBackColor = True
+        Me.check_j1.AutoSize = True
+        Me.check_j1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.check_j1.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        Me.check_j1.Location = New System.Drawing.Point(315, 3)
+        Me.check_j1.Name = "check_j1"
+        Me.check_j1.Size = New System.Drawing.Size(73, 51)
+        Me.check_j1.TabIndex = 3
+        Me.check_j1.Text = "Valider"
+        Me.check_j1.UseVisualStyleBackColor = True
         '
         'tableconfirmation
         '
@@ -608,10 +608,10 @@ Partial Class frm_CreationJoueurs
     Friend WithEvents lbl_Joueur1_Age As Label
     Friend WithEvents txt_Joueur1_Nom As TextBox
     Friend WithEvents txt_Joueur1_Age As TextBox
-    Friend WithEvents validj4 As CheckBox
-    Friend WithEvents validj3 As CheckBox
-    Friend WithEvents validj2 As CheckBox
-    Friend WithEvents validj1 As CheckBox
+    Friend WithEvents check_j4 As CheckBox
+    Friend WithEvents check_j3 As CheckBox
+    Friend WithEvents check_j2 As CheckBox
+    Friend WithEvents check_j1 As CheckBox
     Friend WithEvents tableconfirmation As TableLayoutPanel
     Friend WithEvents boutonvalidation As Button
     Friend WithEvents cmd_Retour As Button

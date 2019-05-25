@@ -19,9 +19,12 @@ namespace Qwirkle_lib
             this.m_nombre_joueurs = 0;
             this.m_joueur_actuel = 0;
             this.m_main_visible = null;
-            this.m_pioche = null;
             this.m_joueurs = null;
         }
+
+        // Piloter la pioche en lui donnant et prenant
+        public void addTuile(Tuile tuile) { this.m_pioche.Add(tuile); }
+        public void removeTuile(Tuile tuile) { this.m_pioche.Remove(tuile); }
 
         //Accesors
         public int getNombreJoueurs() { return this.m_nombre_joueurs; }
@@ -29,5 +32,7 @@ namespace Qwirkle_lib
         public List<Tuile> getMainVisible() { return this.m_main_visible; }
         public List<Tuile> getPioche() { return this.m_pioche; }
         public List<Joueur> getJoueurs() { return this.m_joueurs; }
+
+        public void setNombreJoueurs(int total) { this.m_nombre_joueurs = total; }
     }
 }

@@ -4,46 +4,46 @@
 
         'Affichage tableau des scores
 
-        If frm_nouvelle_partie.nbj = 2 Then
+        If jeu.getNombreJoueurs() = 2 Then
             pannelj3.Visible = False
             pannelj4.Visible = False
         End If
-        If frm_nouvelle_partie.nbj = 3 Then
+        If jeu.getNombreJoueurs() = 3 Then
             pannelj4.Visible = False
         End If
 
 
 
         'Affichage nom joueur gagnant
-        If (frm_jeu.scorej1 > frm_jeu.scorej2 And frm_jeu.scorej3 And frm_jeu.scorej4) Then
-            nomgagnant.Text = frm_jeu.nomj1.ToString
-        End If
+        'If (frm_jeu.scorej1 > frm_jeu.scorej2 And frm_jeu.scorej3 And frm_jeu.scorej4) Then
+        '    nomgagnant.Text = frm_jeu.nomj1.ToString
+        'End If
 
-        If (frm_jeu.scorej2 > frm_jeu.scorej1 And frm_jeu.scorej3 And frm_jeu.scorej4) Then
-            nomgagnant.Text = frm_jeu.nomj2.ToString
-        End If
+        'If (frm_jeu.scorej2 > frm_jeu.scorej1 And frm_jeu.scorej3 And frm_jeu.scorej4) Then
+        '    nomgagnant.Text = frm_jeu.nomj2.ToString
+        'End If
 
-        If (frm_jeu.scorej3 > frm_jeu.scorej1 And frm_jeu.scorej2 And frm_jeu.scorej4) Then
-            nomgagnant.Text = frm_jeu.nomj3.ToString
-        End If
+        'If (frm_jeu.scorej3 > frm_jeu.scorej1 And frm_jeu.scorej2 And frm_jeu.scorej4) Then
+        '    nomgagnant.Text = frm_jeu.nomj3.ToString
+        'End If
 
-        If (frm_jeu.scorej4 > frm_jeu.scorej1 And frm_jeu.scorej2 And frm_jeu.scorej3) Then
-            nomgagnant.Text = frm_jeu.nomj4.ToString
-        End If
+        'If (frm_jeu.scorej4 > frm_jeu.scorej1 And frm_jeu.scorej2 And frm_jeu.scorej3) Then
+        '    nomgagnant.Text = frm_jeu.nomj4.ToString
+        'End If
 
 
 
         'Affichage nom des joueurs
-        labj1.Text = frm_jeu.nomj1
-        labj2.Text = frm_jeu.nomj2
-        labj3.Text = frm_jeu.nomj3
-        labj4.Text = frm_jeu.nomj4
+        'labj1.Text = frm_jeu.nomj1
+        'labj2.Text = frm_jeu.nomj2
+        'labj3.Text = frm_jeu.nomj3
+        'labj4.Text = frm_jeu.nomj4
 
-        'Affichage score des joueurs
-        labscorej1.Text = frm_jeu.scorej1.ToString
-        labscorej2.Text = frm_jeu.scorej2.ToString
-        labscorej3.Text = frm_jeu.scorej3.ToString
-        labscorej4.Text = frm_jeu.scorej4.ToString
+        ''Affichage score des joueurs
+        'labscorej1.Text = frm_jeu.scorej1.ToString
+        'labscorej2.Text = frm_jeu.scorej2.ToString
+        'labscorej3.Text = frm_jeu.scorej3.ToString
+        'labscorej4.Text = frm_jeu.scorej4.ToString
 
 
 
