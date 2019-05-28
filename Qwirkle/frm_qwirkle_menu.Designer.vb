@@ -37,6 +37,7 @@ Partial Class frm_qwirkle_menu
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 30.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Label1.Location = New System.Drawing.Point(3, 50)
         Me.Label1.Margin = New System.Windows.Forms.Padding(3, 50, 3, 0)
         Me.Label1.Name = "Label1"
@@ -47,15 +48,17 @@ Partial Class frm_qwirkle_menu
         '
         'btn_nouvelle_partie
         '
+        Me.btn_nouvelle_partie.BackColor = System.Drawing.Color.Blue
         Me.btn_nouvelle_partie.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btn_nouvelle_partie.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_nouvelle_partie.ForeColor = System.Drawing.Color.Gold
         Me.btn_nouvelle_partie.Location = New System.Drawing.Point(300, 190)
         Me.btn_nouvelle_partie.Margin = New System.Windows.Forms.Padding(300, 50, 300, 50)
         Me.btn_nouvelle_partie.Name = "btn_nouvelle_partie"
         Me.btn_nouvelle_partie.Size = New System.Drawing.Size(284, 40)
         Me.btn_nouvelle_partie.TabIndex = 2
         Me.btn_nouvelle_partie.Text = "Nouvelle partie"
-        Me.btn_nouvelle_partie.UseVisualStyleBackColor = True
+        Me.btn_nouvelle_partie.UseVisualStyleBackColor = False
         '
         'TableLayoutPanel1
         '
@@ -69,6 +72,7 @@ Partial Class frm_qwirkle_menu
         Me.TableLayoutPanel1.Controls.Add(Me.btn_quitter, 0, 3)
         Me.TableLayoutPanel1.Controls.Add(Me.btn_aide, 0, 2)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TableLayoutPanel1.ForeColor = System.Drawing.Color.Gold
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 4
@@ -81,6 +85,7 @@ Partial Class frm_qwirkle_menu
         '
         'btn_quitter
         '
+        Me.btn_quitter.BackColor = System.Drawing.Color.Blue
         Me.btn_quitter.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btn_quitter.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_quitter.Location = New System.Drawing.Point(300, 470)
@@ -89,10 +94,11 @@ Partial Class frm_qwirkle_menu
         Me.btn_quitter.Size = New System.Drawing.Size(284, 41)
         Me.btn_quitter.TabIndex = 4
         Me.btn_quitter.Text = "Quitter"
-        Me.btn_quitter.UseVisualStyleBackColor = True
+        Me.btn_quitter.UseVisualStyleBackColor = False
         '
         'btn_aide
         '
+        Me.btn_aide.BackColor = System.Drawing.Color.Blue
         Me.btn_aide.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btn_aide.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_aide.Location = New System.Drawing.Point(300, 330)
@@ -101,7 +107,7 @@ Partial Class frm_qwirkle_menu
         Me.btn_aide.Size = New System.Drawing.Size(284, 40)
         Me.btn_aide.TabIndex = 3
         Me.btn_aide.Text = "Aide"
-        Me.btn_aide.UseVisualStyleBackColor = True
+        Me.btn_aide.UseVisualStyleBackColor = False
         '
         'frm_qwirkle_menu
         '

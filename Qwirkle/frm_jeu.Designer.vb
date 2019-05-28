@@ -134,58 +134,68 @@ Partial Class frm_jeu
         '
         'btn_abandonner
         '
+        Me.btn_abandonner.BackColor = System.Drawing.Color.Blue
         Me.btn_abandonner.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btn_abandonner.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_abandonner.ForeColor = System.Drawing.Color.Gold
         Me.btn_abandonner.Location = New System.Drawing.Point(3, 299)
         Me.btn_abandonner.Name = "btn_abandonner"
         Me.btn_abandonner.Size = New System.Drawing.Size(240, 68)
         Me.btn_abandonner.TabIndex = 4
         Me.btn_abandonner.Text = "Abandonner"
-        Me.btn_abandonner.UseVisualStyleBackColor = True
+        Me.btn_abandonner.UseVisualStyleBackColor = False
         '
         'btn_recommencer
         '
+        Me.btn_recommencer.BackColor = System.Drawing.Color.Blue
         Me.btn_recommencer.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btn_recommencer.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_recommencer.ForeColor = System.Drawing.Color.Gold
         Me.btn_recommencer.Location = New System.Drawing.Point(3, 225)
         Me.btn_recommencer.Name = "btn_recommencer"
         Me.btn_recommencer.Size = New System.Drawing.Size(240, 68)
         Me.btn_recommencer.TabIndex = 3
         Me.btn_recommencer.Text = "Recommencer"
-        Me.btn_recommencer.UseVisualStyleBackColor = True
+        Me.btn_recommencer.UseVisualStyleBackColor = False
         '
         'btn_aide
         '
+        Me.btn_aide.BackColor = System.Drawing.Color.Blue
         Me.btn_aide.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btn_aide.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_aide.ForeColor = System.Drawing.Color.Gold
         Me.btn_aide.Location = New System.Drawing.Point(3, 151)
         Me.btn_aide.Name = "btn_aide"
         Me.btn_aide.Size = New System.Drawing.Size(240, 68)
         Me.btn_aide.TabIndex = 2
         Me.btn_aide.Text = "Aide"
-        Me.btn_aide.UseVisualStyleBackColor = True
+        Me.btn_aide.UseVisualStyleBackColor = False
         '
         'btn_annuler
         '
+        Me.btn_annuler.BackColor = System.Drawing.Color.Blue
         Me.btn_annuler.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btn_annuler.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_annuler.ForeColor = System.Drawing.Color.Gold
         Me.btn_annuler.Location = New System.Drawing.Point(3, 77)
         Me.btn_annuler.Name = "btn_annuler"
         Me.btn_annuler.Size = New System.Drawing.Size(240, 68)
         Me.btn_annuler.TabIndex = 1
         Me.btn_annuler.Text = "Annuler(tab de fin pour tests)"
-        Me.btn_annuler.UseVisualStyleBackColor = True
+        Me.btn_annuler.UseVisualStyleBackColor = False
         '
         'btn_confirmer
         '
+        Me.btn_confirmer.BackColor = System.Drawing.Color.Blue
         Me.btn_confirmer.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btn_confirmer.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_confirmer.ForeColor = System.Drawing.Color.Gold
         Me.btn_confirmer.Location = New System.Drawing.Point(3, 3)
         Me.btn_confirmer.Name = "btn_confirmer"
         Me.btn_confirmer.Size = New System.Drawing.Size(240, 68)
         Me.btn_confirmer.TabIndex = 0
         Me.btn_confirmer.Text = "Confirmer"
-        Me.btn_confirmer.UseVisualStyleBackColor = True
+        Me.btn_confirmer.UseVisualStyleBackColor = False
         '
         'TableLayoutPanel3
         '
@@ -598,7 +608,7 @@ Partial Class frm_jeu
         Me.panel_tour.Name = "panel_tour"
         Me.panel_tour.RowCount = 1
         Me.panel_tour.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.panel_tour.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.panel_tour.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 144.0!))
         Me.panel_tour.Size = New System.Drawing.Size(248, 144)
         Me.panel_tour.TabIndex = 8
         '
@@ -627,7 +637,7 @@ Partial Class frm_jeu
         Me.panel_pioche.Name = "panel_pioche"
         Me.panel_pioche.RowCount = 1
         Me.panel_pioche.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.panel_pioche.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.panel_pioche.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 144.0!))
         Me.panel_pioche.Size = New System.Drawing.Size(246, 144)
         Me.panel_pioche.TabIndex = 9
         '

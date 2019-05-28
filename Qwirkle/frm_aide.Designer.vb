@@ -209,13 +209,15 @@ Partial Class frm_aide
         Me.helpclose.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.helpclose.BackColor = System.Drawing.Color.Blue
         Me.helpclose.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.helpclose.ForeColor = System.Drawing.Color.Gold
         Me.helpclose.Location = New System.Drawing.Point(260, 3)
         Me.helpclose.Name = "helpclose"
         Me.helpclose.Size = New System.Drawing.Size(251, 38)
         Me.helpclose.TabIndex = 0
         Me.helpclose.Text = "Fermer"
-        Me.helpclose.UseVisualStyleBackColor = True
+        Me.helpclose.UseVisualStyleBackColor = False
         '
         'frm_aide
         '

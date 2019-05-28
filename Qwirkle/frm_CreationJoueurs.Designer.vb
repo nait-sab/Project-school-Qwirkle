@@ -529,27 +529,31 @@ Partial Class frm_CreationJoueurs
         '
         'boutonvalidation
         '
+        Me.boutonvalidation.BackColor = System.Drawing.Color.Blue
         Me.boutonvalidation.Dock = System.Windows.Forms.DockStyle.Fill
         Me.boutonvalidation.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.boutonvalidation.ForeColor = System.Drawing.Color.Gold
         Me.boutonvalidation.Location = New System.Drawing.Point(100, 7)
         Me.boutonvalidation.Margin = New System.Windows.Forms.Padding(100, 7, 100, 3)
         Me.boutonvalidation.Name = "boutonvalidation"
         Me.boutonvalidation.Size = New System.Drawing.Size(435, 29)
         Me.boutonvalidation.TabIndex = 0
         Me.boutonvalidation.Text = "Valider création joueurs"
-        Me.boutonvalidation.UseVisualStyleBackColor = True
+        Me.boutonvalidation.UseVisualStyleBackColor = False
         '
         'cmd_Retour
         '
+        Me.cmd_Retour.BackColor = System.Drawing.Color.Blue
         Me.cmd_Retour.Dock = System.Windows.Forms.DockStyle.Fill
         Me.cmd_Retour.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmd_Retour.ForeColor = System.Drawing.Color.Gold
         Me.cmd_Retour.Location = New System.Drawing.Point(635, 7)
         Me.cmd_Retour.Margin = New System.Windows.Forms.Padding(0, 7, 0, 7)
         Me.cmd_Retour.Name = "cmd_Retour"
         Me.cmd_Retour.Size = New System.Drawing.Size(159, 25)
         Me.cmd_Retour.TabIndex = 1
         Me.cmd_Retour.Text = "Retour"
-        Me.cmd_Retour.UseVisualStyleBackColor = True
+        Me.cmd_Retour.UseVisualStyleBackColor = False
         '
         'frm_CreationJoueurs
         '

@@ -94,27 +94,31 @@ Partial Class frm_fin
         '
         'menubutton
         '
+        Me.menubutton.BackColor = System.Drawing.Color.Blue
         Me.menubutton.Dock = System.Windows.Forms.DockStyle.Fill
         Me.menubutton.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.menubutton.ForeColor = System.Drawing.Color.Gold
         Me.menubutton.Location = New System.Drawing.Point(50, 20)
         Me.menubutton.Margin = New System.Windows.Forms.Padding(50, 20, 50, 20)
         Me.menubutton.Name = "menubutton"
         Me.menubutton.Size = New System.Drawing.Size(314, 54)
         Me.menubutton.TabIndex = 0
         Me.menubutton.Text = "Recommencer"
-        Me.menubutton.UseVisualStyleBackColor = True
+        Me.menubutton.UseVisualStyleBackColor = False
         '
         'quitbutton
         '
+        Me.quitbutton.BackColor = System.Drawing.Color.Blue
         Me.quitbutton.Dock = System.Windows.Forms.DockStyle.Fill
         Me.quitbutton.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.quitbutton.ForeColor = System.Drawing.Color.Gold
         Me.quitbutton.Location = New System.Drawing.Point(464, 20)
         Me.quitbutton.Margin = New System.Windows.Forms.Padding(50, 20, 50, 20)
         Me.quitbutton.Name = "quitbutton"
         Me.quitbutton.Size = New System.Drawing.Size(364, 54)
         Me.quitbutton.TabIndex = 1
         Me.quitbutton.Text = "Quitter"
-        Me.quitbutton.UseVisualStyleBackColor = True
+        Me.quitbutton.UseVisualStyleBackColor = False
         '
         'Label1
         '
