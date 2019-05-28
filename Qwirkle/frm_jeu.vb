@@ -40,6 +40,7 @@
             pannelj4.Visible = False
         End If
 
+        'tests noms
         'joueur1.setNom("chris")
         'joueur2.setNom("Leonie")
         'joueur3.setNom("Charle")
@@ -50,12 +51,15 @@
         lbl_j1_score.Text = joueur1.getScore()
         lbl_j2_nom.Text = joueur2.getNom()
         lbl_j2_score.Text = joueur2.getScore()
-        lbl_j3_nom.Text = joueur3.getNom()
-        lbl_j3_score.Text = joueur3.getScore()
-        lbl_j4_nom.Text = joueur4.getNom()
-        lbl_j4_score.Text = joueur4.getScore()
-
-
+        'lbl_j3_nom.Text = joueur3.getNom()
+        'lbl_j3_score.Text = joueur3.getScore()
+        'lbl_j4_nom.Text = joueur4.getNom()
+        'lbl_j4_score.Text = joueur4.getScore()
+        For i As Byte = 0 To jeu.getNombreJoueurs - 1
+            Dim pannelj As TableLayoutPanel = TableLayoutPanel8.Controls("pannelj" & i + 1)
+            pannelj.Controls("lbl_j" & i + 1 & "_nom").Text = jeu.getJoueurs(i).getNom
+            pannelj.Controls("lbl_j" & i + 1 & "_score").Text = jeu.getJoueurs(i).getScore
+        Next
 
 
     End Sub

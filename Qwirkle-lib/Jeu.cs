@@ -19,12 +19,18 @@ namespace Qwirkle_lib
             this.m_nombre_joueurs = 0;
             this.m_joueur_actuel = 0;
             this.m_main_visible = null;
-            this.m_joueurs = null;
+            this.m_joueurs = new List<Joueur>();
+            this.m_pioche = new List<Tuile>();
         }
 
         // Piloter la pioche en lui donnant et prenant
         public void addTuile(Tuile tuile) { this.m_pioche.Add(tuile); }
         public void removeTuile(Tuile tuile) { this.m_pioche.Remove(tuile); }
+
+        public void addJoueur(Joueur joueur) { this.m_joueurs.Add(joueur); }
+        public void removeJoueur(Joueur joueur) { this.m_joueurs.Remove(joueur); }
+
+
 
         //Accesors
         public int getNombreJoueurs() { return this.m_nombre_joueurs; }

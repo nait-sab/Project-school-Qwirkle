@@ -36,20 +36,28 @@ Public Class frm_CreationJoueurs
 
     Private Sub boutonvalidation_Click(sender As Object, e As EventArgs) Handles boutonvalidation.Click
         If check_j1.Checked Then
-            joueur1.setNom(txt_Joueur1_Nom.Text)
-            joueur1.setAge(txt_Joueur1_Age.Text)
+            joueur1 = New Qwirkle_lib.Joueur(txt_Joueur1_Nom.Text, txt_Joueur1_Age.Text)
+            'joueur1.setNom(txt_Joueur1_Nom.Text)
+            'joueur1.setAge(txt_Joueur1_Age.Text)
+            jeu.addJoueur(joueur1)
         End If
-        If check_j1.Checked Then
-            joueur1.setNom(txt_Joueur1_Nom.Text)
-            joueur1.setAge(txt_Joueur1_Age.Text)
+        If check_j2.Checked Then
+            joueur2 = New Qwirkle_lib.Joueur(txt_Joueur2_Nom.Text, txt_Joueur2_Age.Text)
+            'joueur2.setNom(txt_Joueur2_Nom.Text)
+            'joueur2.setAge(txt_Joueur2_Age.Text)
+            jeu.addJoueur(joueur2)
         End If
-        If check_j1.Checked Then
-            joueur1.setNom(txt_Joueur1_Nom.Text)
-            joueur1.setAge(txt_Joueur1_Age.Text)
+        If check_j3.Checked Then
+            joueur3 = New Qwirkle_lib.Joueur(txt_Joueur3_Nom.Text, txt_Joueur3_Age.Text)
+            'joueur3.setNom(txt_Joueur3_Nom.Text)
+            'joueur3.setAge(txt_Joueur3_Age.Text)
+            jeu.addJoueur(joueur3)
         End If
-        If check_j1.Checked Then
-            joueur1.setNom(txt_Joueur1_Nom.Text)
-            joueur1.setAge(txt_Joueur1_Age.Text)
+        If check_j4.Checked Then
+            joueur4 = New Qwirkle_lib.Joueur(txt_Joueur4_Nom.Text, txt_Joueur4_Age.Text)
+            'joueur4.setNom(txt_Joueur4_Nom.Text)
+            'joueur4.setAge(txt_Joueur4_Age.Text)
+            jeu.addJoueur(joueur4)
         End If
         frm_jeu.Show()
         Me.Hide()
