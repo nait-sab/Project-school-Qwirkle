@@ -35,16 +35,16 @@ Partial Class frm_fin
         Me.Label3 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel6 = New System.Windows.Forms.TableLayoutPanel()
         Me.pannelj1 = New System.Windows.Forms.TableLayoutPanel()
-        Me.pannelj2 = New System.Windows.Forms.TableLayoutPanel()
-        Me.pannelj3 = New System.Windows.Forms.TableLayoutPanel()
-        Me.pannelj4 = New System.Windows.Forms.TableLayoutPanel()
         Me.labj1 = New System.Windows.Forms.Label()
         Me.labscorej1 = New System.Windows.Forms.Label()
+        Me.pannelj2 = New System.Windows.Forms.TableLayoutPanel()
         Me.labj2 = New System.Windows.Forms.Label()
-        Me.labj3 = New System.Windows.Forms.Label()
-        Me.labj4 = New System.Windows.Forms.Label()
         Me.labscorej2 = New System.Windows.Forms.Label()
+        Me.pannelj3 = New System.Windows.Forms.TableLayoutPanel()
+        Me.labj3 = New System.Windows.Forms.Label()
         Me.labscorej3 = New System.Windows.Forms.Label()
+        Me.pannelj4 = New System.Windows.Forms.TableLayoutPanel()
+        Me.labj4 = New System.Windows.Forms.Label()
         Me.labscorej4 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.TableLayoutPanel2.SuspendLayout()
@@ -60,6 +60,8 @@ Partial Class frm_fin
         '
         'TableLayoutPanel1
         '
+        Me.TableLayoutPanel1.BackColor = System.Drawing.Color.Transparent
+        Me.TableLayoutPanel1.BackgroundImage = Global.Qwirkle.My.Resources.Resources.arriere
         Me.TableLayoutPanel1.ColumnCount = 1
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel2, 0, 2)
@@ -93,11 +95,11 @@ Partial Class frm_fin
         'menubutton
         '
         Me.menubutton.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.menubutton.Font = New System.Drawing.Font("Segoe UI", 8.25!)
-        Me.menubutton.Location = New System.Drawing.Point(170, 50)
-        Me.menubutton.Margin = New System.Windows.Forms.Padding(170, 50, 40, 20)
+        Me.menubutton.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.menubutton.Location = New System.Drawing.Point(50, 20)
+        Me.menubutton.Margin = New System.Windows.Forms.Padding(50, 20, 50, 20)
         Me.menubutton.Name = "menubutton"
-        Me.menubutton.Size = New System.Drawing.Size(204, 24)
+        Me.menubutton.Size = New System.Drawing.Size(314, 54)
         Me.menubutton.TabIndex = 0
         Me.menubutton.Text = "Recommencer"
         Me.menubutton.UseVisualStyleBackColor = True
@@ -105,11 +107,11 @@ Partial Class frm_fin
         'quitbutton
         '
         Me.quitbutton.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.quitbutton.Font = New System.Drawing.Font("Segoe UI", 8.25!)
-        Me.quitbutton.Location = New System.Drawing.Point(454, 50)
-        Me.quitbutton.Margin = New System.Windows.Forms.Padding(40, 50, 170, 20)
+        Me.quitbutton.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.quitbutton.Location = New System.Drawing.Point(464, 20)
+        Me.quitbutton.Margin = New System.Windows.Forms.Padding(50, 20, 50, 20)
         Me.quitbutton.Name = "quitbutton"
-        Me.quitbutton.Size = New System.Drawing.Size(254, 24)
+        Me.quitbutton.Size = New System.Drawing.Size(364, 54)
         Me.quitbutton.TabIndex = 1
         Me.quitbutton.Text = "Quitter"
         Me.quitbutton.UseVisualStyleBackColor = True
@@ -118,7 +120,7 @@ Partial Class frm_fin
         '
         Me.Label1.AutoSize = True
         Me.Label1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(3, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(878, 44)
@@ -160,7 +162,7 @@ Partial Class frm_fin
         '
         Me.Label2.AutoSize = True
         Me.Label2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(10, 10)
         Me.Label2.Margin = New System.Windows.Forms.Padding(10)
         Me.Label2.Name = "Label2"
@@ -173,7 +175,7 @@ Partial Class frm_fin
         '
         Me.nomgagnant.AutoSize = True
         Me.nomgagnant.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.nomgagnant.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        Me.nomgagnant.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.nomgagnant.Location = New System.Drawing.Point(273, 10)
         Me.nomgagnant.Margin = New System.Windows.Forms.Padding(10)
         Me.nomgagnant.Name = "nomgagnant"
@@ -202,7 +204,7 @@ Partial Class frm_fin
         '
         Me.Label3.AutoSize = True
         Me.Label3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(11, 11)
         Me.Label3.Margin = New System.Windows.Forms.Padding(10)
         Me.Label3.Name = "Label3"
@@ -246,6 +248,30 @@ Partial Class frm_fin
         Me.pannelj1.Size = New System.Drawing.Size(858, 60)
         Me.pannelj1.TabIndex = 0
         '
+        'labj1
+        '
+        Me.labj1.AutoSize = True
+        Me.labj1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.labj1.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.labj1.Location = New System.Drawing.Point(4, 1)
+        Me.labj1.Name = "labj1"
+        Me.labj1.Size = New System.Drawing.Size(421, 58)
+        Me.labj1.TabIndex = 0
+        Me.labj1.Text = "Nom du joueur 1"
+        Me.labj1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'labscorej1
+        '
+        Me.labscorej1.AutoSize = True
+        Me.labscorej1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.labscorej1.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.labscorej1.Location = New System.Drawing.Point(432, 1)
+        Me.labscorej1.Name = "labscorej1"
+        Me.labscorej1.Size = New System.Drawing.Size(422, 58)
+        Me.labscorej1.TabIndex = 1
+        Me.labscorej1.Text = "Score du joueur 1"
+        Me.labscorej1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
         'pannelj2
         '
         Me.pannelj2.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
@@ -261,6 +287,30 @@ Partial Class frm_fin
         Me.pannelj2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.pannelj2.Size = New System.Drawing.Size(858, 60)
         Me.pannelj2.TabIndex = 1
+        '
+        'labj2
+        '
+        Me.labj2.AutoSize = True
+        Me.labj2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.labj2.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.labj2.Location = New System.Drawing.Point(4, 1)
+        Me.labj2.Name = "labj2"
+        Me.labj2.Size = New System.Drawing.Size(421, 58)
+        Me.labj2.TabIndex = 0
+        Me.labj2.Text = "Nom du joueur 2"
+        Me.labj2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'labscorej2
+        '
+        Me.labscorej2.AutoSize = True
+        Me.labscorej2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.labscorej2.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.labscorej2.Location = New System.Drawing.Point(432, 1)
+        Me.labscorej2.Name = "labscorej2"
+        Me.labscorej2.Size = New System.Drawing.Size(422, 58)
+        Me.labscorej2.TabIndex = 1
+        Me.labscorej2.Text = "Score du joueur 2"
+        Me.labscorej2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'pannelj3
         '
@@ -278,6 +328,30 @@ Partial Class frm_fin
         Me.pannelj3.Size = New System.Drawing.Size(858, 60)
         Me.pannelj3.TabIndex = 2
         '
+        'labj3
+        '
+        Me.labj3.AutoSize = True
+        Me.labj3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.labj3.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.labj3.Location = New System.Drawing.Point(4, 1)
+        Me.labj3.Name = "labj3"
+        Me.labj3.Size = New System.Drawing.Size(421, 58)
+        Me.labj3.TabIndex = 0
+        Me.labj3.Text = "Nom du joueur 3"
+        Me.labj3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'labscorej3
+        '
+        Me.labscorej3.AutoSize = True
+        Me.labscorej3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.labscorej3.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.labscorej3.Location = New System.Drawing.Point(432, 1)
+        Me.labscorej3.Name = "labscorej3"
+        Me.labscorej3.Size = New System.Drawing.Size(422, 58)
+        Me.labscorej3.TabIndex = 1
+        Me.labscorej3.Text = "Score du joueur 3"
+        Me.labscorej3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
         'pannelj4
         '
         Me.pannelj4.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
@@ -294,59 +368,11 @@ Partial Class frm_fin
         Me.pannelj4.Size = New System.Drawing.Size(858, 62)
         Me.pannelj4.TabIndex = 3
         '
-        'labj1
-        '
-        Me.labj1.AutoSize = True
-        Me.labj1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.labj1.Font = New System.Drawing.Font("Segoe UI", 8.25!)
-        Me.labj1.Location = New System.Drawing.Point(4, 1)
-        Me.labj1.Name = "labj1"
-        Me.labj1.Size = New System.Drawing.Size(421, 58)
-        Me.labj1.TabIndex = 0
-        Me.labj1.Text = "Nom du joueur 1"
-        Me.labj1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'labscorej1
-        '
-        Me.labscorej1.AutoSize = True
-        Me.labscorej1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.labscorej1.Font = New System.Drawing.Font("Segoe UI", 8.25!)
-        Me.labscorej1.Location = New System.Drawing.Point(432, 1)
-        Me.labscorej1.Name = "labscorej1"
-        Me.labscorej1.Size = New System.Drawing.Size(422, 58)
-        Me.labscorej1.TabIndex = 1
-        Me.labscorej1.Text = "Score du joueur 1"
-        Me.labscorej1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'labj2
-        '
-        Me.labj2.AutoSize = True
-        Me.labj2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.labj2.Font = New System.Drawing.Font("Segoe UI", 8.25!)
-        Me.labj2.Location = New System.Drawing.Point(4, 1)
-        Me.labj2.Name = "labj2"
-        Me.labj2.Size = New System.Drawing.Size(421, 58)
-        Me.labj2.TabIndex = 0
-        Me.labj2.Text = "Nom du joueur 2"
-        Me.labj2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'labj3
-        '
-        Me.labj3.AutoSize = True
-        Me.labj3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.labj3.Font = New System.Drawing.Font("Segoe UI", 8.25!)
-        Me.labj3.Location = New System.Drawing.Point(4, 1)
-        Me.labj3.Name = "labj3"
-        Me.labj3.Size = New System.Drawing.Size(421, 58)
-        Me.labj3.TabIndex = 0
-        Me.labj3.Text = "Nom du joueur 3"
-        Me.labj3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
         'labj4
         '
         Me.labj4.AutoSize = True
         Me.labj4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.labj4.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        Me.labj4.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.labj4.Location = New System.Drawing.Point(4, 1)
         Me.labj4.Name = "labj4"
         Me.labj4.Size = New System.Drawing.Size(421, 60)
@@ -354,35 +380,11 @@ Partial Class frm_fin
         Me.labj4.Text = "Nom du joueur 4"
         Me.labj4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'labscorej2
-        '
-        Me.labscorej2.AutoSize = True
-        Me.labscorej2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.labscorej2.Font = New System.Drawing.Font("Segoe UI", 8.25!)
-        Me.labscorej2.Location = New System.Drawing.Point(432, 1)
-        Me.labscorej2.Name = "labscorej2"
-        Me.labscorej2.Size = New System.Drawing.Size(422, 58)
-        Me.labscorej2.TabIndex = 1
-        Me.labscorej2.Text = "Score du joueur 2"
-        Me.labscorej2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'labscorej3
-        '
-        Me.labscorej3.AutoSize = True
-        Me.labscorej3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.labscorej3.Font = New System.Drawing.Font("Segoe UI", 8.25!)
-        Me.labscorej3.Location = New System.Drawing.Point(432, 1)
-        Me.labscorej3.Name = "labscorej3"
-        Me.labscorej3.Size = New System.Drawing.Size(422, 58)
-        Me.labscorej3.TabIndex = 1
-        Me.labscorej3.Text = "Score du joueur 3"
-        Me.labscorej3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
         'labscorej4
         '
         Me.labscorej4.AutoSize = True
         Me.labscorej4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.labscorej4.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        Me.labscorej4.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.labscorej4.Location = New System.Drawing.Point(432, 1)
         Me.labscorej4.Name = "labscorej4"
         Me.labscorej4.Size = New System.Drawing.Size(422, 60)

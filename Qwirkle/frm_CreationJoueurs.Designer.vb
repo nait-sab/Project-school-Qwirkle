@@ -74,6 +74,8 @@ Partial Class frm_CreationJoueurs
         '
         'TableLayoutPanel1
         '
+        Me.TableLayoutPanel1.BackColor = System.Drawing.Color.Transparent
+        Me.TableLayoutPanel1.BackgroundImage = Global.Qwirkle.My.Resources.Resources.arriere
         Me.TableLayoutPanel1.ColumnCount = 1
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
@@ -127,7 +129,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.lbl_Joueur4.AutoSize = True
         Me.lbl_Joueur4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.lbl_Joueur4.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        Me.lbl_Joueur4.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_Joueur4.Location = New System.Drawing.Point(3, 0)
         Me.lbl_Joueur4.Name = "lbl_Joueur4"
         Me.lbl_Joueur4.Size = New System.Drawing.Size(306, 58)
@@ -157,7 +159,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.lbl_Joueur4_Nom.AutoSize = True
         Me.lbl_Joueur4_Nom.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.lbl_Joueur4_Nom.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        Me.lbl_Joueur4_Nom.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_Joueur4_Nom.Location = New System.Drawing.Point(3, 0)
         Me.lbl_Joueur4_Nom.Name = "lbl_Joueur4_Nom"
         Me.lbl_Joueur4_Nom.Size = New System.Drawing.Size(147, 65)
@@ -169,7 +171,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.lbl_Joueur4_Age.AutoSize = True
         Me.lbl_Joueur4_Age.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.lbl_Joueur4_Age.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        Me.lbl_Joueur4_Age.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_Joueur4_Age.Location = New System.Drawing.Point(3, 65)
         Me.lbl_Joueur4_Age.Name = "lbl_Joueur4_Age"
         Me.lbl_Joueur4_Age.Size = New System.Drawing.Size(147, 65)
@@ -199,7 +201,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.check_j4.AutoSize = True
         Me.check_j4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.check_j4.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        Me.check_j4.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.check_j4.Location = New System.Drawing.Point(315, 3)
         Me.check_j4.Name = "check_j4"
         Me.check_j4.Size = New System.Drawing.Size(73, 52)
@@ -228,7 +230,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.lbl_Joueur3.AutoSize = True
         Me.lbl_Joueur3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.lbl_Joueur3.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        Me.lbl_Joueur3.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_Joueur3.Location = New System.Drawing.Point(3, 0)
         Me.lbl_Joueur3.Name = "lbl_Joueur3"
         Me.lbl_Joueur3.Size = New System.Drawing.Size(306, 58)
@@ -258,7 +260,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.lbl_Joueur3_Nom.AutoSize = True
         Me.lbl_Joueur3_Nom.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.lbl_Joueur3_Nom.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        Me.lbl_Joueur3_Nom.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_Joueur3_Nom.Location = New System.Drawing.Point(3, 0)
         Me.lbl_Joueur3_Nom.Name = "lbl_Joueur3_Nom"
         Me.lbl_Joueur3_Nom.Size = New System.Drawing.Size(147, 65)
@@ -270,7 +272,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.lbl_Joueur3_Age.AutoSize = True
         Me.lbl_Joueur3_Age.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.lbl_Joueur3_Age.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        Me.lbl_Joueur3_Age.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_Joueur3_Age.Location = New System.Drawing.Point(3, 65)
         Me.lbl_Joueur3_Age.Name = "lbl_Joueur3_Age"
         Me.lbl_Joueur3_Age.Size = New System.Drawing.Size(147, 65)
@@ -300,7 +302,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.check_j3.AutoSize = True
         Me.check_j3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.check_j3.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        Me.check_j3.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.check_j3.Location = New System.Drawing.Point(315, 3)
         Me.check_j3.Name = "check_j3"
         Me.check_j3.Size = New System.Drawing.Size(73, 52)
@@ -329,7 +331,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.lbl_Joueur2.AutoSize = True
         Me.lbl_Joueur2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.lbl_Joueur2.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        Me.lbl_Joueur2.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_Joueur2.Location = New System.Drawing.Point(3, 0)
         Me.lbl_Joueur2.Name = "lbl_Joueur2"
         Me.lbl_Joueur2.Size = New System.Drawing.Size(306, 57)
@@ -359,7 +361,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.lbl_Joueur2_Nom.AutoSize = True
         Me.lbl_Joueur2_Nom.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.lbl_Joueur2_Nom.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        Me.lbl_Joueur2_Nom.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_Joueur2_Nom.Location = New System.Drawing.Point(3, 0)
         Me.lbl_Joueur2_Nom.Name = "lbl_Joueur2_Nom"
         Me.lbl_Joueur2_Nom.Size = New System.Drawing.Size(147, 65)
@@ -371,7 +373,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.lbl_Joueur2_Age.AutoSize = True
         Me.lbl_Joueur2_Age.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.lbl_Joueur2_Age.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        Me.lbl_Joueur2_Age.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_Joueur2_Age.Location = New System.Drawing.Point(3, 65)
         Me.lbl_Joueur2_Age.Name = "lbl_Joueur2_Age"
         Me.lbl_Joueur2_Age.Size = New System.Drawing.Size(147, 65)
@@ -401,7 +403,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.check_j2.AutoSize = True
         Me.check_j2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.check_j2.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        Me.check_j2.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.check_j2.Location = New System.Drawing.Point(315, 3)
         Me.check_j2.Name = "check_j2"
         Me.check_j2.Size = New System.Drawing.Size(73, 51)
@@ -430,7 +432,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.lbl_Joueur1.AutoSize = True
         Me.lbl_Joueur1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.lbl_Joueur1.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_Joueur1.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_Joueur1.Location = New System.Drawing.Point(3, 0)
         Me.lbl_Joueur1.Name = "lbl_Joueur1"
         Me.lbl_Joueur1.Size = New System.Drawing.Size(306, 57)
@@ -460,7 +462,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.lbl_Joueur1_Nom.AutoSize = True
         Me.lbl_Joueur1_Nom.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.lbl_Joueur1_Nom.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        Me.lbl_Joueur1_Nom.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_Joueur1_Nom.Location = New System.Drawing.Point(3, 0)
         Me.lbl_Joueur1_Nom.Name = "lbl_Joueur1_Nom"
         Me.lbl_Joueur1_Nom.Size = New System.Drawing.Size(147, 65)
@@ -502,7 +504,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.check_j1.AutoSize = True
         Me.check_j1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.check_j1.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        Me.check_j1.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.check_j1.Location = New System.Drawing.Point(315, 3)
         Me.check_j1.Name = "check_j1"
         Me.check_j1.Size = New System.Drawing.Size(73, 51)
@@ -528,6 +530,7 @@ Partial Class frm_CreationJoueurs
         'boutonvalidation
         '
         Me.boutonvalidation.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.boutonvalidation.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.boutonvalidation.Location = New System.Drawing.Point(100, 7)
         Me.boutonvalidation.Margin = New System.Windows.Forms.Padding(100, 7, 100, 3)
         Me.boutonvalidation.Name = "boutonvalidation"
@@ -539,6 +542,7 @@ Partial Class frm_CreationJoueurs
         'cmd_Retour
         '
         Me.cmd_Retour.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.cmd_Retour.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmd_Retour.Location = New System.Drawing.Point(635, 7)
         Me.cmd_Retour.Margin = New System.Windows.Forms.Padding(0, 7, 0, 7)
         Me.cmd_Retour.Name = "cmd_Retour"

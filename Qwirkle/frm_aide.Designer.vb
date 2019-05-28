@@ -24,7 +24,7 @@ Partial Class frm_aide
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frm_aide))
         Me.EventLog1 = New System.Diagnostics.EventLog()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lbl_regle = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.RichTextBox7 = New System.Windows.Forms.RichTextBox()
@@ -46,24 +46,27 @@ Partial Class frm_aide
         '
         Me.EventLog1.SynchronizingObject = Me
         '
-        'Label1
+        'lbl_regle
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(0, 0)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(778, 99)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Règles du jeu"
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lbl_regle.AutoSize = True
+        Me.lbl_regle.BackColor = System.Drawing.Color.Transparent
+        Me.lbl_regle.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lbl_regle.Font = New System.Drawing.Font("Segoe UI", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_regle.Location = New System.Drawing.Point(0, 0)
+        Me.lbl_regle.Margin = New System.Windows.Forms.Padding(0)
+        Me.lbl_regle.Name = "lbl_regle"
+        Me.lbl_regle.Size = New System.Drawing.Size(778, 99)
+        Me.lbl_regle.TabIndex = 1
+        Me.lbl_regle.Text = "Règles du jeu"
+        Me.lbl_regle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'TableLayoutPanel1
         '
+        Me.TableLayoutPanel1.BackColor = System.Drawing.Color.Transparent
+        Me.TableLayoutPanel1.BackgroundImage = Global.Qwirkle.My.Resources.Resources.arriere
         Me.TableLayoutPanel1.ColumnCount = 1
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel1.Controls.Add(Me.Label1, 0, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.lbl_regle, 0, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel2, 0, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel3, 0, 2)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
@@ -232,7 +235,7 @@ Partial Class frm_aide
     End Sub
     Friend WithEvents EventLog1 As EventLog
     Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
-    Friend WithEvents Label1 As Label
+    Friend WithEvents lbl_regle As Label
     Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
     Friend WithEvents RichTextBox7 As RichTextBox
     Friend WithEvents RichTextBox6 As RichTextBox

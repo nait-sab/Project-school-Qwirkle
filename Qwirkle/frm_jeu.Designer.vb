@@ -55,6 +55,11 @@ Partial Class frm_jeu
         Me.pannelj4 = New System.Windows.Forms.TableLayoutPanel()
         Me.lbl_j4_nom = New System.Windows.Forms.Label()
         Me.lbl_j4_score = New System.Windows.Forms.Label()
+        Me.panel_tour = New System.Windows.Forms.TableLayoutPanel()
+        Me.lbl_tourJoueur = New System.Windows.Forms.Label()
+        Me.panel_pioche = New System.Windows.Forms.TableLayoutPanel()
+        Me.lbl_pioche = New System.Windows.Forms.Label()
+        Me.picBox_pioche = New System.Windows.Forms.PictureBox()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.TableLayoutPanel2.SuspendLayout()
         Me.TableLayoutPanel3.SuspendLayout()
@@ -73,11 +78,16 @@ Partial Class frm_jeu
         Me.pannelj2.SuspendLayout()
         Me.pannelj3.SuspendLayout()
         Me.pannelj4.SuspendLayout()
+        Me.panel_tour.SuspendLayout()
+        Me.panel_pioche.SuspendLayout()
+        CType(Me.picBox_pioche, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TableLayoutPanel1
         '
         Me.TableLayoutPanel1.AutoSize = True
+        Me.TableLayoutPanel1.BackColor = System.Drawing.Color.Transparent
+        Me.TableLayoutPanel1.BackgroundImage = Global.Qwirkle.My.Resources.Resources.arriere
         Me.TableLayoutPanel1.ColumnCount = 3
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60.0!))
@@ -86,6 +96,8 @@ Partial Class frm_jeu
         Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel3, 1, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel4, 1, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel5, 2, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.panel_tour, 2, 1)
+        Me.TableLayoutPanel1.Controls.Add(Me.panel_pioche, 0, 1)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
@@ -268,6 +280,7 @@ Partial Class frm_jeu
         '
         'TableLayoutPanel4
         '
+        Me.TableLayoutPanel4.BackColor = System.Drawing.SystemColors.Control
         Me.TableLayoutPanel4.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
         Me.TableLayoutPanel4.ColumnCount = 30
         Me.TableLayoutPanel4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3.333333!))
@@ -574,6 +587,74 @@ Partial Class frm_jeu
         Me.lbl_j4_score.Text = "SCORE J4"
         Me.lbl_j4_score.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
+        'panel_tour
+        '
+        Me.panel_tour.ColumnCount = 1
+        Me.panel_tour.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.panel_tour.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.panel_tour.Controls.Add(Me.lbl_tourJoueur, 0, 0)
+        Me.panel_tour.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.panel_tour.Location = New System.Drawing.Point(1013, 602)
+        Me.panel_tour.Name = "panel_tour"
+        Me.panel_tour.RowCount = 1
+        Me.panel_tour.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.panel_tour.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.panel_tour.Size = New System.Drawing.Size(248, 144)
+        Me.panel_tour.TabIndex = 8
+        '
+        'lbl_tourJoueur
+        '
+        Me.lbl_tourJoueur.AutoEllipsis = True
+        Me.lbl_tourJoueur.AutoSize = True
+        Me.lbl_tourJoueur.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lbl_tourJoueur.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_tourJoueur.Location = New System.Drawing.Point(3, 0)
+        Me.lbl_tourJoueur.Margin = New System.Windows.Forms.Padding(3, 0, 3, 100)
+        Me.lbl_tourJoueur.Name = "lbl_tourJoueur"
+        Me.lbl_tourJoueur.Size = New System.Drawing.Size(242, 44)
+        Me.lbl_tourJoueur.TabIndex = 0
+        Me.lbl_tourJoueur.Text = "Tour de "
+        '
+        'panel_pioche
+        '
+        Me.panel_pioche.ColumnCount = 2
+        Me.panel_pioche.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.panel_pioche.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.panel_pioche.Controls.Add(Me.lbl_pioche, 0, 0)
+        Me.panel_pioche.Controls.Add(Me.picBox_pioche, 1, 0)
+        Me.panel_pioche.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.panel_pioche.Location = New System.Drawing.Point(3, 602)
+        Me.panel_pioche.Name = "panel_pioche"
+        Me.panel_pioche.RowCount = 1
+        Me.panel_pioche.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.panel_pioche.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.panel_pioche.Size = New System.Drawing.Size(246, 144)
+        Me.panel_pioche.TabIndex = 9
+        '
+        'lbl_pioche
+        '
+        Me.lbl_pioche.AutoSize = True
+        Me.lbl_pioche.BackColor = System.Drawing.Color.Transparent
+        Me.lbl_pioche.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_pioche.Location = New System.Drawing.Point(50, 0)
+        Me.lbl_pioche.Margin = New System.Windows.Forms.Padding(50, 0, 3, 0)
+        Me.lbl_pioche.Name = "lbl_pioche"
+        Me.lbl_pioche.Size = New System.Drawing.Size(69, 25)
+        Me.lbl_pioche.TabIndex = 0
+        Me.lbl_pioche.Text = "Pioche"
+        Me.lbl_pioche.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'picBox_pioche
+        '
+        Me.picBox_pioche.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.picBox_pioche.Image = Global.Qwirkle.My.Resources.Resources.CarreBleu
+        Me.picBox_pioche.Location = New System.Drawing.Point(126, 3)
+        Me.picBox_pioche.Name = "picBox_pioche"
+        Me.picBox_pioche.Size = New System.Drawing.Size(117, 138)
+        Me.picBox_pioche.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picBox_pioche.TabIndex = 1
+        Me.picBox_pioche.TabStop = False
+        '
         'frm_jeu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -608,6 +689,11 @@ Partial Class frm_jeu
         Me.pannelj3.PerformLayout()
         Me.pannelj4.ResumeLayout(False)
         Me.pannelj4.PerformLayout()
+        Me.panel_tour.ResumeLayout(False)
+        Me.panel_tour.PerformLayout()
+        Me.panel_pioche.ResumeLayout(False)
+        Me.panel_pioche.PerformLayout()
+        CType(Me.picBox_pioche, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -645,4 +731,9 @@ Partial Class frm_jeu
     Friend WithEvents lbl_j4_score As Label
     Friend WithEvents TableLayoutPanel4 As TableLayoutPanel
     Friend WithEvents grille_1_1 As PictureBox
+    Friend WithEvents panel_tour As TableLayoutPanel
+    Friend WithEvents lbl_tourJoueur As Label
+    Friend WithEvents panel_pioche As TableLayoutPanel
+    Friend WithEvents lbl_pioche As Label
+    Friend WithEvents picBox_pioche As PictureBox
 End Class

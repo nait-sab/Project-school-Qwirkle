@@ -14,7 +14,7 @@
     Private forme() As String = {"Carre", "Croix", "Etoile", "Losange", "Rond", "Trefle"}
 
     Private Sub frm_jeu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        lbl_tourJoueur.Text = "Tour de " & lbl_j1_nom.Text
         ' Génération de la pioche - 108 tuiles '
         For count As Byte = 1 To 3
             For color As Byte = 0 To couleur.Length - 1
@@ -108,5 +108,15 @@
 
         score_joueur = score_joueur + score_tour
         lbl_j1_score.Text = score_joueur
+        lbl_tourJoueur.Text = "Tour de " & lbl_j2_nom.Text
+    End Sub
+
+    Private Sub btn_recommencer_Click(sender As Object, e As EventArgs) Handles btn_recommencer.Click
+        Dim validation As DialogResult
+        validation = MessageBox.Show("Voulez vous recommencer ?", "Qwirkle", MessageBoxButtons.YesNo)
+        If (validation = DialogResult.Yes) Then
+            frm_qwirkle_menu.Show()
+            Me.Hide()
+        End If
     End Sub
 End Class

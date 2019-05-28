@@ -34,6 +34,8 @@ Partial Class frm_nouvelle_partie
         'TableLayoutPanel1
         '
         Me.TableLayoutPanel1.AutoSize = True
+        Me.TableLayoutPanel1.BackColor = System.Drawing.Color.Transparent
+        Me.TableLayoutPanel1.BackgroundImage = Global.Qwirkle.My.Resources.Resources.arriere
         Me.TableLayoutPanel1.ColumnCount = 1
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.Label1, 0, 2)
