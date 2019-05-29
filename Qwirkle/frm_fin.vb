@@ -1,52 +1,72 @@
 ﻿Public Class frm_fin
     Private Sub frm_fin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-
-        'Affichage tableau des scores
-
-        If jeu.getNombreJoueurs() = 2 Then
-            pannelj3.Visible = False
-            pannelj4.Visible = False
+        ' Mise en place du tableau '
+        If jeu.getNombreJoueurs = 2 Then
+            j1_nom.Text = joueur1.getNom
+            j1_score.Text = joueur1.getScore
+            j2_nom.Text = joueur2.getNom
+            j2_score.Text = joueur2.getScore
+            j3_nom.Visible = False
+            j3_score.Visible = False
+            j4_nom.Visible = False
+            j4_score.Visible = False
+        ElseIf jeu.getNombreJoueurs = 3 Then
+            j1_nom.Text = joueur1.getNom
+            j1_score.Text = joueur1.getScore
+            j2_nom.Text = joueur2.getNom
+            j2_score.Text = joueur2.getScore
+            j3_nom.Text = joueur3.getNom
+            j3_score.Text = joueur3.getScore
+            j4_nom.Visible = False
+            j4_score.Visible = False
+        Else
+            j1_nom.Text = joueur1.getNom
+            j1_score.Text = joueur1.getScore
+            j2_nom.Text = joueur2.getNom
+            j2_score.Text = joueur2.getScore
+            j3_nom.Text = joueur3.getNom
+            j3_score.Text = joueur3.getScore
+            j4_nom.Text = joueur4.getNom
+            j4_score.Text = joueur4.getScore
         End If
-        If jeu.getNombreJoueurs() = 3 Then
-            pannelj4.Visible = False
+
+        ' Recherche du plus grand score '
+        Dim score As Byte = 0
+
+        If jeu.getNombreJoueurs = 2 Then
+            If joueur1.getScore > score Then
+                score = joueur1.getScore
+            End If
+            If joueur2.getScore > score Then
+                score = joueur2.getScore
+            End If
+        ElseIf jeu.getNombreJoueurs = 3 Then
+            If joueur1.getScore > score Then
+                score = joueur1.getScore
+            End If
+            If joueur2.getScore > score Then
+                score = joueur2.getScore
+            End If
+            If joueur3.getScore > score Then
+                score = joueur3.getScore
+            End If
+        Else
+            If joueur1.getScore > score Then
+                score = joueur1.getScore
+            End If
+            If joueur2.getScore > score Then
+                score = joueur2.getScore
+            End If
+            If joueur3.getScore > score Then
+                score = joueur3.getScore
+            End If
+            If joueur4.getScore > score Then
+                score = joueur4.getScore
+            End If
         End If
 
-
-
-        'Affichage nom joueur gagnant
-        'If (frm_jeu.scorej1 > frm_jeu.scorej2 And frm_jeu.scorej3 And frm_jeu.scorej4) Then
-        '    nomgagnant.Text = frm_jeu.nomj1.ToString
-        'End If
-
-        'If (frm_jeu.scorej2 > frm_jeu.scorej1 And frm_jeu.scorej3 And frm_jeu.scorej4) Then
-        '    nomgagnant.Text = frm_jeu.nomj2.ToString
-        'End If
-
-        'If (frm_jeu.scorej3 > frm_jeu.scorej1 And frm_jeu.scorej2 And frm_jeu.scorej4) Then
-        '    nomgagnant.Text = frm_jeu.nomj3.ToString
-        'End If
-
-        'If (frm_jeu.scorej4 > frm_jeu.scorej1 And frm_jeu.scorej2 And frm_jeu.scorej3) Then
-        '    nomgagnant.Text = frm_jeu.nomj4.ToString
-        'End If
-
-
-
-        'Affichage nom des joueurs
-        'labj1.Text = frm_jeu.nomj1
-        'labj2.Text = frm_jeu.nomj2
-        'labj3.Text = frm_jeu.nomj3
-        'labj4.Text = frm_jeu.nomj4
-
-        ''Affichage score des joueurs
-        'labscorej1.Text = frm_jeu.scorej1.ToString
-        'labscorej2.Text = frm_jeu.scorej2.ToString
-        'labscorej3.Text = frm_jeu.scorej3.ToString
-        'labscorej4.Text = frm_jeu.scorej4.ToString
-
-
-
+        lbl_gagnant.Text = score.ToString
 
     End Sub
 
@@ -65,9 +85,5 @@
         If (validation = DialogResult.Yes) Then
             Me.Close()
         End If
-    End Sub
-
-    Private Sub TableLayoutPanel6_Paint(sender As Object, e As PaintEventArgs) Handles TableLayoutPanel6.Paint
-
     End Sub
 End Class

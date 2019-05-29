@@ -10,7 +10,7 @@
     Public position_Y As Integer = 0
 
 
-    Private couleur() As String = {"Blue", "Jaune", "Orange", "Rouge", "Verte", "Violet"}
+    Private couleur() As String = {"Bleu", "Jaune", "Orange", "Rouge", "Vert", "Violet"}
     Private forme() As String = {"Carre", "Croix", "Etoile", "Losange", "Rond", "Trefle"}
 
     Private Sub frm_jeu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
