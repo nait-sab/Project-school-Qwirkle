@@ -10,11 +10,11 @@
     Public position_Y As Integer = 0
 
 
-    Private couleur() As String = {"Bleu", "Jaune", "Orange", "Rouge", "Vert", "Violet"}
+    Private couleur() As String = {"Blue", "Jaune", "Orange", "Rouge", "Verte", "Violet"}
     Private forme() As String = {"Carre", "Croix", "Etoile", "Losange", "Rond", "Trefle"}
 
     Private Sub frm_jeu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        lbl_tourJoueur.Text = "Tour de " & lbl_j1_nom.Text
+        lbl_tourJoueur.Text = "Tour de " & joueur1.getNom
         ' Génération de la pioche - 108 tuiles '
         For count As Byte = 1 To 3
             For color As Byte = 0 To couleur.Length - 1
@@ -29,38 +29,19 @@
         'picBox1.Image = Image.FromFile("Ressources\" & test.getForme & test.getCouleur & ".jpg")
         'picBox1.Image = My.Resources.ResourceManager.GetObject(test.getForme & test.getCouleur)
 
-
-
-
-        If jeu.getNombreJoueurs() = 2 Then
+        ' Mise en place des joueurs dans le tableau des score '
+        If jeu.getNombreJoueurs = 2 Then
             pannelj3.Visible = False
             pannelj4.Visible = False
-        End If
-        If jeu.getNombreJoueurs() = 3 Then
+        ElseIf jeu.getNombreJoueurs = 3 Then
             pannelj4.Visible = False
         End If
 
-        'tests noms
-        'joueur1.setNom("chris")
-        'joueur2.setNom("Leonie")
-        'joueur3.setNom("Charle")
-        'joueur4.setNom("Lucie")
-
-        ' Mise en place des joueurs dans le tableau des score '
-        lbl_j1_nom.Text = joueur1.getNom()
-        lbl_j1_score.Text = joueur1.getScore()
-        lbl_j2_nom.Text = joueur2.getNom()
-        lbl_j2_score.Text = joueur2.getScore()
-        'lbl_j3_nom.Text = joueur3.getNom()
-        'lbl_j3_score.Text = joueur3.getScore()
-        'lbl_j4_nom.Text = joueur4.getNom()
-        'lbl_j4_score.Text = joueur4.getScore()
         For i As Byte = 0 To jeu.getNombreJoueurs - 1
             Dim pannelj As TableLayoutPanel = TableLayoutPanel8.Controls("pannelj" & i + 1)
             pannelj.Controls("lbl_j" & i + 1 & "_nom").Text = jeu.getJoueurs(i).getNom
             pannelj.Controls("lbl_j" & i + 1 & "_score").Text = jeu.getJoueurs(i).getScore
         Next
-
 
     End Sub
 

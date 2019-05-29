@@ -8,7 +8,6 @@ namespace Qwirkle_lib
 {
     public class Joueur
     {
-        private static int m_id;
         private string m_nom;
         private int m_age;
         private int m_score;

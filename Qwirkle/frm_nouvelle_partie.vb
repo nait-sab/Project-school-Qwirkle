@@ -16,7 +16,6 @@ Public Class frm_nouvelle_partie
 
     Private Sub frm_nouvelle_partie_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.Size = frm_qwirkle_menu.Size
-
     End Sub
 
     Private Sub btn_2joueurs_Click(sender As Object, e As EventArgs) Handles btn_2joueurs.Click

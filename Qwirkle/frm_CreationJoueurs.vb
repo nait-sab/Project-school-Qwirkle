@@ -37,26 +37,18 @@ Public Class frm_CreationJoueurs
     Private Sub boutonvalidation_Click(sender As Object, e As EventArgs) Handles boutonvalidation.Click
         If check_j1.Checked Then
             joueur1 = New Qwirkle_lib.Joueur(txt_Joueur1_Nom.Text, txt_Joueur1_Age.Text)
-            'joueur1.setNom(txt_Joueur1_Nom.Text)
-            'joueur1.setAge(txt_Joueur1_Age.Text)
             jeu.addJoueur(joueur1)
         End If
         If check_j2.Checked Then
             joueur2 = New Qwirkle_lib.Joueur(txt_Joueur2_Nom.Text, txt_Joueur2_Age.Text)
-            'joueur2.setNom(txt_Joueur2_Nom.Text)
-            'joueur2.setAge(txt_Joueur2_Age.Text)
             jeu.addJoueur(joueur2)
         End If
         If check_j3.Checked Then
             joueur3 = New Qwirkle_lib.Joueur(txt_Joueur3_Nom.Text, txt_Joueur3_Age.Text)
-            'joueur3.setNom(txt_Joueur3_Nom.Text)
-            'joueur3.setAge(txt_Joueur3_Age.Text)
             jeu.addJoueur(joueur3)
         End If
         If check_j4.Checked Then
             joueur4 = New Qwirkle_lib.Joueur(txt_Joueur4_Nom.Text, txt_Joueur4_Age.Text)
-            'joueur4.setNom(txt_Joueur4_Nom.Text)
-            'joueur4.setAge(txt_Joueur4_Age.Text)
             jeu.addJoueur(joueur4)
         End If
         frm_jeu.Show()
@@ -65,23 +57,19 @@ Public Class frm_CreationJoueurs
 
     Private Sub validj1_CheckedChanged(sender As Object, e As EventArgs) Handles check_j1.CheckedChanged, check_j2.CheckedChanged, check_j3.CheckedChanged, check_j4.CheckedChanged
         If jeu.getNombreJoueurs() = 2 Then
-
             If (check_j1.Checked = True And check_j2.Checked = True) Then
                 boutonvalidation.Enabled = True
             Else
                 boutonvalidation.Enabled = False
             End If
-
         End If
 
         If jeu.getNombreJoueurs() = 3 Then
-
             If (check_j1.Checked = True And check_j2.Checked = True And check_j3.Checked = True) Then
                 boutonvalidation.Enabled = True
             Else
                 boutonvalidation.Enabled = False
             End If
-
         End If
 
 
@@ -144,13 +132,6 @@ Public Class frm_CreationJoueurs
         Else
             check_j4.Enabled = False
         End If
-
-
-
-
-
-
-
     End Sub
 
     Private Sub cmd_Retour_Click(sender As Object, e As EventArgs) Handles cmd_Retour.Click

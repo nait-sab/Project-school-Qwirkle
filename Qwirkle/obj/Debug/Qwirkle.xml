@@ -22,6 +22,11 @@ Qwirkle
   les recherches de ressources à l'aide de cette classe de ressource fortement typée.
 </summary>
 </member>
+<member name="P:Qwirkle.My.Resources.Resources.arriere">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Qwirkle.My.Resources.Resources.CarreBleu">
 <summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.

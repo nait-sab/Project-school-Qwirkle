@@ -104,7 +104,7 @@ Partial Class frm_jeu
         Me.TableLayoutPanel1.RowCount = 2
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 80.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1264, 749)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1264, 733)
         Me.TableLayoutPanel1.TabIndex = 6
         '
         'TableLayoutPanel2
@@ -129,70 +129,70 @@ Partial Class frm_jeu
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5!))
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5!))
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel2.Size = New System.Drawing.Size(246, 593)
+        Me.TableLayoutPanel2.Size = New System.Drawing.Size(246, 580)
         Me.TableLayoutPanel2.TabIndex = 1
         '
         'btn_abandonner
         '
-        Me.btn_abandonner.BackColor = System.Drawing.Color.Blue
+        Me.btn_abandonner.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
         Me.btn_abandonner.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btn_abandonner.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_abandonner.ForeColor = System.Drawing.Color.Gold
-        Me.btn_abandonner.Location = New System.Drawing.Point(3, 299)
+        Me.btn_abandonner.ForeColor = System.Drawing.Color.Black
+        Me.btn_abandonner.Location = New System.Drawing.Point(3, 291)
         Me.btn_abandonner.Name = "btn_abandonner"
-        Me.btn_abandonner.Size = New System.Drawing.Size(240, 68)
+        Me.btn_abandonner.Size = New System.Drawing.Size(240, 66)
         Me.btn_abandonner.TabIndex = 4
         Me.btn_abandonner.Text = "Abandonner"
         Me.btn_abandonner.UseVisualStyleBackColor = False
         '
         'btn_recommencer
         '
-        Me.btn_recommencer.BackColor = System.Drawing.Color.Blue
+        Me.btn_recommencer.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
         Me.btn_recommencer.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btn_recommencer.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_recommencer.ForeColor = System.Drawing.Color.Gold
-        Me.btn_recommencer.Location = New System.Drawing.Point(3, 225)
+        Me.btn_recommencer.ForeColor = System.Drawing.Color.Black
+        Me.btn_recommencer.Location = New System.Drawing.Point(3, 219)
         Me.btn_recommencer.Name = "btn_recommencer"
-        Me.btn_recommencer.Size = New System.Drawing.Size(240, 68)
+        Me.btn_recommencer.Size = New System.Drawing.Size(240, 66)
         Me.btn_recommencer.TabIndex = 3
         Me.btn_recommencer.Text = "Recommencer"
         Me.btn_recommencer.UseVisualStyleBackColor = False
         '
         'btn_aide
         '
-        Me.btn_aide.BackColor = System.Drawing.Color.Blue
+        Me.btn_aide.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
         Me.btn_aide.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btn_aide.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_aide.ForeColor = System.Drawing.Color.Gold
-        Me.btn_aide.Location = New System.Drawing.Point(3, 151)
+        Me.btn_aide.ForeColor = System.Drawing.Color.Black
+        Me.btn_aide.Location = New System.Drawing.Point(3, 147)
         Me.btn_aide.Name = "btn_aide"
-        Me.btn_aide.Size = New System.Drawing.Size(240, 68)
+        Me.btn_aide.Size = New System.Drawing.Size(240, 66)
         Me.btn_aide.TabIndex = 2
         Me.btn_aide.Text = "Aide"
         Me.btn_aide.UseVisualStyleBackColor = False
         '
         'btn_annuler
         '
-        Me.btn_annuler.BackColor = System.Drawing.Color.Blue
+        Me.btn_annuler.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
         Me.btn_annuler.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btn_annuler.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_annuler.ForeColor = System.Drawing.Color.Gold
-        Me.btn_annuler.Location = New System.Drawing.Point(3, 77)
+        Me.btn_annuler.ForeColor = System.Drawing.Color.Black
+        Me.btn_annuler.Location = New System.Drawing.Point(3, 75)
         Me.btn_annuler.Name = "btn_annuler"
-        Me.btn_annuler.Size = New System.Drawing.Size(240, 68)
+        Me.btn_annuler.Size = New System.Drawing.Size(240, 66)
         Me.btn_annuler.TabIndex = 1
         Me.btn_annuler.Text = "Annuler(tab de fin pour tests)"
         Me.btn_annuler.UseVisualStyleBackColor = False
         '
         'btn_confirmer
         '
-        Me.btn_confirmer.BackColor = System.Drawing.Color.Blue
+        Me.btn_confirmer.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
         Me.btn_confirmer.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btn_confirmer.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_confirmer.ForeColor = System.Drawing.Color.Gold
+        Me.btn_confirmer.ForeColor = System.Drawing.Color.Black
         Me.btn_confirmer.Location = New System.Drawing.Point(3, 3)
         Me.btn_confirmer.Name = "btn_confirmer"
-        Me.btn_confirmer.Size = New System.Drawing.Size(240, 68)
+        Me.btn_confirmer.Size = New System.Drawing.Size(240, 66)
         Me.btn_confirmer.TabIndex = 0
         Me.btn_confirmer.Text = "Confirmer"
         Me.btn_confirmer.UseVisualStyleBackColor = False
@@ -214,12 +214,12 @@ Partial Class frm_jeu
         Me.TableLayoutPanel3.Controls.Add(Me.picBox2, 1, 0)
         Me.TableLayoutPanel3.Controls.Add(Me.picBox1, 0, 0)
         Me.TableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel3.Location = New System.Drawing.Point(255, 602)
+        Me.TableLayoutPanel3.Location = New System.Drawing.Point(255, 589)
         Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
         Me.TableLayoutPanel3.RowCount = 1
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 144.0!))
-        Me.TableLayoutPanel3.Size = New System.Drawing.Size(752, 144)
+        Me.TableLayoutPanel3.Size = New System.Drawing.Size(752, 141)
         Me.TableLayoutPanel3.TabIndex = 2
         '
         'picBox6
@@ -228,7 +228,7 @@ Partial Class frm_jeu
         Me.picBox6.Image = CType(resources.GetObject("picBox6.Image"), System.Drawing.Image)
         Me.picBox6.Location = New System.Drawing.Point(628, 3)
         Me.picBox6.Name = "picBox6"
-        Me.picBox6.Size = New System.Drawing.Size(121, 138)
+        Me.picBox6.Size = New System.Drawing.Size(121, 135)
         Me.picBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picBox6.TabIndex = 5
         Me.picBox6.TabStop = False
@@ -239,7 +239,7 @@ Partial Class frm_jeu
         Me.picBox5.Image = CType(resources.GetObject("picBox5.Image"), System.Drawing.Image)
         Me.picBox5.Location = New System.Drawing.Point(503, 3)
         Me.picBox5.Name = "picBox5"
-        Me.picBox5.Size = New System.Drawing.Size(119, 138)
+        Me.picBox5.Size = New System.Drawing.Size(119, 135)
         Me.picBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picBox5.TabIndex = 4
         Me.picBox5.TabStop = False
@@ -250,7 +250,7 @@ Partial Class frm_jeu
         Me.picBox4.Image = CType(resources.GetObject("picBox4.Image"), System.Drawing.Image)
         Me.picBox4.Location = New System.Drawing.Point(378, 3)
         Me.picBox4.Name = "picBox4"
-        Me.picBox4.Size = New System.Drawing.Size(119, 138)
+        Me.picBox4.Size = New System.Drawing.Size(119, 135)
         Me.picBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picBox4.TabIndex = 3
         Me.picBox4.TabStop = False
@@ -261,7 +261,7 @@ Partial Class frm_jeu
         Me.picBox3.Image = CType(resources.GetObject("picBox3.Image"), System.Drawing.Image)
         Me.picBox3.Location = New System.Drawing.Point(253, 3)
         Me.picBox3.Name = "picBox3"
-        Me.picBox3.Size = New System.Drawing.Size(119, 138)
+        Me.picBox3.Size = New System.Drawing.Size(119, 135)
         Me.picBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picBox3.TabIndex = 2
         Me.picBox3.TabStop = False
@@ -272,7 +272,7 @@ Partial Class frm_jeu
         Me.picBox2.Image = CType(resources.GetObject("picBox2.Image"), System.Drawing.Image)
         Me.picBox2.Location = New System.Drawing.Point(128, 3)
         Me.picBox2.Name = "picBox2"
-        Me.picBox2.Size = New System.Drawing.Size(119, 138)
+        Me.picBox2.Size = New System.Drawing.Size(119, 135)
         Me.picBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picBox2.TabIndex = 1
         Me.picBox2.TabStop = False
@@ -283,7 +283,7 @@ Partial Class frm_jeu
         Me.picBox1.Image = CType(resources.GetObject("picBox1.Image"), System.Drawing.Image)
         Me.picBox1.Location = New System.Drawing.Point(3, 3)
         Me.picBox1.Name = "picBox1"
-        Me.picBox1.Size = New System.Drawing.Size(119, 138)
+        Me.picBox1.Size = New System.Drawing.Size(119, 135)
         Me.picBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picBox1.TabIndex = 0
         Me.picBox1.TabStop = False
@@ -358,7 +358,7 @@ Partial Class frm_jeu
         Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3.333333!))
         Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3.333333!))
         Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3.333333!))
-        Me.TableLayoutPanel4.Size = New System.Drawing.Size(752, 593)
+        Me.TableLayoutPanel4.Size = New System.Drawing.Size(752, 580)
         Me.TableLayoutPanel4.TabIndex = 3
         '
         'grille_1_1
@@ -383,7 +383,7 @@ Partial Class frm_jeu
         Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 29.39815!))
         Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70.60185!))
         Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 162.0!))
-        Me.TableLayoutPanel5.Size = New System.Drawing.Size(248, 593)
+        Me.TableLayoutPanel5.Size = New System.Drawing.Size(248, 580)
         Me.TableLayoutPanel5.TabIndex = 7
         '
         'TableLayoutPanel6
@@ -394,12 +394,12 @@ Partial Class frm_jeu
         Me.TableLayoutPanel6.Controls.Add(Me.Label1, 0, 0)
         Me.TableLayoutPanel6.Controls.Add(Me.TableLayoutPanel8, 0, 1)
         Me.TableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel6.Location = New System.Drawing.Point(3, 129)
+        Me.TableLayoutPanel6.Location = New System.Drawing.Point(3, 125)
         Me.TableLayoutPanel6.Name = "TableLayoutPanel6"
         Me.TableLayoutPanel6.RowCount = 2
         Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 23.8255!))
         Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 76.1745!))
-        Me.TableLayoutPanel6.Size = New System.Drawing.Size(242, 298)
+        Me.TableLayoutPanel6.Size = New System.Drawing.Size(242, 289)
         Me.TableLayoutPanel6.TabIndex = 0
         '
         'Label1
@@ -409,7 +409,7 @@ Partial Class frm_jeu
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(4, 1)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(234, 70)
+        Me.Label1.Size = New System.Drawing.Size(234, 68)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Score"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -423,14 +423,14 @@ Partial Class frm_jeu
         Me.TableLayoutPanel8.Controls.Add(Me.pannelj3, 0, 2)
         Me.TableLayoutPanel8.Controls.Add(Me.pannelj4, 0, 3)
         Me.TableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel8.Location = New System.Drawing.Point(4, 75)
+        Me.TableLayoutPanel8.Location = New System.Drawing.Point(4, 73)
         Me.TableLayoutPanel8.Name = "TableLayoutPanel8"
         Me.TableLayoutPanel8.RowCount = 4
         Me.TableLayoutPanel8.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
         Me.TableLayoutPanel8.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
         Me.TableLayoutPanel8.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
         Me.TableLayoutPanel8.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
-        Me.TableLayoutPanel8.Size = New System.Drawing.Size(234, 219)
+        Me.TableLayoutPanel8.Size = New System.Drawing.Size(234, 212)
         Me.TableLayoutPanel8.TabIndex = 1
         '
         'pannelj1
@@ -446,7 +446,7 @@ Partial Class frm_jeu
         Me.pannelj1.Name = "pannelj1"
         Me.pannelj1.RowCount = 1
         Me.pannelj1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.pannelj1.Size = New System.Drawing.Size(228, 48)
+        Me.pannelj1.Size = New System.Drawing.Size(228, 47)
         Me.pannelj1.TabIndex = 0
         '
         'lbl_j1_nom
@@ -457,7 +457,7 @@ Partial Class frm_jeu
         Me.lbl_j1_nom.Location = New System.Drawing.Point(1, 1)
         Me.lbl_j1_nom.Margin = New System.Windows.Forms.Padding(0)
         Me.lbl_j1_nom.Name = "lbl_j1_nom"
-        Me.lbl_j1_nom.Size = New System.Drawing.Size(112, 46)
+        Me.lbl_j1_nom.Size = New System.Drawing.Size(112, 45)
         Me.lbl_j1_nom.TabIndex = 0
         Me.lbl_j1_nom.Text = "NOM J1"
         Me.lbl_j1_nom.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -469,7 +469,7 @@ Partial Class frm_jeu
         Me.lbl_j1_score.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_j1_score.Location = New System.Drawing.Point(117, 1)
         Me.lbl_j1_score.Name = "lbl_j1_score"
-        Me.lbl_j1_score.Size = New System.Drawing.Size(107, 46)
+        Me.lbl_j1_score.Size = New System.Drawing.Size(107, 45)
         Me.lbl_j1_score.TabIndex = 1
         Me.lbl_j1_score.Text = "SCORE J1"
         Me.lbl_j1_score.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -483,11 +483,11 @@ Partial Class frm_jeu
         Me.pannelj2.Controls.Add(Me.lbl_j2_nom, 0, 0)
         Me.pannelj2.Controls.Add(Me.lbl_j2_score, 1, 0)
         Me.pannelj2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.pannelj2.Location = New System.Drawing.Point(3, 57)
+        Me.pannelj2.Location = New System.Drawing.Point(3, 56)
         Me.pannelj2.Name = "pannelj2"
         Me.pannelj2.RowCount = 1
         Me.pannelj2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.pannelj2.Size = New System.Drawing.Size(228, 48)
+        Me.pannelj2.Size = New System.Drawing.Size(228, 47)
         Me.pannelj2.TabIndex = 1
         '
         'lbl_j2_nom
@@ -498,7 +498,7 @@ Partial Class frm_jeu
         Me.lbl_j2_nom.Location = New System.Drawing.Point(1, 1)
         Me.lbl_j2_nom.Margin = New System.Windows.Forms.Padding(0)
         Me.lbl_j2_nom.Name = "lbl_j2_nom"
-        Me.lbl_j2_nom.Size = New System.Drawing.Size(112, 46)
+        Me.lbl_j2_nom.Size = New System.Drawing.Size(112, 45)
         Me.lbl_j2_nom.TabIndex = 0
         Me.lbl_j2_nom.Text = "NOM J2"
         Me.lbl_j2_nom.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -510,7 +510,7 @@ Partial Class frm_jeu
         Me.lbl_j2_score.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_j2_score.Location = New System.Drawing.Point(117, 1)
         Me.lbl_j2_score.Name = "lbl_j2_score"
-        Me.lbl_j2_score.Size = New System.Drawing.Size(107, 46)
+        Me.lbl_j2_score.Size = New System.Drawing.Size(107, 45)
         Me.lbl_j2_score.TabIndex = 1
         Me.lbl_j2_score.Text = "SCORE J2"
         Me.lbl_j2_score.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -524,11 +524,11 @@ Partial Class frm_jeu
         Me.pannelj3.Controls.Add(Me.lbl_j3_nom, 0, 0)
         Me.pannelj3.Controls.Add(Me.lbl_j3_score, 1, 0)
         Me.pannelj3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.pannelj3.Location = New System.Drawing.Point(3, 111)
+        Me.pannelj3.Location = New System.Drawing.Point(3, 109)
         Me.pannelj3.Name = "pannelj3"
         Me.pannelj3.RowCount = 1
         Me.pannelj3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.pannelj3.Size = New System.Drawing.Size(228, 48)
+        Me.pannelj3.Size = New System.Drawing.Size(228, 47)
         Me.pannelj3.TabIndex = 2
         '
         'lbl_j3_nom
@@ -539,7 +539,7 @@ Partial Class frm_jeu
         Me.lbl_j3_nom.Location = New System.Drawing.Point(1, 1)
         Me.lbl_j3_nom.Margin = New System.Windows.Forms.Padding(0)
         Me.lbl_j3_nom.Name = "lbl_j3_nom"
-        Me.lbl_j3_nom.Size = New System.Drawing.Size(112, 46)
+        Me.lbl_j3_nom.Size = New System.Drawing.Size(112, 45)
         Me.lbl_j3_nom.TabIndex = 0
         Me.lbl_j3_nom.Text = "NOM J3"
         Me.lbl_j3_nom.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -551,7 +551,7 @@ Partial Class frm_jeu
         Me.lbl_j3_score.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_j3_score.Location = New System.Drawing.Point(117, 1)
         Me.lbl_j3_score.Name = "lbl_j3_score"
-        Me.lbl_j3_score.Size = New System.Drawing.Size(107, 46)
+        Me.lbl_j3_score.Size = New System.Drawing.Size(107, 45)
         Me.lbl_j3_score.TabIndex = 1
         Me.lbl_j3_score.Text = "SCORE J3"
         Me.lbl_j3_score.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -565,11 +565,11 @@ Partial Class frm_jeu
         Me.pannelj4.Controls.Add(Me.lbl_j4_nom, 0, 0)
         Me.pannelj4.Controls.Add(Me.lbl_j4_score, 1, 0)
         Me.pannelj4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.pannelj4.Location = New System.Drawing.Point(3, 165)
+        Me.pannelj4.Location = New System.Drawing.Point(3, 162)
         Me.pannelj4.Name = "pannelj4"
         Me.pannelj4.RowCount = 1
         Me.pannelj4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.pannelj4.Size = New System.Drawing.Size(228, 51)
+        Me.pannelj4.Size = New System.Drawing.Size(228, 47)
         Me.pannelj4.TabIndex = 3
         '
         'lbl_j4_nom
@@ -580,7 +580,7 @@ Partial Class frm_jeu
         Me.lbl_j4_nom.Location = New System.Drawing.Point(1, 1)
         Me.lbl_j4_nom.Margin = New System.Windows.Forms.Padding(0)
         Me.lbl_j4_nom.Name = "lbl_j4_nom"
-        Me.lbl_j4_nom.Size = New System.Drawing.Size(112, 49)
+        Me.lbl_j4_nom.Size = New System.Drawing.Size(112, 45)
         Me.lbl_j4_nom.TabIndex = 0
         Me.lbl_j4_nom.Text = "NOM J4"
         Me.lbl_j4_nom.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -592,7 +592,7 @@ Partial Class frm_jeu
         Me.lbl_j4_score.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_j4_score.Location = New System.Drawing.Point(117, 1)
         Me.lbl_j4_score.Name = "lbl_j4_score"
-        Me.lbl_j4_score.Size = New System.Drawing.Size(107, 49)
+        Me.lbl_j4_score.Size = New System.Drawing.Size(107, 45)
         Me.lbl_j4_score.TabIndex = 1
         Me.lbl_j4_score.Text = "SCORE J4"
         Me.lbl_j4_score.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -604,12 +604,12 @@ Partial Class frm_jeu
         Me.panel_tour.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.panel_tour.Controls.Add(Me.lbl_tourJoueur, 0, 0)
         Me.panel_tour.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.panel_tour.Location = New System.Drawing.Point(1013, 602)
+        Me.panel_tour.Location = New System.Drawing.Point(1013, 589)
         Me.panel_tour.Name = "panel_tour"
         Me.panel_tour.RowCount = 1
         Me.panel_tour.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.panel_tour.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 144.0!))
-        Me.panel_tour.Size = New System.Drawing.Size(248, 144)
+        Me.panel_tour.Size = New System.Drawing.Size(248, 141)
         Me.panel_tour.TabIndex = 8
         '
         'lbl_tourJoueur
@@ -621,7 +621,7 @@ Partial Class frm_jeu
         Me.lbl_tourJoueur.Location = New System.Drawing.Point(3, 0)
         Me.lbl_tourJoueur.Margin = New System.Windows.Forms.Padding(3, 0, 3, 100)
         Me.lbl_tourJoueur.Name = "lbl_tourJoueur"
-        Me.lbl_tourJoueur.Size = New System.Drawing.Size(242, 44)
+        Me.lbl_tourJoueur.Size = New System.Drawing.Size(242, 41)
         Me.lbl_tourJoueur.TabIndex = 0
         Me.lbl_tourJoueur.Text = "Tour de "
         '
@@ -633,12 +633,12 @@ Partial Class frm_jeu
         Me.panel_pioche.Controls.Add(Me.lbl_pioche, 0, 0)
         Me.panel_pioche.Controls.Add(Me.picBox_pioche, 1, 0)
         Me.panel_pioche.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.panel_pioche.Location = New System.Drawing.Point(3, 602)
+        Me.panel_pioche.Location = New System.Drawing.Point(3, 589)
         Me.panel_pioche.Name = "panel_pioche"
         Me.panel_pioche.RowCount = 1
         Me.panel_pioche.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.panel_pioche.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 144.0!))
-        Me.panel_pioche.Size = New System.Drawing.Size(246, 144)
+        Me.panel_pioche.Size = New System.Drawing.Size(246, 141)
         Me.panel_pioche.TabIndex = 9
         '
         'lbl_pioche
@@ -660,7 +660,7 @@ Partial Class frm_jeu
         Me.picBox_pioche.Image = Global.Qwirkle.My.Resources.Resources.CarreBleu
         Me.picBox_pioche.Location = New System.Drawing.Point(126, 3)
         Me.picBox_pioche.Name = "picBox_pioche"
-        Me.picBox_pioche.Size = New System.Drawing.Size(117, 138)
+        Me.picBox_pioche.Size = New System.Drawing.Size(117, 135)
         Me.picBox_pioche.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picBox_pioche.TabIndex = 1
         Me.picBox_pioche.TabStop = False
@@ -669,7 +669,7 @@ Partial Class frm_jeu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1264, 749)
+        Me.ClientSize = New System.Drawing.Size(1264, 733)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.MinimumSize = New System.Drawing.Size(900, 600)

@@ -157,7 +157,6 @@ D:\dev\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.frm_fin.resources
 D:\dev\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.frm_jeu.resources
 D:\dev\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.frm_nouvelle_partie.resources
 D:\dev\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.frm_qwirkle_menu.resources
-D:\dev\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.Frm_recommencer_valid.resources
 D:\dev\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.Resources.resources
 D:\dev\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.vbproj.GenerateResource.cache
 D:\dev\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.vbproj.CoreCompileInputs.cache

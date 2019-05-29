@@ -105,7 +105,7 @@ Partial Class frm_aide
         '
         'RichTextBox7
         '
-        Me.RichTextBox7.BackColor = System.Drawing.SystemColors.Control
+        Me.RichTextBox7.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
         Me.RichTextBox7.Dock = System.Windows.Forms.DockStyle.Fill
         Me.RichTextBox7.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RichTextBox7.Location = New System.Drawing.Point(389, 173)
@@ -117,7 +117,7 @@ Partial Class frm_aide
         '
         'RichTextBox6
         '
-        Me.RichTextBox6.BackColor = System.Drawing.SystemColors.Control
+        Me.RichTextBox6.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
         Me.RichTextBox6.Dock = System.Windows.Forms.DockStyle.Fill
         Me.RichTextBox6.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RichTextBox6.Location = New System.Drawing.Point(389, 88)
@@ -129,7 +129,7 @@ Partial Class frm_aide
         '
         'RichTextBox5
         '
-        Me.RichTextBox5.BackColor = System.Drawing.SystemColors.Control
+        Me.RichTextBox5.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
         Me.RichTextBox5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.RichTextBox5.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RichTextBox5.Location = New System.Drawing.Point(389, 3)
@@ -141,7 +141,7 @@ Partial Class frm_aide
         '
         'RichTextBox4
         '
-        Me.RichTextBox4.BackColor = System.Drawing.SystemColors.Control
+        Me.RichTextBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
         Me.RichTextBox4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.RichTextBox4.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RichTextBox4.Location = New System.Drawing.Point(3, 173)
@@ -153,7 +153,7 @@ Partial Class frm_aide
         '
         'RichTextBox1
         '
-        Me.RichTextBox1.BackColor = System.Drawing.SystemColors.Control
+        Me.RichTextBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
         Me.RichTextBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.RichTextBox1.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RichTextBox1.Location = New System.Drawing.Point(3, 258)
@@ -165,7 +165,7 @@ Partial Class frm_aide
         '
         'RichTextBox2
         '
-        Me.RichTextBox2.BackColor = System.Drawing.SystemColors.Control
+        Me.RichTextBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
         Me.RichTextBox2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.RichTextBox2.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RichTextBox2.Location = New System.Drawing.Point(3, 3)
@@ -178,7 +178,7 @@ Partial Class frm_aide
         '
         'RichTextBox3
         '
-        Me.RichTextBox3.BackColor = System.Drawing.SystemColors.Control
+        Me.RichTextBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
         Me.RichTextBox3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.RichTextBox3.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RichTextBox3.Location = New System.Drawing.Point(3, 88)
@@ -209,9 +209,9 @@ Partial Class frm_aide
         Me.helpclose.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.helpclose.BackColor = System.Drawing.Color.Blue
+        Me.helpclose.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
         Me.helpclose.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.helpclose.ForeColor = System.Drawing.Color.Gold
+        Me.helpclose.ForeColor = System.Drawing.Color.Black
         Me.helpclose.Location = New System.Drawing.Point(260, 3)
         Me.helpclose.Name = "helpclose"
         Me.helpclose.Size = New System.Drawing.Size(251, 38)

@@ -94,10 +94,10 @@ Partial Class frm_fin
         '
         'menubutton
         '
-        Me.menubutton.BackColor = System.Drawing.Color.Blue
+        Me.menubutton.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
         Me.menubutton.Dock = System.Windows.Forms.DockStyle.Fill
         Me.menubutton.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.menubutton.ForeColor = System.Drawing.Color.Gold
+        Me.menubutton.ForeColor = System.Drawing.Color.Black
         Me.menubutton.Location = New System.Drawing.Point(50, 20)
         Me.menubutton.Margin = New System.Windows.Forms.Padding(50, 20, 50, 20)
         Me.menubutton.Name = "menubutton"
@@ -108,10 +108,10 @@ Partial Class frm_fin
         '
         'quitbutton
         '
-        Me.quitbutton.BackColor = System.Drawing.Color.Blue
+        Me.quitbutton.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
         Me.quitbutton.Dock = System.Windows.Forms.DockStyle.Fill
         Me.quitbutton.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.quitbutton.ForeColor = System.Drawing.Color.Gold
+        Me.quitbutton.ForeColor = System.Drawing.Color.Black
         Me.quitbutton.Location = New System.Drawing.Point(464, 20)
         Me.quitbutton.Margin = New System.Windows.Forms.Padding(50, 20, 50, 20)
         Me.quitbutton.Name = "quitbutton"
