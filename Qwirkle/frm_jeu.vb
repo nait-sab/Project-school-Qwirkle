@@ -10,20 +10,29 @@
     Public position_Y As Integer = 0
 
 
-    Private couleur() As String = {"Bleu", "Jaune", "Orange", "Rouge", "Vert", "Violet"}
-    Private forme() As String = {"Carre", "Croix", "Etoile", "Losange", "Rond", "Trefle"}
+
 
     Private Sub frm_jeu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         lbl_tourJoueur.Text = "Tour de " & joueur1.getNom
         ' Génération de la pioche - 108 tuiles '
         For count As Byte = 1 To 3
-            For color As Byte = 0 To couleur.Length - 1
+            For color As Byte = 0 To module_jeu.couleur.Length - 1
                 For shape As Byte = 0 To forme.Length - 1
                     Dim tuile As New Qwirkle_lib.Tuile(couleur(color), forme(shape))
                     jeu.addTuile(tuile)
                 Next
             Next
         Next
+
+        picBox1.Image = module_jeu.addmain()
+        picBox2.Image = module_jeu.addmain()
+        picBox3.Image = module_jeu.addmain()
+        picBox4.Image = module_jeu.addmain()
+        picBox5.Image = module_jeu.addmain()
+        picBox6.Image = module_jeu.addmain()
+
+
+
 
         grille_1_1.AllowDrop = True
         'picBox1.Image = Image.FromFile("Ressources\" & test.getForme & test.getCouleur & ".jpg")
@@ -99,5 +108,14 @@
             frm_qwirkle_menu.Show()
             Me.Hide()
         End If
+    End Sub
+
+    Private Sub btn_annuler_Click(sender As Object, e As EventArgs) Handles btn_annuler.Click
+        picBox1.Image = module_jeu.addmain()
+        picBox2.Image = module_jeu.addmain()
+        picBox3.Image = module_jeu.addmain()
+        picBox4.Image = module_jeu.addmain()
+        picBox5.Image = module_jeu.addmain()
+        picBox6.Image = module_jeu.addmain()
     End Sub
 End Class

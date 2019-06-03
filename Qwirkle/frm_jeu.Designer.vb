@@ -218,7 +218,7 @@ Partial Class frm_jeu
         Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
         Me.TableLayoutPanel3.RowCount = 1
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 144.0!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 141.0!))
         Me.TableLayoutPanel3.Size = New System.Drawing.Size(752, 141)
         Me.TableLayoutPanel3.TabIndex = 2
         '
@@ -608,7 +608,7 @@ Partial Class frm_jeu
         Me.panel_tour.Name = "panel_tour"
         Me.panel_tour.RowCount = 1
         Me.panel_tour.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.panel_tour.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 144.0!))
+        Me.panel_tour.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 141.0!))
         Me.panel_tour.Size = New System.Drawing.Size(248, 141)
         Me.panel_tour.TabIndex = 8
         '
@@ -637,7 +637,7 @@ Partial Class frm_jeu
         Me.panel_pioche.Name = "panel_pioche"
         Me.panel_pioche.RowCount = 1
         Me.panel_pioche.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.panel_pioche.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 144.0!))
+        Me.panel_pioche.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 141.0!))
         Me.panel_pioche.Size = New System.Drawing.Size(246, 141)
         Me.panel_pioche.TabIndex = 9
         '

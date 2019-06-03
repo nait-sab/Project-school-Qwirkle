@@ -190,7 +190,7 @@
     <None Include="Resources\CarreViolet.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\CroixBleue.jpg" />
+    <None Include="Resources\CroixBleu.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\CroixJaune.jpg" />
@@ -202,13 +202,13 @@
     <None Include="Resources\CroixRouge.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\CroixVerte.jpg" />
+    <None Include="Resources\CroixVert.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\CroixViolet.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\EtoileBleue.jpg" />
+    <None Include="Resources\EtoileBleu.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\EtoileJaune.jpg" />
@@ -220,7 +220,7 @@
     <None Include="Resources\EtoileRouge.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\EtoileVerte.jpg" />
+    <None Include="Resources\EtoileVert.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\EtoileViolet.jpg" />
