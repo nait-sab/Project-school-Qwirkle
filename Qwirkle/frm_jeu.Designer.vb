@@ -181,7 +181,7 @@ Partial Class frm_jeu
         Me.btn_annuler.Name = "btn_annuler"
         Me.btn_annuler.Size = New System.Drawing.Size(240, 66)
         Me.btn_annuler.TabIndex = 1
-        Me.btn_annuler.Text = "Annuler(tab de fin pour tests)"
+        Me.btn_annuler.Text = "Annuler(utilisation pour tests)"
         Me.btn_annuler.UseVisualStyleBackColor = False
         '
         'btn_confirmer

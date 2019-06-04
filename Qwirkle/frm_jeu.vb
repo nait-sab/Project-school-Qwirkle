@@ -24,12 +24,18 @@
             Next
         Next
 
-        picBox1.Image = module_jeu.addmain()
-        picBox2.Image = module_jeu.addmain()
-        picBox3.Image = module_jeu.addmain()
-        picBox4.Image = module_jeu.addmain()
-        picBox5.Image = module_jeu.addmain()
-        picBox6.Image = module_jeu.addmain()
+        picBox1.Image = module_jeu.addmain(picBox1)
+        picBox2.Image = module_jeu.addmain(picBox2)
+        picBox3.Image = module_jeu.addmain(picBox3)
+        picBox4.Image = module_jeu.addmain(picBox4)
+        picBox5.Image = module_jeu.addmain(picBox5)
+        picBox6.Image = module_jeu.addmain(picBox6)
+
+
+
+
+
+
 
 
 
@@ -111,11 +117,6 @@
     End Sub
 
     Private Sub btn_annuler_Click(sender As Object, e As EventArgs) Handles btn_annuler.Click
-        picBox1.Image = module_jeu.addmain()
-        picBox2.Image = module_jeu.addmain()
-        picBox3.Image = module_jeu.addmain()
-        picBox4.Image = module_jeu.addmain()
-        picBox5.Image = module_jeu.addmain()
-        picBox6.Image = module_jeu.addmain()
+        'bouton de test
     End Sub
 End Class
