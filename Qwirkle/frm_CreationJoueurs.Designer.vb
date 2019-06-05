@@ -76,6 +76,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.TableLayoutPanel1.BackColor = System.Drawing.Color.Transparent
         Me.TableLayoutPanel1.BackgroundImage = Global.Qwirkle.My.Resources.Resources.arriere
+        Me.TableLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.TableLayoutPanel1.ColumnCount = 1
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
@@ -530,6 +531,7 @@ Partial Class frm_CreationJoueurs
         'boutonvalidation
         '
         Me.boutonvalidation.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
+        Me.boutonvalidation.Cursor = System.Windows.Forms.Cursors.Hand
         Me.boutonvalidation.Dock = System.Windows.Forms.DockStyle.Fill
         Me.boutonvalidation.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.boutonvalidation.ForeColor = System.Drawing.Color.Black
@@ -544,6 +546,7 @@ Partial Class frm_CreationJoueurs
         'cmd_Retour
         '
         Me.cmd_Retour.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
+        Me.cmd_Retour.Cursor = System.Windows.Forms.Cursors.Hand
         Me.cmd_Retour.Dock = System.Windows.Forms.DockStyle.Fill
         Me.cmd_Retour.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmd_Retour.ForeColor = System.Drawing.Color.Black

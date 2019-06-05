@@ -36,6 +36,7 @@ Partial Class frm_nouvelle_partie
         Me.TableLayoutPanel1.AutoSize = True
         Me.TableLayoutPanel1.BackColor = System.Drawing.Color.Transparent
         Me.TableLayoutPanel1.BackgroundImage = Global.Qwirkle.My.Resources.Resources.arriere
+        Me.TableLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.TableLayoutPanel1.ColumnCount = 1
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.Label1, 0, 2)
@@ -77,6 +78,7 @@ Partial Class frm_nouvelle_partie
         'btn_2joueurs
         '
         Me.btn_2joueurs.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
+        Me.btn_2joueurs.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btn_2joueurs.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btn_2joueurs.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_2joueurs.ForeColor = System.Drawing.Color.Black
@@ -91,6 +93,7 @@ Partial Class frm_nouvelle_partie
         'btn_4joueurs
         '
         Me.btn_4joueurs.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
+        Me.btn_4joueurs.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btn_4joueurs.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btn_4joueurs.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_4joueurs.ForeColor = System.Drawing.Color.Black
@@ -105,6 +108,7 @@ Partial Class frm_nouvelle_partie
         'btn_3joueurs
         '
         Me.btn_3joueurs.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
+        Me.btn_3joueurs.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btn_3joueurs.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btn_3joueurs.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_3joueurs.ForeColor = System.Drawing.Color.Black
@@ -119,6 +123,7 @@ Partial Class frm_nouvelle_partie
         'btn_retour
         '
         Me.btn_retour.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
+        Me.btn_retour.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btn_retour.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btn_retour.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_retour.ForeColor = System.Drawing.Color.Black

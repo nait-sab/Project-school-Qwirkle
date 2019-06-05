@@ -62,6 +62,7 @@ Partial Class frm_fin
         '
         Me.TableLayoutPanel1.BackColor = System.Drawing.Color.Transparent
         Me.TableLayoutPanel1.BackgroundImage = Global.Qwirkle.My.Resources.Resources.arriere
+        Me.TableLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.TableLayoutPanel1.ColumnCount = 1
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel2, 0, 2)
@@ -95,6 +96,7 @@ Partial Class frm_fin
         'menubutton
         '
         Me.menubutton.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
+        Me.menubutton.Cursor = System.Windows.Forms.Cursors.Hand
         Me.menubutton.Dock = System.Windows.Forms.DockStyle.Fill
         Me.menubutton.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.menubutton.ForeColor = System.Drawing.Color.Black
@@ -109,6 +111,7 @@ Partial Class frm_fin
         'quitbutton
         '
         Me.quitbutton.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
+        Me.quitbutton.Cursor = System.Windows.Forms.Cursors.Hand
         Me.quitbutton.Dock = System.Windows.Forms.DockStyle.Fill
         Me.quitbutton.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.quitbutton.ForeColor = System.Drawing.Color.Black

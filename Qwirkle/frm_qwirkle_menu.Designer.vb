@@ -49,6 +49,7 @@ Partial Class frm_qwirkle_menu
         'btn_nouvelle_partie
         '
         Me.btn_nouvelle_partie.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
+        Me.btn_nouvelle_partie.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btn_nouvelle_partie.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btn_nouvelle_partie.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_nouvelle_partie.ForeColor = System.Drawing.Color.Black
@@ -65,6 +66,7 @@ Partial Class frm_qwirkle_menu
         Me.TableLayoutPanel1.AutoSize = True
         Me.TableLayoutPanel1.BackColor = System.Drawing.Color.Transparent
         Me.TableLayoutPanel1.BackgroundImage = Global.Qwirkle.My.Resources.Resources.arriere
+        Me.TableLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.TableLayoutPanel1.ColumnCount = 1
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.Label1, 0, 0)
@@ -86,6 +88,7 @@ Partial Class frm_qwirkle_menu
         'btn_quitter
         '
         Me.btn_quitter.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
+        Me.btn_quitter.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btn_quitter.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btn_quitter.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_quitter.ForeColor = System.Drawing.Color.Black
@@ -100,6 +103,7 @@ Partial Class frm_qwirkle_menu
         'btn_aide
         '
         Me.btn_aide.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
+        Me.btn_aide.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btn_aide.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btn_aide.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_aide.ForeColor = System.Drawing.Color.Black

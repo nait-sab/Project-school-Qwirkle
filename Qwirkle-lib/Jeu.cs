@@ -30,24 +30,6 @@ namespace Qwirkle_lib
         public void addJoueur(Joueur joueur) { this.m_joueurs.Add(joueur); }
         public void removeJoueur(Joueur joueur) { this.m_joueurs.Remove(joueur); }
 
-        Random randomizer = new Random();
-        
-        //public Tuile addmain()
-        //{
-        //    int taille = m_pioche.Count;
-        //    int nb = randomizer.Next(taille);
-        //    Tuile number = m_pioche < nb >;
-        //    removeTuile(number);
-        //    m_pioche.Resize(taille - 1);
-        //    return number;
-        //}
-
-
-
-
-
-      
-
         //Accesors
         public int getNombreJoueurs() { return this.m_nombre_joueurs; }
         public int getJoueurActuel() { return this.m_joueur_actuel; }
@@ -55,6 +37,9 @@ namespace Qwirkle_lib
         public List<Tuile> getPioche() { return this.m_pioche; }
         public List<Joueur> getJoueurs() { return this.m_joueurs; }
 
-        public void setNombreJoueurs(int total) { this.m_nombre_joueurs = total; }
+        public void setNombreJoueurs(int total)
+        {
+            this.m_nombre_joueurs = total;
+        }
     }
 }
