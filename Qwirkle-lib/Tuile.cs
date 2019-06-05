@@ -24,5 +24,15 @@ namespace Qwirkle_lib
 
         public string getCouleur() { return this.m_couleur; }
         public string getForme() { return this.m_forme; }
+
+        public void setCouleur(string couleur)
+        {
+            this.m_couleur = couleur;
+        }
+        public void setForme(string forme)
+        {
+            this.m_forme = forme;
+        }
+
     }
 }

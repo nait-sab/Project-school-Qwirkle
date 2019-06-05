@@ -6,11 +6,6 @@
     Public comptage As Boolean = 0
     Public direction As Integer = 0
     Public case_remplie As Boolean = 0
-    Public position_X As Integer = 0
-    Public position_Y As Integer = 0
-
-
-
 
     Private Sub frm_jeu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         lbl_tourJoueur.Text = "Tour de " & joueur1.getNom
@@ -24,17 +19,16 @@
             Next
         Next
 
-        picBox1.Image = module_jeu.addmain()
-        picBox2.Image = module_jeu.addmain()
-        picBox3.Image = module_jeu.addmain()
-        picBox4.Image = module_jeu.addmain()
-        picBox5.Image = module_jeu.addmain()
-        picBox6.Image = module_jeu.addmain()
-
-
-
+        picBox1.Image = module_jeu.addmain(picBox1)
+        picBox2.Image = module_jeu.addmain(picBox2)
+        picBox3.Image = module_jeu.addmain(picBox3)
+        picBox4.Image = module_jeu.addmain(picBox4)
+        picBox5.Image = module_jeu.addmain(picBox5)
+        picBox6.Image = module_jeu.addmain(picBox6)
 
         grille_1_1.AllowDrop = True
+
+        ' Exemple d'importation des ressources '
         'picBox1.Image = Image.FromFile("Ressources\" & test.getForme & test.getCouleur & ".jpg")
         'picBox1.Image = My.Resources.ResourceManager.GetObject(test.getForme & test.getCouleur)
 
@@ -52,14 +46,28 @@
             pannelj.Controls("lbl_j" & i + 1 & "_score").Text = jeu.getJoueurs(i).getScore
         Next
 
+        AddHandler picBox1.MouseHover, AddressOf main_hover
+        AddHandler picBox2.MouseHover, AddressOf main_hover
+        AddHandler picBox3.MouseHover, AddressOf main_hover
+        AddHandler picBox4.MouseHover, AddressOf main_hover
+        AddHandler picBox5.MouseHover, AddressOf main_hover
+        AddHandler picBox6.MouseHover, AddressOf main_hover
+
+        AddHandler picBox1.MouseMove, AddressOf main_mouseMove
+        AddHandler picBox2.MouseMove, AddressOf main_mouseMove
+        AddHandler picBox3.MouseMove, AddressOf main_mouseMove
+        AddHandler picBox4.MouseMove, AddressOf main_mouseMove
+        AddHandler picBox5.MouseMove, AddressOf main_mouseMove
+        AddHandler picBox6.MouseMove, AddressOf main_mouseMove
+
     End Sub
 
-    Private Sub picColR_MouseMove(sender As Object, e As MouseEventArgs) Handles picBox1.MouseMove
+    Private Sub main_mouseMove(sender As Object, e As MouseEventArgs)
         Dim drag As DragDropEffects
         If e.Button = MouseButtons.Left Then
-            picBox1.AllowDrop = False
-            drag = picBox1.DoDragDrop(picBox1.Image, DragDropEffects.Move)
-            picBox1.AllowDrop = True
+            sender.AllowDrop = False
+            drag = sender.DoDragDrop(sender.Image, DragDropEffects.Move)
+            sender.AllowDrop = True
         End If
     End Sub
 
@@ -90,11 +98,8 @@
                 While (case_remplie = 0)
                     longueur += 1
                 End While
-
             End While
-
         End While
-
 
         score_joueur = score_joueur + score_tour
         lbl_j1_score.Text = score_joueur
@@ -110,12 +115,7 @@
         End If
     End Sub
 
-    Private Sub btn_annuler_Click(sender As Object, e As EventArgs) Handles btn_annuler.Click
-        picBox1.Image = module_jeu.addmain()
-        picBox2.Image = module_jeu.addmain()
-        picBox3.Image = module_jeu.addmain()
-        picBox4.Image = module_jeu.addmain()
-        picBox5.Image = module_jeu.addmain()
-        picBox6.Image = module_jeu.addmain()
+    Private Sub main_hover(sender As Object, e As EventArgs)
+        sender.Cursor = Cursors.Hand
     End Sub
 End Class
