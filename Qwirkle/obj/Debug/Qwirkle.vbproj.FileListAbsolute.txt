@@ -24,7 +24,6 @@ D:\dev\Qwirkle\Qwirkle\obj\Debug\Qwirkle.exe
 D:\dev\Qwirkle\Qwirkle\obj\Debug\Qwirkle.xml
 D:\dev\Qwirkle\Qwirkle\obj\Debug\Qwirkle.pdb
 C:\Users\cyril\OneDrive\Documents\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.frm_nouvelle_partie.resources
-C:\Users\cyril\OneDrive\Documents\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.frm_plateau.resources
 D:\dev\Qwirkle\Qwirkle\obj\Debug\Qwirkle.frm_jeu.resources
 C:\Users\Corentin\Documents\Aqwirkle\v3\Project-school-Qwirkle\Qwirkle\bin\Debug\Qwirkle.exe.config
 C:\Users\Corentin\Documents\Aqwirkle\v3\Project-school-Qwirkle\Qwirkle\bin\Debug\Qwirkle.exe
@@ -248,3 +247,10 @@ C:\Users\Mbart\Documents\mangefort\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwir
 C:\Users\Mbart\Documents\mangefort\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.exe
 C:\Users\Mbart\Documents\mangefort\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.xml
 C:\Users\Mbart\Documents\mangefort\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.pdb
+C:\Users\cyril\OneDrive\Documents\Project-school-Qwirkle\Qwirkle\bin\Debug\Qwirkle-lib.dll
+C:\Users\cyril\OneDrive\Documents\Project-school-Qwirkle\Qwirkle\bin\Debug\Qwirkle-lib.pdb
+C:\Users\cyril\OneDrive\Documents\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.frm_aide.resources
+C:\Users\cyril\OneDrive\Documents\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.frm_CreationJoueurs.resources
+C:\Users\cyril\OneDrive\Documents\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.frm_fin.resources
+C:\Users\cyril\OneDrive\Documents\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.frm_jeu.resources
+C:\Users\cyril\OneDrive\Documents\Project-school-Qwirkle\Qwirkle\obj\Debug\Qwirkle.vbproj.CopyComplete

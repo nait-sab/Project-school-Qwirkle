@@ -8,8 +8,21 @@
     Public case_remplie As Boolean = 0
 
     Private Sub frm_jeu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        lbl_tourJoueur.Text = "Tour de " & joueur1.getNom
-        ' Génération de la pioche - 108 tuiles '
+        For value1 As Integer = 0 To 30
+            For value2 As Integer = 0 To 17
+                Dim p As New Windows.Forms.PictureBox()
+                p.Location = New Drawing.Point(230 + 50 * value1, 50 * value2)
+                p.Size = New Drawing.Size(40, 40)
+                p.BorderStyle = Windows.Forms.BorderStyle.FixedSingle 'Pour moi, afin de voir qu'elle est là
+                p.Visible = True
+                p.AllowDrop = True
+                Me.Controls.Add(p)
+                AddHandler p.DragEnter, AddressOf picbox1_DragEnter
+                AddHandler p.DragDrop, AddressOf picbox1_DragDrop
+            Next
+        Next
+        'labnamej1.Text = "Tour de " & joueur1.getNom
+        'Génération de la pioche - 108 tuiles '
         For count As Byte = 1 To 3
             For color As Byte = 0 To module_jeu.couleur.Length - 1
                 For shape As Byte = 0 To forme.Length - 1
@@ -26,7 +39,7 @@
         picBox5.Image = module_jeu.addmain(picBox5)
         picBox6.Image = module_jeu.addmain(picBox6)
 
-        grille_1_1.AllowDrop = True
+
 
         ' Exemple d'importation des ressources '
         'picBox1.Image = Image.FromFile("Ressources\" & test.getForme & test.getCouleur & ".jpg")
@@ -40,11 +53,11 @@
             pannelj4.Visible = False
         End If
 
-        For i As Byte = 0 To jeu.getNombreJoueurs - 1
-            Dim pannelj As TableLayoutPanel = TableLayoutPanel8.Controls("pannelj" & i + 1)
-            pannelj.Controls("lbl_j" & i + 1 & "_nom").Text = jeu.getJoueurs(i).getNom
-            pannelj.Controls("lbl_j" & i + 1 & "_score").Text = jeu.getJoueurs(i).getScore
-        Next
+        'For i As Byte = 0 To jeu.getNombreJoueurs - 1
+        '    Dim pannelj As TableLayoutPanel = TableLayoutPanel8.Controls("pannelj" & i + 1)
+        '    pannelj.Controls("lbl_j" & i + 1 & "_nom").Text = jeu.getJoueurs(i).getNom
+        '    pannelj.Controls("lbl_j" & i + 1 & "_score").Text = jeu.getJoueurs(i).getScore
+        'Next
 
         AddHandler picBox1.MouseHover, AddressOf main_hover
         AddHandler picBox2.MouseHover, AddressOf main_hover
@@ -71,7 +84,7 @@
         End If
     End Sub
 
-    Private Sub picbox1_DragEnter(sender As Object, e As DragEventArgs) Handles grille_1_1.DragEnter
+    Private Sub picbox1_DragEnter(sender As Object, e As DragEventArgs)
         If e.Data.GetDataPresent(DataFormats.Bitmap) Then
             e.Effect = DragDropEffects.Move
         Else
@@ -79,19 +92,19 @@
         End If
     End Sub
 
-    Private Sub picbox1_DragDrop(sender As Object, e As DragEventArgs) Handles grille_1_1.DragDrop
+    Private Sub picbox1_DragDrop(sender As Object, e As DragEventArgs)
 
-        grille_1_1.Image = e.Data.GetData(DataFormats.Bitmap)
+        sender.Image = e.Data.GetData(DataFormats.Bitmap)
     End Sub
 
 
-    Private Sub btn_aide_Click(sender As Object, e As EventArgs) Handles btn_aide.Click
+    Private Sub btn_aide_Click(sender As Object, e As EventArgs)
         frm_aide.Show()
     End Sub
 
-    Private Sub btn_confirmer_Click(sender As Object, e As EventArgs) Handles btn_confirmer.Click
+    Private Sub btn_confirmer_Click(sender As Object, e As EventArgs)
 
-        score_joueur = lbl_j1_score.Text
+        score_joueur = labelscj1.Text
 
         While (comptage = 0)
             While (direction <> 4)
@@ -102,11 +115,11 @@
         End While
 
         score_joueur = score_joueur + score_tour
-        lbl_j1_score.Text = score_joueur
-        lbl_tourJoueur.Text = "Tour de " & lbl_j2_nom.Text
+        labelscj1.Text = score_joueur
+        labelcurrentplayer.Text = "Tour de " & labnamej1.Text
     End Sub
 
-    Private Sub btn_recommencer_Click(sender As Object, e As EventArgs) Handles btn_recommencer.Click
+    Private Sub btn_recommencer_Click(sender As Object, e As EventArgs)
         Dim validation As DialogResult
         validation = MessageBox.Show("Voulez vous recommencer ?", "Qwirkle", MessageBoxButtons.YesNo)
         If (validation = DialogResult.Yes) Then
