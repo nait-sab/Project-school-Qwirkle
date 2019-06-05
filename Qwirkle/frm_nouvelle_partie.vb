@@ -23,8 +23,6 @@ Public Class frm_nouvelle_partie
         Me.Hide()
         frm_CreationJoueurs.Size = Me.Size
         frm_CreationJoueurs.Show()
-
-
     End Sub
 
     Private Sub btn_3joueurs_Click(sender As Object, e As EventArgs) Handles btn_3joueurs.Click
@@ -40,6 +38,5 @@ Public Class frm_nouvelle_partie
         frm_CreationJoueurs.Size = Me.Size
         frm_CreationJoueurs.Show()
     End Sub
-
 
 End Class
