@@ -17,10 +17,11 @@ Public Class frm_nouvelle_partie
     Private Sub frm_nouvelle_partie_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.Size = frm_qwirkle_menu.Size
     End Sub
-
     Private Sub btn_2joueurs_Click(sender As Object, e As EventArgs) Handles btn_2joueurs.Click
         jeu.setNombreJoueurs(2)
         Me.Hide()
+        frm_CreationJoueurs.pannelj3.Visible = False
+        frm_CreationJoueurs.pannelj4.Visible = False
         frm_CreationJoueurs.Size = Me.Size
         frm_CreationJoueurs.Show()
     End Sub
@@ -28,8 +29,14 @@ Public Class frm_nouvelle_partie
     Private Sub btn_3joueurs_Click(sender As Object, e As EventArgs) Handles btn_3joueurs.Click
         jeu.setNombreJoueurs(3)
         Me.Hide()
+
         frm_CreationJoueurs.Size = Me.Size
         frm_CreationJoueurs.Show()
+        If frm_CreationJoueurs.pannelj3.Visible = False Then
+            frm_CreationJoueurs.pannelj3.Visible = True
+
+        End If
+        frm_CreationJoueurs.pannelj4.Visible = False
     End Sub
 
     Private Sub btn_4joueurs_Click(sender As Object, e As EventArgs) Handles btn_4joueurs.Click
@@ -37,6 +44,14 @@ Public Class frm_nouvelle_partie
         Me.Hide()
         frm_CreationJoueurs.Size = Me.Size
         frm_CreationJoueurs.Show()
+        If frm_CreationJoueurs.pannelj4.Visible = False Then
+            frm_CreationJoueurs.pannelj4.Visible = True
+
+        End If
+        If frm_CreationJoueurs.pannelj3.Visible = False Then
+            frm_CreationJoueurs.pannelj3.Visible = True
+        End If
     End Sub
+
 
 End Class
