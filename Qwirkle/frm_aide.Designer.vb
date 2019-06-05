@@ -235,6 +235,7 @@ Partial Class frm_aide
         Me.ClientSize = New System.Drawing.Size(778, 495)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Name = "frm_aide"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Qwirkle"
         CType(Me.EventLog1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TableLayoutPanel1.ResumeLayout(False)

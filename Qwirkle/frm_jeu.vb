@@ -9,19 +9,21 @@
 
     Private Sub frm_jeu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         For value1 As Integer = 0 To 30
-            For value2 As Integer = 0 To 17
+            For value2 As Integer = 0 To 30
                 Dim p As New Windows.Forms.PictureBox()
-                p.Location = New Drawing.Point(230 + 50 * value1, 50 * value2)
-                p.Size = New Drawing.Size(40, 40)
+                p.Location = New Drawing.Point(240 + 27 * value1, 27 * value2)
+                p.Size = New Drawing.Size(27, 27)
                 p.BorderStyle = Windows.Forms.BorderStyle.FixedSingle 'Pour moi, afin de voir qu'elle est là
                 p.Visible = True
                 p.AllowDrop = True
+                p.SizeMode = PictureBoxSizeMode.StretchImage
                 Me.Controls.Add(p)
-                AddHandler p.DragEnter, AddressOf picbox1_DragEnter
-                AddHandler p.DragDrop, AddressOf picbox1_DragDrop
+                AddHandler p.DragEnter, AddressOf grille_DragEnter
+                AddHandler p.DragDrop, AddressOf grille_DragDrop
             Next
         Next
-        'labnamej1.Text = "Tour de " & joueur1.getNom
+        lbl_joueur_actuel.Text = "Tour de " & joueur1.getNom
+
         'Génération de la pioche - 108 tuiles '
         For count As Byte = 1 To 3
             For color As Byte = 0 To module_jeu.couleur.Length - 1
@@ -39,8 +41,6 @@
         picBox5.Image = module_jeu.addmain(picBox5)
         picBox6.Image = module_jeu.addmain(picBox6)
 
-
-
         ' Exemple d'importation des ressources '
         'picBox1.Image = Image.FromFile("Ressources\" & test.getForme & test.getCouleur & ".jpg")
         'picBox1.Image = My.Resources.ResourceManager.GetObject(test.getForme & test.getCouleur)
@@ -53,11 +53,11 @@
             pannelj4.Visible = False
         End If
 
-        'For i As Byte = 0 To jeu.getNombreJoueurs - 1
-        '    Dim pannelj As TableLayoutPanel = TableLayoutPanel8.Controls("pannelj" & i + 1)
-        '    pannelj.Controls("lbl_j" & i + 1 & "_nom").Text = jeu.getJoueurs(i).getNom
-        '    pannelj.Controls("lbl_j" & i + 1 & "_score").Text = jeu.getJoueurs(i).getScore
-        'Next
+        For i As Byte = 0 To jeu.getNombreJoueurs - 1
+            Dim pannelj As TableLayoutPanel = TableLayoutPanel8.Controls("pannelj" & i + 1)
+            pannelj.Controls("lbl_j" & i + 1 & "_nom").Text = jeu.getJoueurs(i).getNom
+            pannelj.Controls("lbl_j" & i + 1 & "_score").Text = jeu.getJoueurs(i).getScore
+        Next
 
         AddHandler picBox1.MouseHover, AddressOf main_hover
         AddHandler picBox2.MouseHover, AddressOf main_hover
@@ -84,7 +84,7 @@
         End If
     End Sub
 
-    Private Sub picbox1_DragEnter(sender As Object, e As DragEventArgs)
+    Private Sub grille_DragEnter(sender As Object, e As DragEventArgs)
         If e.Data.GetDataPresent(DataFormats.Bitmap) Then
             e.Effect = DragDropEffects.Move
         Else
@@ -92,7 +92,7 @@
         End If
     End Sub
 
-    Private Sub picbox1_DragDrop(sender As Object, e As DragEventArgs)
+    Private Sub grille_DragDrop(sender As Object, e As DragEventArgs)
 
         sender.Image = e.Data.GetData(DataFormats.Bitmap)
     End Sub
@@ -104,8 +104,7 @@
 
     Private Sub btn_confirmer_Click(sender As Object, e As EventArgs)
 
-        score_joueur = labelscj1.Text
-
+        score_joueur = lbl_j1_score.Text
         While (comptage = 0)
             While (direction <> 4)
                 While (case_remplie = 0)
@@ -113,10 +112,9 @@
                 End While
             End While
         End While
-
         score_joueur = score_joueur + score_tour
-        labelscj1.Text = score_joueur
-        labelcurrentplayer.Text = "Tour de " & labnamej1.Text
+        lbl_j1_score.Text = score_joueur
+        lbl_joueur_actuel.Text = "Tour de " & lbl_j1_nom.Text
     End Sub
 
     Private Sub btn_recommencer_Click(sender As Object, e As EventArgs)
@@ -130,5 +128,9 @@
 
     Private Sub main_hover(sender As Object, e As EventArgs)
         sender.Cursor = Cursors.Hand
+    End Sub
+
+    Private Sub btn_aide_Click_1(sender As Object, e As EventArgs) Handles btn_aide.Click
+        frm_aide.Show()
     End Sub
 End Class

@@ -199,6 +199,7 @@ Partial Class frm_fin
         Me.TableLayoutPanel5.Controls.Add(Me.Label3, 0, 0)
         Me.TableLayoutPanel5.Controls.Add(Me.TableLayoutPanel6, 0, 1)
         Me.TableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TableLayoutPanel5.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TableLayoutPanel5.Location = New System.Drawing.Point(3, 88)
         Me.TableLayoutPanel5.Name = "TableLayoutPanel5"
         Me.TableLayoutPanel5.RowCount = 2
@@ -259,7 +260,7 @@ Partial Class frm_fin
         '
         Me.j1_nom.AutoSize = True
         Me.j1_nom.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.j1_nom.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.j1_nom.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.j1_nom.Location = New System.Drawing.Point(4, 1)
         Me.j1_nom.Name = "j1_nom"
         Me.j1_nom.Size = New System.Drawing.Size(421, 58)
@@ -271,13 +272,13 @@ Partial Class frm_fin
         '
         Me.j1_score.AutoSize = True
         Me.j1_score.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.j1_score.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.j1_score.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.j1_score.Location = New System.Drawing.Point(432, 1)
         Me.j1_score.Name = "j1_score"
         Me.j1_score.Size = New System.Drawing.Size(422, 58)
         Me.j1_score.TabIndex = 1
         Me.j1_score.Text = "Score du joueur 1"
-        Me.j1_score.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.j1_score.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'pannelj2
         '
@@ -299,7 +300,7 @@ Partial Class frm_fin
         '
         Me.j2_nom.AutoSize = True
         Me.j2_nom.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.j2_nom.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.j2_nom.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.j2_nom.Location = New System.Drawing.Point(4, 1)
         Me.j2_nom.Name = "j2_nom"
         Me.j2_nom.Size = New System.Drawing.Size(421, 58)
@@ -311,13 +312,13 @@ Partial Class frm_fin
         '
         Me.j2_score.AutoSize = True
         Me.j2_score.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.j2_score.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.j2_score.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.j2_score.Location = New System.Drawing.Point(432, 1)
         Me.j2_score.Name = "j2_score"
         Me.j2_score.Size = New System.Drawing.Size(422, 58)
         Me.j2_score.TabIndex = 1
         Me.j2_score.Text = "Score du joueur 2"
-        Me.j2_score.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.j2_score.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'pannelj3
         '
@@ -339,7 +340,7 @@ Partial Class frm_fin
         '
         Me.j3_nom.AutoSize = True
         Me.j3_nom.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.j3_nom.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.j3_nom.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.j3_nom.Location = New System.Drawing.Point(4, 1)
         Me.j3_nom.Name = "j3_nom"
         Me.j3_nom.Size = New System.Drawing.Size(421, 58)
@@ -351,13 +352,13 @@ Partial Class frm_fin
         '
         Me.j3_score.AutoSize = True
         Me.j3_score.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.j3_score.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.j3_score.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.j3_score.Location = New System.Drawing.Point(432, 1)
         Me.j3_score.Name = "j3_score"
         Me.j3_score.Size = New System.Drawing.Size(422, 58)
         Me.j3_score.TabIndex = 1
         Me.j3_score.Text = "Score du joueur 3"
-        Me.j3_score.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.j3_score.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'pannelj4
         '
@@ -379,7 +380,7 @@ Partial Class frm_fin
         '
         Me.j4_nom.AutoSize = True
         Me.j4_nom.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.j4_nom.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.j4_nom.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.j4_nom.Location = New System.Drawing.Point(4, 1)
         Me.j4_nom.Name = "j4_nom"
         Me.j4_nom.Size = New System.Drawing.Size(421, 60)
@@ -391,13 +392,13 @@ Partial Class frm_fin
         '
         Me.j4_score.AutoSize = True
         Me.j4_score.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.j4_score.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.j4_score.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.j4_score.Location = New System.Drawing.Point(432, 1)
         Me.j4_score.Name = "j4_score"
         Me.j4_score.Size = New System.Drawing.Size(422, 60)
         Me.j4_score.TabIndex = 1
         Me.j4_score.Text = "Score du joueur 4"
-        Me.j4_score.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.j4_score.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'frm_fin
         '
@@ -407,6 +408,7 @@ Partial Class frm_fin
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.MinimumSize = New System.Drawing.Size(900, 600)
         Me.Name = "frm_fin"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "frm_fin"
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel1.PerformLayout()

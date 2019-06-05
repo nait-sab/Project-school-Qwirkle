@@ -183,19 +183,21 @@ Partial Class frm_CreationJoueurs
         'txt_Joueur4_Nom
         '
         Me.txt_Joueur4_Nom.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.txt_Joueur4_Nom.Location = New System.Drawing.Point(153, 30)
-        Me.txt_Joueur4_Nom.Margin = New System.Windows.Forms.Padding(0, 30, 0, 30)
+        Me.txt_Joueur4_Nom.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_Joueur4_Nom.Location = New System.Drawing.Point(153, 20)
+        Me.txt_Joueur4_Nom.Margin = New System.Windows.Forms.Padding(0, 20, 0, 10)
         Me.txt_Joueur4_Nom.Name = "txt_Joueur4_Nom"
-        Me.txt_Joueur4_Nom.Size = New System.Drawing.Size(153, 20)
+        Me.txt_Joueur4_Nom.Size = New System.Drawing.Size(153, 29)
         Me.txt_Joueur4_Nom.TabIndex = 2
         '
         'txt_Joueur4_Age
         '
         Me.txt_Joueur4_Age.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.txt_Joueur4_Age.Location = New System.Drawing.Point(153, 95)
-        Me.txt_Joueur4_Age.Margin = New System.Windows.Forms.Padding(0, 30, 0, 30)
+        Me.txt_Joueur4_Age.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_Joueur4_Age.Location = New System.Drawing.Point(153, 85)
+        Me.txt_Joueur4_Age.Margin = New System.Windows.Forms.Padding(0, 20, 0, 10)
         Me.txt_Joueur4_Age.Name = "txt_Joueur4_Age"
-        Me.txt_Joueur4_Age.Size = New System.Drawing.Size(153, 20)
+        Me.txt_Joueur4_Age.Size = New System.Drawing.Size(153, 29)
         Me.txt_Joueur4_Age.TabIndex = 3
         '
         'check_j4
@@ -284,19 +286,21 @@ Partial Class frm_CreationJoueurs
         'txt_Joueur3_Nom
         '
         Me.txt_Joueur3_Nom.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.txt_Joueur3_Nom.Location = New System.Drawing.Point(153, 30)
-        Me.txt_Joueur3_Nom.Margin = New System.Windows.Forms.Padding(0, 30, 0, 30)
+        Me.txt_Joueur3_Nom.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_Joueur3_Nom.Location = New System.Drawing.Point(153, 20)
+        Me.txt_Joueur3_Nom.Margin = New System.Windows.Forms.Padding(0, 20, 0, 10)
         Me.txt_Joueur3_Nom.Name = "txt_Joueur3_Nom"
-        Me.txt_Joueur3_Nom.Size = New System.Drawing.Size(153, 20)
+        Me.txt_Joueur3_Nom.Size = New System.Drawing.Size(153, 29)
         Me.txt_Joueur3_Nom.TabIndex = 2
         '
         'txt_Joueur3_Age
         '
         Me.txt_Joueur3_Age.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.txt_Joueur3_Age.Location = New System.Drawing.Point(153, 95)
-        Me.txt_Joueur3_Age.Margin = New System.Windows.Forms.Padding(0, 30, 0, 30)
+        Me.txt_Joueur3_Age.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_Joueur3_Age.Location = New System.Drawing.Point(153, 85)
+        Me.txt_Joueur3_Age.Margin = New System.Windows.Forms.Padding(0, 20, 0, 10)
         Me.txt_Joueur3_Age.Name = "txt_Joueur3_Age"
-        Me.txt_Joueur3_Age.Size = New System.Drawing.Size(153, 20)
+        Me.txt_Joueur3_Age.Size = New System.Drawing.Size(153, 29)
         Me.txt_Joueur3_Age.TabIndex = 3
         '
         'check_j3
@@ -385,19 +389,21 @@ Partial Class frm_CreationJoueurs
         'txt_Joueur2_Nom
         '
         Me.txt_Joueur2_Nom.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.txt_Joueur2_Nom.Location = New System.Drawing.Point(153, 30)
-        Me.txt_Joueur2_Nom.Margin = New System.Windows.Forms.Padding(0, 30, 0, 30)
+        Me.txt_Joueur2_Nom.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_Joueur2_Nom.Location = New System.Drawing.Point(153, 20)
+        Me.txt_Joueur2_Nom.Margin = New System.Windows.Forms.Padding(0, 20, 0, 10)
         Me.txt_Joueur2_Nom.Name = "txt_Joueur2_Nom"
-        Me.txt_Joueur2_Nom.Size = New System.Drawing.Size(153, 20)
+        Me.txt_Joueur2_Nom.Size = New System.Drawing.Size(153, 29)
         Me.txt_Joueur2_Nom.TabIndex = 2
         '
         'txt_Joueur2_Age
         '
         Me.txt_Joueur2_Age.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.txt_Joueur2_Age.Location = New System.Drawing.Point(153, 95)
-        Me.txt_Joueur2_Age.Margin = New System.Windows.Forms.Padding(0, 30, 0, 30)
+        Me.txt_Joueur2_Age.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_Joueur2_Age.Location = New System.Drawing.Point(153, 85)
+        Me.txt_Joueur2_Age.Margin = New System.Windows.Forms.Padding(0, 20, 0, 10)
         Me.txt_Joueur2_Age.Name = "txt_Joueur2_Age"
-        Me.txt_Joueur2_Age.Size = New System.Drawing.Size(153, 20)
+        Me.txt_Joueur2_Age.Size = New System.Drawing.Size(153, 29)
         Me.txt_Joueur2_Age.TabIndex = 3
         '
         'check_j2
@@ -475,7 +481,7 @@ Partial Class frm_CreationJoueurs
         '
         Me.lbl_Joueur1_Age.AutoSize = True
         Me.lbl_Joueur1_Age.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.lbl_Joueur1_Age.Font = New System.Drawing.Font("Segoe UI", 8.25!)
+        Me.lbl_Joueur1_Age.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_Joueur1_Age.Location = New System.Drawing.Point(3, 65)
         Me.lbl_Joueur1_Age.Name = "lbl_Joueur1_Age"
         Me.lbl_Joueur1_Age.Size = New System.Drawing.Size(147, 65)
@@ -486,19 +492,21 @@ Partial Class frm_CreationJoueurs
         'txt_Joueur1_Nom
         '
         Me.txt_Joueur1_Nom.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.txt_Joueur1_Nom.Location = New System.Drawing.Point(153, 30)
-        Me.txt_Joueur1_Nom.Margin = New System.Windows.Forms.Padding(0, 30, 0, 30)
+        Me.txt_Joueur1_Nom.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_Joueur1_Nom.Location = New System.Drawing.Point(153, 20)
+        Me.txt_Joueur1_Nom.Margin = New System.Windows.Forms.Padding(0, 20, 0, 10)
         Me.txt_Joueur1_Nom.Name = "txt_Joueur1_Nom"
-        Me.txt_Joueur1_Nom.Size = New System.Drawing.Size(153, 20)
+        Me.txt_Joueur1_Nom.Size = New System.Drawing.Size(153, 29)
         Me.txt_Joueur1_Nom.TabIndex = 2
         '
         'txt_Joueur1_Age
         '
         Me.txt_Joueur1_Age.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.txt_Joueur1_Age.Location = New System.Drawing.Point(153, 95)
-        Me.txt_Joueur1_Age.Margin = New System.Windows.Forms.Padding(0, 30, 0, 30)
+        Me.txt_Joueur1_Age.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_Joueur1_Age.Location = New System.Drawing.Point(153, 85)
+        Me.txt_Joueur1_Age.Margin = New System.Windows.Forms.Padding(0, 20, 0, 10)
         Me.txt_Joueur1_Age.Name = "txt_Joueur1_Age"
-        Me.txt_Joueur1_Age.Size = New System.Drawing.Size(153, 20)
+        Me.txt_Joueur1_Age.Size = New System.Drawing.Size(153, 29)
         Me.txt_Joueur1_Age.TabIndex = 3
         '
         'check_j1
@@ -565,6 +573,7 @@ Partial Class frm_CreationJoueurs
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Name = "frm_CreationJoueurs"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "frm_CreationJoueurs"
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel2.ResumeLayout(False)
