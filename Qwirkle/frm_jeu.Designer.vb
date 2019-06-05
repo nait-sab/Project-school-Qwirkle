@@ -88,6 +88,7 @@ Partial Class frm_jeu
         Me.TableLayoutPanel1.AutoSize = True
         Me.TableLayoutPanel1.BackColor = System.Drawing.Color.Transparent
         Me.TableLayoutPanel1.BackgroundImage = Global.Qwirkle.My.Resources.Resources.arriere
+        Me.TableLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.TableLayoutPanel1.ColumnCount = 3
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60.0!))
@@ -135,6 +136,7 @@ Partial Class frm_jeu
         'btn_abandonner
         '
         Me.btn_abandonner.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
+        Me.btn_abandonner.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btn_abandonner.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btn_abandonner.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_abandonner.ForeColor = System.Drawing.Color.Black
@@ -148,6 +150,7 @@ Partial Class frm_jeu
         'btn_recommencer
         '
         Me.btn_recommencer.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
+        Me.btn_recommencer.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btn_recommencer.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btn_recommencer.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_recommencer.ForeColor = System.Drawing.Color.Black
@@ -161,6 +164,7 @@ Partial Class frm_jeu
         'btn_aide
         '
         Me.btn_aide.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
+        Me.btn_aide.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btn_aide.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btn_aide.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_aide.ForeColor = System.Drawing.Color.Black
@@ -174,6 +178,7 @@ Partial Class frm_jeu
         'btn_annuler
         '
         Me.btn_annuler.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
+        Me.btn_annuler.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btn_annuler.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btn_annuler.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_annuler.ForeColor = System.Drawing.Color.Black
@@ -187,6 +192,7 @@ Partial Class frm_jeu
         'btn_confirmer
         '
         Me.btn_confirmer.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(197, Byte), Integer))
+        Me.btn_confirmer.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btn_confirmer.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btn_confirmer.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_confirmer.ForeColor = System.Drawing.Color.Black
@@ -224,6 +230,7 @@ Partial Class frm_jeu
         '
         'picBox6
         '
+        Me.picBox6.Cursor = System.Windows.Forms.Cursors.Hand
         Me.picBox6.Dock = System.Windows.Forms.DockStyle.Fill
         Me.picBox6.Image = CType(resources.GetObject("picBox6.Image"), System.Drawing.Image)
         Me.picBox6.Location = New System.Drawing.Point(628, 3)
@@ -235,6 +242,7 @@ Partial Class frm_jeu
         '
         'picBox5
         '
+        Me.picBox5.Cursor = System.Windows.Forms.Cursors.Hand
         Me.picBox5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.picBox5.Image = CType(resources.GetObject("picBox5.Image"), System.Drawing.Image)
         Me.picBox5.Location = New System.Drawing.Point(503, 3)
@@ -246,6 +254,7 @@ Partial Class frm_jeu
         '
         'picBox4
         '
+        Me.picBox4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.picBox4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.picBox4.Image = CType(resources.GetObject("picBox4.Image"), System.Drawing.Image)
         Me.picBox4.Location = New System.Drawing.Point(378, 3)
@@ -257,6 +266,7 @@ Partial Class frm_jeu
         '
         'picBox3
         '
+        Me.picBox3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.picBox3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.picBox3.Image = CType(resources.GetObject("picBox3.Image"), System.Drawing.Image)
         Me.picBox3.Location = New System.Drawing.Point(253, 3)
@@ -268,6 +278,7 @@ Partial Class frm_jeu
         '
         'picBox2
         '
+        Me.picBox2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.picBox2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.picBox2.Image = CType(resources.GetObject("picBox2.Image"), System.Drawing.Image)
         Me.picBox2.Location = New System.Drawing.Point(128, 3)
@@ -279,6 +290,7 @@ Partial Class frm_jeu
         '
         'picBox1
         '
+        Me.picBox1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.picBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.picBox1.Image = CType(resources.GetObject("picBox1.Image"), System.Drawing.Image)
         Me.picBox1.Location = New System.Drawing.Point(3, 3)
