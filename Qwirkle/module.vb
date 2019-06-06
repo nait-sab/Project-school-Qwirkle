@@ -15,21 +15,35 @@ Module module_jeu
     Public taille_pioche As Integer = 108
     Public pioche As List(Of Qwirkle_lib.Tuile)
 
-    Public Function addmain(ByVal pb As PictureBox) As Image
-        ' Nouvelle version car l'ancienne ne supprimer pas réellement l'elèment de la pioche de jeu '
-        ' J'ai régler le soucis par un public copieur de la pioche du jeu pour s'en servir une fois '
-        ' la génération terminé et on n'utilisera que celle ci jusqu'à la fin '
+    Public main_joueur1 As New List(Of Qwirkle_lib.Tuile)
+    Public main_joueur2 As New List(Of Qwirkle_lib.Tuile)
+    Public main_joueur3 As New List(Of Qwirkle_lib.Tuile)
+    Public main_joueur4 As New List(Of Qwirkle_lib.Tuile)
+
+    Public Function add_player_tile() As Qwirkle_lib.Tuile
         Dim tuile_pioche As Integer = randomizer.Next(taille_pioche)
         pioche = jeu.getPioche
-        Dim tuile As Qwirkle_lib.Tuile
-        tuile = pioche.Item(tuile_pioche)
-        Dim form As String = tuile.getForme
-        Dim color As String = tuile.getCouleur
-        Dim obj As String = (form & color)
-        Dim img As Image = My.Resources.ResourceManager.GetObject(obj)
+        Dim tuile = pioche.Item(tuile_pioche)
         pioche.RemoveAt(tuile_pioche)
         taille_pioche -= 1
-        Return img
+        Return tuile
     End Function
+
+    'Public Function addmain(ByVal pb As PictureBox) As Image
+    '    ' Nouvelle version car l'ancienne ne supprimer pas réellement l'elèment de la pioche de jeu '
+    '    ' J'ai régler le soucis par un public copieur de la pioche du jeu pour s'en servir une fois '
+    '    ' la génération terminé et on n'utilisera que celle ci jusqu'à la fin '
+    '    Dim tuile_pioche As Integer = randomizer.Next(taille_pioche)
+    '    pioche = jeu.getPioche
+    '    Dim tuile As Qwirkle_lib.Tuile
+    '    tuile = pioche.Item(tuile_pioche)
+    '    Dim form As String = tuile.getForme
+    '    Dim color As String = tuile.getCouleur
+    '    Dim obj As String = (form & color)
+    '    Dim img As Image = My.Resources.ResourceManager.GetObject(obj)
+    '    pioche.RemoveAt(tuile_pioche)
+    '    taille_pioche -= 1
+    '    Return img
+    'End Function
 
 End Module

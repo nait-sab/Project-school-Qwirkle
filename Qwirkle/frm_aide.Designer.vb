@@ -55,7 +55,7 @@ Partial Class frm_aide
         Me.lbl_regle.Location = New System.Drawing.Point(0, 0)
         Me.lbl_regle.Margin = New System.Windows.Forms.Padding(0)
         Me.lbl_regle.Name = "lbl_regle"
-        Me.lbl_regle.Size = New System.Drawing.Size(778, 99)
+        Me.lbl_regle.Size = New System.Drawing.Size(1184, 172)
         Me.lbl_regle.TabIndex = 1
         Me.lbl_regle.Text = "Règles du jeu"
         Me.lbl_regle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -77,7 +77,7 @@ Partial Class frm_aide
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(778, 495)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1184, 861)
         Me.TableLayoutPanel1.TabIndex = 0
         '
         'TableLayoutPanel2
@@ -94,14 +94,14 @@ Partial Class frm_aide
         Me.TableLayoutPanel2.Controls.Add(Me.RichTextBox3, 0, 1)
         Me.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel2.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.AddColumns
-        Me.TableLayoutPanel2.Location = New System.Drawing.Point(3, 102)
+        Me.TableLayoutPanel2.Location = New System.Drawing.Point(3, 175)
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
         Me.TableLayoutPanel2.RowCount = 4
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
-        Me.TableLayoutPanel2.Size = New System.Drawing.Size(772, 340)
+        Me.TableLayoutPanel2.Size = New System.Drawing.Size(1178, 596)
         Me.TableLayoutPanel2.TabIndex = 2
         '
         'RichTextBox7
@@ -110,10 +110,10 @@ Partial Class frm_aide
         Me.RichTextBox7.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.RichTextBox7.Dock = System.Windows.Forms.DockStyle.Fill
         Me.RichTextBox7.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RichTextBox7.Location = New System.Drawing.Point(389, 173)
+        Me.RichTextBox7.Location = New System.Drawing.Point(592, 301)
         Me.RichTextBox7.Name = "RichTextBox7"
         Me.RichTextBox7.ReadOnly = True
-        Me.RichTextBox7.Size = New System.Drawing.Size(380, 79)
+        Me.RichTextBox7.Size = New System.Drawing.Size(583, 143)
         Me.RichTextBox7.TabIndex = 13
         Me.RichTextBox7.Text = resources.GetString("RichTextBox7.Text")
         '
@@ -123,10 +123,10 @@ Partial Class frm_aide
         Me.RichTextBox6.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.RichTextBox6.Dock = System.Windows.Forms.DockStyle.Fill
         Me.RichTextBox6.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RichTextBox6.Location = New System.Drawing.Point(389, 88)
+        Me.RichTextBox6.Location = New System.Drawing.Point(592, 152)
         Me.RichTextBox6.Name = "RichTextBox6"
         Me.RichTextBox6.ReadOnly = True
-        Me.RichTextBox6.Size = New System.Drawing.Size(380, 79)
+        Me.RichTextBox6.Size = New System.Drawing.Size(583, 143)
         Me.RichTextBox6.TabIndex = 12
         Me.RichTextBox6.Text = resources.GetString("RichTextBox6.Text")
         '
@@ -136,10 +136,10 @@ Partial Class frm_aide
         Me.RichTextBox5.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.RichTextBox5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.RichTextBox5.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RichTextBox5.Location = New System.Drawing.Point(389, 3)
+        Me.RichTextBox5.Location = New System.Drawing.Point(592, 3)
         Me.RichTextBox5.Name = "RichTextBox5"
         Me.RichTextBox5.ReadOnly = True
-        Me.RichTextBox5.Size = New System.Drawing.Size(380, 79)
+        Me.RichTextBox5.Size = New System.Drawing.Size(583, 143)
         Me.RichTextBox5.TabIndex = 11
         Me.RichTextBox5.Text = resources.GetString("RichTextBox5.Text")
         '
@@ -149,10 +149,10 @@ Partial Class frm_aide
         Me.RichTextBox4.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.RichTextBox4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.RichTextBox4.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RichTextBox4.Location = New System.Drawing.Point(3, 173)
+        Me.RichTextBox4.Location = New System.Drawing.Point(3, 301)
         Me.RichTextBox4.Name = "RichTextBox4"
         Me.RichTextBox4.ReadOnly = True
-        Me.RichTextBox4.Size = New System.Drawing.Size(380, 79)
+        Me.RichTextBox4.Size = New System.Drawing.Size(583, 143)
         Me.RichTextBox4.TabIndex = 10
         Me.RichTextBox4.Text = resources.GetString("RichTextBox4.Text")
         '
@@ -162,10 +162,10 @@ Partial Class frm_aide
         Me.RichTextBox1.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.RichTextBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.RichTextBox1.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RichTextBox1.Location = New System.Drawing.Point(3, 258)
+        Me.RichTextBox1.Location = New System.Drawing.Point(3, 450)
         Me.RichTextBox1.Name = "RichTextBox1"
         Me.RichTextBox1.ReadOnly = True
-        Me.RichTextBox1.Size = New System.Drawing.Size(380, 79)
+        Me.RichTextBox1.Size = New System.Drawing.Size(583, 143)
         Me.RichTextBox1.TabIndex = 7
         Me.RichTextBox1.Text = resources.GetString("RichTextBox1.Text")
         '
@@ -178,7 +178,7 @@ Partial Class frm_aide
         Me.RichTextBox2.Location = New System.Drawing.Point(3, 3)
         Me.RichTextBox2.Name = "RichTextBox2"
         Me.RichTextBox2.ReadOnly = True
-        Me.RichTextBox2.Size = New System.Drawing.Size(380, 79)
+        Me.RichTextBox2.Size = New System.Drawing.Size(583, 143)
         Me.RichTextBox2.TabIndex = 8
         Me.RichTextBox2.Text = "But du jeu" & Global.Microsoft.VisualBasic.ChrW(10) & "Aligner des tuiles ayant des symboles de formes ou de couleurs indenti" &
     "ques de façon à réaliser des combinaisons rapportant un maximum de points."
@@ -189,10 +189,10 @@ Partial Class frm_aide
         Me.RichTextBox3.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.RichTextBox3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.RichTextBox3.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RichTextBox3.Location = New System.Drawing.Point(3, 88)
+        Me.RichTextBox3.Location = New System.Drawing.Point(3, 152)
         Me.RichTextBox3.Name = "RichTextBox3"
         Me.RichTextBox3.ReadOnly = True
-        Me.RichTextBox3.Size = New System.Drawing.Size(380, 79)
+        Me.RichTextBox3.Size = New System.Drawing.Size(583, 143)
         Me.RichTextBox3.TabIndex = 9
         Me.RichTextBox3.Text = resources.GetString("RichTextBox3.Text")
         '
@@ -204,12 +204,12 @@ Partial Class frm_aide
         Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
         Me.TableLayoutPanel3.Controls.Add(Me.helpclose, 1, 0)
         Me.TableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel3.Location = New System.Drawing.Point(3, 448)
+        Me.TableLayoutPanel3.Location = New System.Drawing.Point(3, 777)
         Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
         Me.TableLayoutPanel3.RowCount = 1
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 44.0!))
-        Me.TableLayoutPanel3.Size = New System.Drawing.Size(772, 44)
+        Me.TableLayoutPanel3.Size = New System.Drawing.Size(1178, 81)
         Me.TableLayoutPanel3.TabIndex = 3
         '
         'helpclose
@@ -221,9 +221,9 @@ Partial Class frm_aide
         Me.helpclose.Cursor = System.Windows.Forms.Cursors.Hand
         Me.helpclose.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.helpclose.ForeColor = System.Drawing.Color.Black
-        Me.helpclose.Location = New System.Drawing.Point(260, 3)
+        Me.helpclose.Location = New System.Drawing.Point(395, 3)
         Me.helpclose.Name = "helpclose"
-        Me.helpclose.Size = New System.Drawing.Size(251, 38)
+        Me.helpclose.Size = New System.Drawing.Size(386, 75)
         Me.helpclose.TabIndex = 0
         Me.helpclose.Text = "Fermer"
         Me.helpclose.UseVisualStyleBackColor = False
@@ -232,7 +232,7 @@ Partial Class frm_aide
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(778, 495)
+        Me.ClientSize = New System.Drawing.Size(1184, 861)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Name = "frm_aide"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

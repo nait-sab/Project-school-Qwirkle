@@ -41,5 +41,12 @@ namespace Qwirkle_lib
         {
             this.m_nombre_joueurs = total;
         }
+
+        public void nouveauTour()
+        {
+            this.m_joueur_actuel += 1;
+            if (this.m_joueur_actuel > this.m_nombre_joueurs)
+                this.m_joueur_actuel = 1;
+        }
     }
 }

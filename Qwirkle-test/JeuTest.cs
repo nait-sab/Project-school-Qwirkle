@@ -24,5 +24,18 @@ namespace Qwirkle_test
 
             Assert.AreEqual(2, jeu.getNombreJoueurs());
         }
+        [TestMethod]
+        public void TestNouveauTour()
+        {
+            Jeu jeu = new Jeu();
+
+            jeu.setNombreJoueurs(2);
+
+            Assert.AreEqual(1, jeu.getJoueurActuel());
+
+            jeu.nouveauTour();
+
+            Assert.AreEqual(2, jeu.getJoueurActuel());
+        }
     }
 }

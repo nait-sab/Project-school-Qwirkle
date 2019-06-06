@@ -24,6 +24,7 @@ Partial Class frm_jeu
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frm_jeu))
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
+        Me.lbl_tuile_restante = New System.Windows.Forms.Label()
         Me.panel_pioche = New System.Windows.Forms.TableLayoutPanel()
         Me.pictureboxpioche = New System.Windows.Forms.PictureBox()
         Me.lbl_pioche = New System.Windows.Forms.Label()
@@ -32,6 +33,7 @@ Partial Class frm_jeu
         Me.btn_aide = New System.Windows.Forms.Button()
         Me.btn_annuler = New System.Windows.Forms.Button()
         Me.btn_confirmer = New System.Windows.Forms.Button()
+        Me.lbl_position = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel7 = New System.Windows.Forms.TableLayoutPanel()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -86,12 +88,14 @@ Partial Class frm_jeu
         '
         Me.TableLayoutPanel2.ColumnCount = 1
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel2.Controls.Add(Me.lbl_tuile_restante, 0, 6)
         Me.TableLayoutPanel2.Controls.Add(Me.panel_pioche, 0, 7)
         Me.TableLayoutPanel2.Controls.Add(Me.btn_abandonner, 0, 4)
         Me.TableLayoutPanel2.Controls.Add(Me.btn_recommencer, 0, 3)
         Me.TableLayoutPanel2.Controls.Add(Me.btn_aide, 0, 2)
         Me.TableLayoutPanel2.Controls.Add(Me.btn_annuler, 0, 1)
         Me.TableLayoutPanel2.Controls.Add(Me.btn_confirmer, 0, 0)
+        Me.TableLayoutPanel2.Controls.Add(Me.lbl_position, 0, 5)
         Me.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Left
         Me.TableLayoutPanel2.Location = New System.Drawing.Point(0, 0)
         Me.TableLayoutPanel2.Margin = New System.Windows.Forms.Padding(3, 3, 150, 3)
@@ -105,8 +109,21 @@ Partial Class frm_jeu
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5!))
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5!))
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5!))
+        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.TableLayoutPanel2.Size = New System.Drawing.Size(223, 1041)
         Me.TableLayoutPanel2.TabIndex = 3
+        '
+        'lbl_tuile_restante
+        '
+        Me.lbl_tuile_restante.AutoSize = True
+        Me.lbl_tuile_restante.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lbl_tuile_restante.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_tuile_restante.Location = New System.Drawing.Point(3, 780)
+        Me.lbl_tuile_restante.Name = "lbl_tuile_restante"
+        Me.lbl_tuile_restante.Size = New System.Drawing.Size(217, 130)
+        Me.lbl_tuile_restante.TabIndex = 12
+        Me.lbl_tuile_restante.Text = "tuile restante"
+        Me.lbl_tuile_restante.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'panel_pioche
         '
@@ -120,7 +137,7 @@ Partial Class frm_jeu
         Me.panel_pioche.Name = "panel_pioche"
         Me.panel_pioche.RowCount = 1
         Me.panel_pioche.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.panel_pioche.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 181.0!))
+        Me.panel_pioche.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 125.0!))
         Me.panel_pioche.Size = New System.Drawing.Size(217, 125)
         Me.panel_pioche.TabIndex = 9
         '
@@ -148,6 +165,7 @@ Partial Class frm_jeu
         'btn_abandonner
         '
         Me.btn_abandonner.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.btn_abandonner.Enabled = False
         Me.btn_abandonner.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_abandonner.Location = New System.Drawing.Point(3, 523)
         Me.btn_abandonner.Name = "btn_abandonner"
@@ -181,6 +199,7 @@ Partial Class frm_jeu
         'btn_annuler
         '
         Me.btn_annuler.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.btn_annuler.Enabled = False
         Me.btn_annuler.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_annuler.Location = New System.Drawing.Point(3, 133)
         Me.btn_annuler.Name = "btn_annuler"
@@ -199,6 +218,18 @@ Partial Class frm_jeu
         Me.btn_confirmer.TabIndex = 0
         Me.btn_confirmer.Text = "Confirmer"
         Me.btn_confirmer.UseVisualStyleBackColor = True
+        '
+        'lbl_position
+        '
+        Me.lbl_position.AutoSize = True
+        Me.lbl_position.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lbl_position.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_position.Location = New System.Drawing.Point(3, 650)
+        Me.lbl_position.Name = "lbl_position"
+        Me.lbl_position.Size = New System.Drawing.Size(217, 130)
+        Me.lbl_position.TabIndex = 10
+        Me.lbl_position.Text = "Position"
+        Me.lbl_position.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'TableLayoutPanel1
         '
@@ -601,6 +632,7 @@ Partial Class frm_jeu
         Me.Text = "Qwirkle"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.TableLayoutPanel2.ResumeLayout(False)
+        Me.TableLayoutPanel2.PerformLayout()
         Me.panel_pioche.ResumeLayout(False)
         Me.panel_pioche.PerformLayout()
         CType(Me.pictureboxpioche, System.ComponentModel.ISupportInitialize).EndInit()
@@ -668,4 +700,6 @@ Partial Class frm_jeu
     Friend WithEvents picBox3 As PictureBox
     Friend WithEvents picBox2 As PictureBox
     Friend WithEvents picBox1 As PictureBox
+    Friend WithEvents lbl_position As Label
+    Friend WithEvents lbl_tuile_restante As Label
 End Class
