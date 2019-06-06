@@ -8,18 +8,19 @@
     Public case_remplie As Boolean = 0
 
     Private Sub frm_jeu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        For value1 As Integer = 0 To 30
-            For value2 As Integer = 0 To 30
-                Dim p As New Windows.Forms.PictureBox()
-                p.Location = New Drawing.Point(240 + 27 * value1, 27 * value2)
-                p.Size = New Drawing.Size(27, 27)
-                p.BorderStyle = Windows.Forms.BorderStyle.FixedSingle
-                p.Visible = True
-                p.AllowDrop = True
-                p.SizeMode = PictureBoxSizeMode.StretchImage
-                Me.Controls.Add(p)
-                AddHandler p.DragEnter, AddressOf grille_DragEnter
-                AddHandler p.DragDrop, AddressOf grille_DragDrop
+        For X As Integer = 0 To 30
+            For Y As Integer = 0 To 30
+                Dim grille As New Windows.Forms.PictureBox()
+                grille.Location = New Drawing.Point(240 + 27 * X, 27 * Y)
+                grille.Size = New Drawing.Size(27, 27)
+                grille.BorderStyle = Windows.Forms.BorderStyle.FixedSingle
+                grille.Visible = True
+                grille.AllowDrop = True
+                grille.SizeMode = PictureBoxSizeMode.StretchImage
+                grille.Name = "case_" & X & "_" & Y
+                Me.Controls.Add(grille)
+                AddHandler grille.DragEnter, AddressOf grille_DragEnter
+                AddHandler grille.DragDrop, AddressOf grille_DragDrop
             Next
         Next
         lbl_joueur_actuel.Text = "Tour de " & joueur1.getNom
@@ -126,20 +127,10 @@
 
     Private Sub btn_confirmer_Click(sender As Object, e As EventArgs) Handles btn_confirmer.MouseClick
         verifMain()
-        'score_joueur = lbl_j1_score.Text
-        'While (comptage = 0)
-        '    While (direction <> 4)
-        '        While (case_remplie = 0)
-        '            longueur += 1
-        '        End While
-        '    End While
-        'End While
-        'score_joueur = score_joueur + score_tour
-        'lbl_j1_score.Text = score_joueur
-        'lbl_joueur_actuel.Text = "Tour de " & lbl_j1_nom.Text
+
     End Sub
 
-    Private Sub btn_recommencer_Click(sender As Object, e As EventArgs)
+    Private Sub btn_recommencer_Click(sender As Object, e As EventArgs) Handles btn_recommencer.Click
         Dim validation As DialogResult
         validation = MessageBox.Show("Voulez vous recommencer ?", "Qwirkle", MessageBoxButtons.YesNo)
         If (validation = DialogResult.Yes) Then

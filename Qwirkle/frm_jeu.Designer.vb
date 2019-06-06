@@ -60,6 +60,7 @@ Partial Class frm_jeu
         Me.picBox3 = New System.Windows.Forms.PictureBox()
         Me.picBox2 = New System.Windows.Forms.PictureBox()
         Me.picBox1 = New System.Windows.Forms.PictureBox()
+        Me.lbl_position = New System.Windows.Forms.Label()
         Me.TableLayoutPanel2.SuspendLayout()
         Me.panel_pioche.SuspendLayout()
         CType(Me.pictureboxpioche, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -92,6 +93,7 @@ Partial Class frm_jeu
         Me.TableLayoutPanel2.Controls.Add(Me.btn_aide, 0, 2)
         Me.TableLayoutPanel2.Controls.Add(Me.btn_annuler, 0, 1)
         Me.TableLayoutPanel2.Controls.Add(Me.btn_confirmer, 0, 0)
+        Me.TableLayoutPanel2.Controls.Add(Me.lbl_position, 0, 5)
         Me.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Left
         Me.TableLayoutPanel2.Location = New System.Drawing.Point(0, 0)
         Me.TableLayoutPanel2.Margin = New System.Windows.Forms.Padding(3, 3, 150, 3)
@@ -120,7 +122,7 @@ Partial Class frm_jeu
         Me.panel_pioche.Name = "panel_pioche"
         Me.panel_pioche.RowCount = 1
         Me.panel_pioche.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.panel_pioche.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 181.0!))
+        Me.panel_pioche.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 125.0!))
         Me.panel_pioche.Size = New System.Drawing.Size(217, 125)
         Me.panel_pioche.TabIndex = 9
         '
@@ -587,6 +589,18 @@ Partial Class frm_jeu
         Me.picBox1.TabIndex = 0
         Me.picBox1.TabStop = False
         '
+        'lbl_position
+        '
+        Me.lbl_position.AutoSize = True
+        Me.lbl_position.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lbl_position.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_position.Location = New System.Drawing.Point(3, 650)
+        Me.lbl_position.Name = "lbl_position"
+        Me.lbl_position.Size = New System.Drawing.Size(217, 130)
+        Me.lbl_position.TabIndex = 10
+        Me.lbl_position.Text = "Position"
+        Me.lbl_position.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'frm_jeu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -601,6 +615,7 @@ Partial Class frm_jeu
         Me.Text = "Qwirkle"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.TableLayoutPanel2.ResumeLayout(False)
+        Me.TableLayoutPanel2.PerformLayout()
         Me.panel_pioche.ResumeLayout(False)
         Me.panel_pioche.PerformLayout()
         CType(Me.pictureboxpioche, System.ComponentModel.ISupportInitialize).EndInit()
@@ -668,4 +683,5 @@ Partial Class frm_jeu
     Friend WithEvents picBox3 As PictureBox
     Friend WithEvents picBox2 As PictureBox
     Friend WithEvents picBox1 As PictureBox
+    Friend WithEvents lbl_position As Label
 End Class
