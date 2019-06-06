@@ -2,12 +2,17 @@
     Public tour_joueur As String
     Public I As Integer = 1
     Public nb_joueur As Integer = jeu.getNombreJoueurs
+    Public nb_pioche As Integer = 0
+
     Public score_joueur As Integer = 0
     Public score_tour As Integer = 0
     Public longueur As Integer = 0
     Public comptage As Boolean = 0
     Public direction As Integer = 0
     Public case_remplie As Boolean = 0
+
+
+
 
     Private Sub frm_jeu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         For X As Integer = 0 To 30
@@ -26,6 +31,12 @@
                 AddHandler grille.DragDrop, AddressOf grille_DragDrop
             Next
         Next
+        pictureboxpioche.Visible = True
+        pictureboxpioche.AllowDrop = True
+        pictureboxpioche.BorderStyle = Windows.Forms.BorderStyle.FixedSingle
+        pictureboxpioche.SizeMode = PictureBoxSizeMode.StretchImage
+        AddHandler pictureboxpioche.DragEnter, AddressOf pictureboxpioche_DragEnter
+        AddHandler pictureboxpioche.DragDrop, AddressOf pictureboxpioche_DragDrop
         lbl_joueur_actuel.Text = "Tour de " & joueur1.getNom  'fonctionne
 
         'Génération de la pioche - 108 tuiles '
@@ -41,12 +52,12 @@
         ' Copieur de l'original '
         pioche = jeu.getPioche
 
-        picBox1.Image = module_jeu.addmain(picBox1)
-        picBox2.Image = module_jeu.addmain(picBox2)
-        picBox3.Image = module_jeu.addmain(picBox3)
-        picBox4.Image = module_jeu.addmain(picBox4)
-        picBox5.Image = module_jeu.addmain(picBox5)
-        picBox6.Image = module_jeu.addmain(picBox6)
+        picBox1.Image = addmain(picBox1)
+        picBox2.Image = addmain(picBox2)
+        picBox3.Image = addmain(picBox3)
+        picBox4.Image = addmain(picBox4)
+        picBox5.Image = addmain(picBox5)
+        picBox6.Image = addmain(picBox6)
 
         ' Exemple d'importation des ressources '
         'picBox1.Image = Image.FromFile("Ressources\" & test.getForme & test.getCouleur & ".jpg")
@@ -91,16 +102,51 @@
         End If
     End Sub
 
-    Private Sub grille_DragEnter(sender As Object, e As DragEventArgs)
+    Private Sub grille_DragEnter(sender As Object, e As DragEventArgs) Handles pictureboxpioche.DragEnter
         If e.Data.GetDataPresent(DataFormats.Bitmap) Then
             e.Effect = DragDropEffects.Move
         Else
             e.Effect = DragDropEffects.None
         End If
     End Sub
-    'Private Sub GetRowColIndex()
+    Private Sub pictureboxpioche_DragEnter(sender As Object, e As DragEventArgs) Handles pictureboxpioche.DragEnter
+        If e.Data.GetDataPresent(DataFormats.Bitmap) Then
+            e.Effect = DragDropEffects.Move
+            sender.image = Nothing
+        Else
+            e.Effect = DragDropEffects.None
+        End If
+    End Sub
 
-    Private Sub grille_DragDrop(sender As Object, e As DragEventArgs)
+    Private Sub pictureboxpioche_DragDrop(sender As Object, e As DragEventArgs) Handles pictureboxpioche.DragDrop
+
+        sender.Image = Nothing
+        If picBox1.Image Is e.Data.GetData(DataFormats.Bitmap) Then
+            picBox1.Image = Nothing
+        End If
+        If picBox2.Image Is e.Data.GetData(DataFormats.Bitmap) Then
+            picBox2.Image = Nothing
+        End If
+        If picBox3.Image Is e.Data.GetData(DataFormats.Bitmap) Then
+            picBox3.Image = Nothing
+        End If
+        If picBox4.Image Is e.Data.GetData(DataFormats.Bitmap) Then
+            picBox4.Image = Nothing
+        End If
+        If picBox5.Image Is e.Data.GetData(DataFormats.Bitmap) Then
+            picBox5.Image = Nothing
+        End If
+        If picBox6.Image Is e.Data.GetData(DataFormats.Bitmap) Then
+            picBox6.Image = Nothing
+        End If
+        nb_pioche += 1
+        'If nb_pioche <> 0 Then
+        '    grille.AllowDrop = False
+        'End If
+
+
+    End Sub
+    Private Sub grille_DragDrop(sender As Object, e As DragEventArgs) Handles pictureboxpioche.DragDrop
         If sender.Image Is Nothing Then
             sender.Image = e.Data.GetData(DataFormats.Bitmap)
             If picBox1.Image Is e.Data.GetData(DataFormats.Bitmap) Then
@@ -153,7 +199,7 @@
         End If
         lbl_joueur_actuel.Text = "Tour de " & tour_joueur
         I += 1
-
+        nb_pioche = 0
     End Sub
 
     Private Sub btn_recommencer_Click(sender As Object, e As EventArgs) Handles btn_recommencer.Click
@@ -194,4 +240,11 @@
         End If
     End Sub
 
+    Private Sub frm_jeu_menu_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
+        Dim validation As DialogResult
+        validation = MessageBox.Show("Quitter Qwirkle ?", "Qwirkle", MessageBoxButtons.YesNo)
+        If (validation = DialogResult.No) Then
+            e.Cancel = True
+        End If
+    End Sub
 End Class
