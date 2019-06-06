@@ -1,5 +1,7 @@
 ﻿Public Class frm_jeu
-
+    Public tour_joueur As String
+    Public I As Integer = 1
+    Public nb_joueur As Integer = jeu.getNombreJoueurs
     Public score_joueur As Integer = 0
     Public score_tour As Integer = 0
     Public longueur As Integer = 0
@@ -18,12 +20,13 @@
                 grille.AllowDrop = True
                 grille.SizeMode = PictureBoxSizeMode.StretchImage
                 grille.Name = "case_" & X & "_" & Y
+
                 Me.Controls.Add(grille)
                 AddHandler grille.DragEnter, AddressOf grille_DragEnter
                 AddHandler grille.DragDrop, AddressOf grille_DragDrop
             Next
         Next
-        lbl_joueur_actuel.Text = "Tour de " & joueur1.getNom
+        lbl_joueur_actuel.Text = "Tour de " & joueur1.getNom  'fonctionne
 
         'Génération de la pioche - 108 tuiles '
         For count As Byte = 1 To 3
@@ -95,6 +98,7 @@
             e.Effect = DragDropEffects.None
         End If
     End Sub
+    'Private Sub GetRowColIndex()
 
     Private Sub grille_DragDrop(sender As Object, e As DragEventArgs)
         If sender.Image Is Nothing Then
@@ -120,13 +124,35 @@
         End If
     End Sub
 
-
-    Private Sub btn_aide_Click(sender As Object, e As EventArgs)
-        frm_aide.Show()
-    End Sub
-
     Private Sub btn_confirmer_Click(sender As Object, e As EventArgs) Handles btn_confirmer.MouseClick
         verifMain()
+        If I = 1 Then
+
+            tour_joueur = lbl_j1_nom.Text
+            If I = jeu.getNombreJoueurs Then
+                I = 0
+            End If
+        End If
+        If I = 2 Then
+            tour_joueur = lbl_j2_nom.Text
+            If I = jeu.getNombreJoueurs Then
+                I = 0
+            End If
+        End If
+        If I = 3 Then
+            tour_joueur = lbl_j3_nom.Text
+            If I = jeu.getNombreJoueurs Then
+                I = 0
+            End If
+        End If
+        If I = 4 Then
+            tour_joueur = lbl_j4_nom.Text
+            If I = jeu.getNombreJoueurs Then
+                I = 0
+            End If
+        End If
+        lbl_joueur_actuel.Text = "Tour de " & tour_joueur
+        I += 1
 
     End Sub
 

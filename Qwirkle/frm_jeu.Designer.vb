@@ -32,6 +32,7 @@ Partial Class frm_jeu
         Me.btn_aide = New System.Windows.Forms.Button()
         Me.btn_annuler = New System.Windows.Forms.Button()
         Me.btn_confirmer = New System.Windows.Forms.Button()
+        Me.lbl_position = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel7 = New System.Windows.Forms.TableLayoutPanel()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -60,7 +61,6 @@ Partial Class frm_jeu
         Me.picBox3 = New System.Windows.Forms.PictureBox()
         Me.picBox2 = New System.Windows.Forms.PictureBox()
         Me.picBox1 = New System.Windows.Forms.PictureBox()
-        Me.lbl_position = New System.Windows.Forms.Label()
         Me.TableLayoutPanel2.SuspendLayout()
         Me.panel_pioche.SuspendLayout()
         CType(Me.pictureboxpioche, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -201,6 +201,18 @@ Partial Class frm_jeu
         Me.btn_confirmer.TabIndex = 0
         Me.btn_confirmer.Text = "Confirmer"
         Me.btn_confirmer.UseVisualStyleBackColor = True
+        '
+        'lbl_position
+        '
+        Me.lbl_position.AutoSize = True
+        Me.lbl_position.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lbl_position.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_position.Location = New System.Drawing.Point(3, 650)
+        Me.lbl_position.Name = "lbl_position"
+        Me.lbl_position.Size = New System.Drawing.Size(217, 130)
+        Me.lbl_position.TabIndex = 10
+        Me.lbl_position.Text = "Position"
+        Me.lbl_position.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'TableLayoutPanel1
         '
@@ -491,11 +503,11 @@ Partial Class frm_jeu
         Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel3.Controls.Add(Me.TableLayoutPanel4, 0, 0)
         Me.TableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.TableLayoutPanel3.Location = New System.Drawing.Point(223, 891)
+        Me.TableLayoutPanel3.Location = New System.Drawing.Point(223, 935)
         Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
         Me.TableLayoutPanel3.RowCount = 1
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel3.Size = New System.Drawing.Size(881, 150)
+        Me.TableLayoutPanel3.Size = New System.Drawing.Size(881, 106)
         Me.TableLayoutPanel3.TabIndex = 5
         '
         'TableLayoutPanel4
@@ -520,7 +532,7 @@ Partial Class frm_jeu
         Me.TableLayoutPanel4.RowCount = 1
         Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 94.0!))
-        Me.TableLayoutPanel4.Size = New System.Drawing.Size(875, 144)
+        Me.TableLayoutPanel4.Size = New System.Drawing.Size(875, 100)
         Me.TableLayoutPanel4.TabIndex = 3
         '
         'picBox6
@@ -529,7 +541,7 @@ Partial Class frm_jeu
         Me.picBox6.Image = CType(resources.GetObject("picBox6.Image"), System.Drawing.Image)
         Me.picBox6.Location = New System.Drawing.Point(728, 3)
         Me.picBox6.Name = "picBox6"
-        Me.picBox6.Size = New System.Drawing.Size(144, 138)
+        Me.picBox6.Size = New System.Drawing.Size(144, 94)
         Me.picBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picBox6.TabIndex = 5
         Me.picBox6.TabStop = False
@@ -540,7 +552,7 @@ Partial Class frm_jeu
         Me.picBox5.Image = CType(resources.GetObject("picBox5.Image"), System.Drawing.Image)
         Me.picBox5.Location = New System.Drawing.Point(583, 3)
         Me.picBox5.Name = "picBox5"
-        Me.picBox5.Size = New System.Drawing.Size(139, 138)
+        Me.picBox5.Size = New System.Drawing.Size(139, 94)
         Me.picBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picBox5.TabIndex = 4
         Me.picBox5.TabStop = False
@@ -551,7 +563,7 @@ Partial Class frm_jeu
         Me.picBox4.Image = CType(resources.GetObject("picBox4.Image"), System.Drawing.Image)
         Me.picBox4.Location = New System.Drawing.Point(438, 3)
         Me.picBox4.Name = "picBox4"
-        Me.picBox4.Size = New System.Drawing.Size(139, 138)
+        Me.picBox4.Size = New System.Drawing.Size(139, 94)
         Me.picBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picBox4.TabIndex = 3
         Me.picBox4.TabStop = False
@@ -562,7 +574,7 @@ Partial Class frm_jeu
         Me.picBox3.Image = CType(resources.GetObject("picBox3.Image"), System.Drawing.Image)
         Me.picBox3.Location = New System.Drawing.Point(293, 3)
         Me.picBox3.Name = "picBox3"
-        Me.picBox3.Size = New System.Drawing.Size(139, 138)
+        Me.picBox3.Size = New System.Drawing.Size(139, 94)
         Me.picBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picBox3.TabIndex = 2
         Me.picBox3.TabStop = False
@@ -573,7 +585,7 @@ Partial Class frm_jeu
         Me.picBox2.Image = CType(resources.GetObject("picBox2.Image"), System.Drawing.Image)
         Me.picBox2.Location = New System.Drawing.Point(148, 3)
         Me.picBox2.Name = "picBox2"
-        Me.picBox2.Size = New System.Drawing.Size(139, 138)
+        Me.picBox2.Size = New System.Drawing.Size(139, 94)
         Me.picBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picBox2.TabIndex = 1
         Me.picBox2.TabStop = False
@@ -584,22 +596,10 @@ Partial Class frm_jeu
         Me.picBox1.Image = CType(resources.GetObject("picBox1.Image"), System.Drawing.Image)
         Me.picBox1.Location = New System.Drawing.Point(3, 3)
         Me.picBox1.Name = "picBox1"
-        Me.picBox1.Size = New System.Drawing.Size(139, 138)
+        Me.picBox1.Size = New System.Drawing.Size(139, 94)
         Me.picBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picBox1.TabIndex = 0
         Me.picBox1.TabStop = False
-        '
-        'lbl_position
-        '
-        Me.lbl_position.AutoSize = True
-        Me.lbl_position.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.lbl_position.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_position.Location = New System.Drawing.Point(3, 650)
-        Me.lbl_position.Name = "lbl_position"
-        Me.lbl_position.Size = New System.Drawing.Size(217, 130)
-        Me.lbl_position.TabIndex = 10
-        Me.lbl_position.Text = "Position"
-        Me.lbl_position.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'frm_jeu
         '
