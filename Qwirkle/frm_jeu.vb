@@ -13,7 +13,7 @@
                 Dim p As New Windows.Forms.PictureBox()
                 p.Location = New Drawing.Point(240 + 27 * value1, 27 * value2)
                 p.Size = New Drawing.Size(27, 27)
-                p.BorderStyle = Windows.Forms.BorderStyle.FixedSingle 'Pour moi, afin de voir qu'elle est là
+                p.BorderStyle = Windows.Forms.BorderStyle.FixedSingle
                 p.Visible = True
                 p.AllowDrop = True
                 p.SizeMode = PictureBoxSizeMode.StretchImage
@@ -33,6 +33,9 @@
                 Next
             Next
         Next
+
+        ' Copieur de l'original '
+        pioche = jeu.getPioche
 
         picBox1.Image = module_jeu.addmain(picBox1)
         picBox2.Image = module_jeu.addmain(picBox2)
@@ -93,8 +96,27 @@
     End Sub
 
     Private Sub grille_DragDrop(sender As Object, e As DragEventArgs)
-
-        sender.Image = e.Data.GetData(DataFormats.Bitmap)
+        If sender.Image Is Nothing Then
+            sender.Image = e.Data.GetData(DataFormats.Bitmap)
+            If picBox1.Image Is e.Data.GetData(DataFormats.Bitmap) Then
+                picBox1.Image = Nothing
+            End If
+            If picBox2.Image Is e.Data.GetData(DataFormats.Bitmap) Then
+                picBox2.Image = Nothing
+            End If
+            If picBox3.Image Is e.Data.GetData(DataFormats.Bitmap) Then
+                picBox3.Image = Nothing
+            End If
+            If picBox4.Image Is e.Data.GetData(DataFormats.Bitmap) Then
+                picBox4.Image = Nothing
+            End If
+            If picBox5.Image Is e.Data.GetData(DataFormats.Bitmap) Then
+                picBox5.Image = Nothing
+            End If
+            If picBox6.Image Is e.Data.GetData(DataFormats.Bitmap) Then
+                picBox6.Image = Nothing
+            End If
+        End If
     End Sub
 
 
@@ -102,19 +124,19 @@
         frm_aide.Show()
     End Sub
 
-    Private Sub btn_confirmer_Click(sender As Object, e As EventArgs)
-
-        score_joueur = lbl_j1_score.Text
-        While (comptage = 0)
-            While (direction <> 4)
-                While (case_remplie = 0)
-                    longueur += 1
-                End While
-            End While
-        End While
-        score_joueur = score_joueur + score_tour
-        lbl_j1_score.Text = score_joueur
-        lbl_joueur_actuel.Text = "Tour de " & lbl_j1_nom.Text
+    Private Sub btn_confirmer_Click(sender As Object, e As EventArgs) Handles btn_confirmer.MouseClick
+        verifMain()
+        'score_joueur = lbl_j1_score.Text
+        'While (comptage = 0)
+        '    While (direction <> 4)
+        '        While (case_remplie = 0)
+        '            longueur += 1
+        '        End While
+        '    End While
+        'End While
+        'score_joueur = score_joueur + score_tour
+        'lbl_j1_score.Text = score_joueur
+        'lbl_joueur_actuel.Text = "Tour de " & lbl_j1_nom.Text
     End Sub
 
     Private Sub btn_recommencer_Click(sender As Object, e As EventArgs)
@@ -133,4 +155,26 @@
     Private Sub btn_aide_Click_1(sender As Object, e As EventArgs) Handles btn_aide.Click
         frm_aide.Show()
     End Sub
+
+    Private Sub verifMain()
+        If picBox1.Image Is Nothing Then
+            picBox1.Image = addmain(picBox1)
+        End If
+        If picBox2.Image Is Nothing Then
+            picBox2.Image = addmain(picBox2)
+        End If
+        If picBox3.Image Is Nothing Then
+            picBox3.Image = addmain(picBox3)
+        End If
+        If picBox4.Image Is Nothing Then
+            picBox4.Image = addmain(picBox4)
+        End If
+        If picBox5.Image Is Nothing Then
+            picBox5.Image = addmain(picBox5)
+        End If
+        If picBox6.Image Is Nothing Then
+            picBox6.Image = addmain(picBox6)
+        End If
+    End Sub
+
 End Class

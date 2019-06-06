@@ -32,8 +32,6 @@ Public Class frm_CreationJoueurs
         boutonvalidation.Enabled = False
     End Sub
 
-
-
     Private Sub boutonvalidation_Click(sender As Object, e As EventArgs) Handles boutonvalidation.Click
         If check_j1.Checked Then
             joueur1 = New Qwirkle_lib.Joueur(txt_Joueur1_Nom.Text, txt_Joueur1_Age.Text)
@@ -84,21 +82,33 @@ Public Class frm_CreationJoueurs
         If check_j1.Checked = True Then
             txt_Joueur1_Nom.Enabled = False
             txt_Joueur1_Age.Enabled = False
+        Else
+            txt_Joueur1_Nom.Enabled = True
+            txt_Joueur1_Age.Enabled = True
         End If
 
         If check_j2.Checked = True Then
             txt_Joueur2_Nom.Enabled = False
             txt_Joueur2_Age.Enabled = False
+        Else
+            txt_Joueur2_Nom.Enabled = True
+            txt_Joueur2_Age.Enabled = True
         End If
 
         If check_j3.Checked = True Then
             txt_Joueur3_Nom.Enabled = False
             txt_Joueur3_Age.Enabled = False
+        Else
+            txt_Joueur3_Nom.Enabled = True
+            txt_Joueur3_Age.Enabled = True
         End If
 
         If check_j4.Checked = True Then
             txt_Joueur4_Nom.Enabled = False
             txt_Joueur4_Age.Enabled = False
+        Else
+            txt_Joueur4_Nom.Enabled = True
+            txt_Joueur4_Age.Enabled = True
         End If
     End Sub
 
